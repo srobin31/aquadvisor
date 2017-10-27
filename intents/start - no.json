@@ -1,0 +1,83 @@
+{
+  "id": "55af214c-ce85-4b6d-9544-452280d1d1d9",
+  "parentId": "51663e47-7c50-472d-88b1-059a4478033a",
+  "rootParentId": "51663e47-7c50-472d-88b1-059a4478033a",
+  "name": "start - no",
+  "auto": true,
+  "contexts": [
+    "start-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start.start-no",
+      "affectedContexts": [
+        {
+          "name": "start-followup",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "start",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "start-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "start-no-redo",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "523a577b-375f-4603-b469-b70642df15b3",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "tanksize",
+          "value": "$tanksize",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok, so how many gallons is the aquarium?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1998702f-81b8-4798-943d-f08b44b5bc63",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "filter",
+          "value": "$filter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And what type of filter will be used?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok then we\u0027re doing a $tanksize gallon aquarium with a $filter!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508848480,
+  "fallbackIntent": false,
+  "events": []
+}

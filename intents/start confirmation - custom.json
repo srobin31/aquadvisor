@@ -1,0 +1,42 @@
+{
+  "id": "0c51c7f9-7a94-4549-8565-ed8014d20865",
+  "parentId": "51663e47-7c50-472d-88b1-059a4478033a",
+  "rootParentId": "51663e47-7c50-472d-88b1-059a4478033a",
+  "name": "start confirmation - custom",
+  "auto": true,
+  "contexts": [
+    "Iwanttostartanaquarium-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Iwanttostartanaquarium.Iwanttostartanaquarium-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "51dacca3-7e85-4eba-8d4a-456af2b2cfe0",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I need a yes or no"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508761780,
+  "fallbackIntent": false,
+  "events": []
+}

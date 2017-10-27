@@ -1,0 +1,28 @@
+{
+  "id": "8ec34071-5b1e-4540-99c5-a28c366f7f2e",
+  "name": "hi",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hello! What do you need help with?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507553180,
+  "fallbackIntent": false,
+  "events": []
+}

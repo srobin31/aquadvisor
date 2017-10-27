@@ -1,0 +1,48 @@
+{
+  "id": "fd1d01c0-52b7-4f22-af14-6910d416e8ee",
+  "parentId": "69a2d3e3-6460-4bc8-a292-1c028fe3f99f",
+  "rootParentId": "51663e47-7c50-472d-88b1-059a4478033a",
+  "name": "start confirmation - yes - custom",
+  "auto": true,
+  "contexts": [
+    "Iwanttostartanaquarium-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Iwanttostartanaquarium.Iwanttostartanaquarium-yes.Iwanttostartanaquarium-yes-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a29f60e9-96d4-4590-b301-44dbd92b6a32",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "type",
+          "value": "$type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of fish do you want?"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok so you want $type."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508853485,
+  "fallbackIntent": false,
+  "events": []
+}

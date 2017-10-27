@@ -1,0 +1,69 @@
+{
+  "id": "51663e47-7c50-472d-88b1-059a4478033a",
+  "name": "start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start.aquarium",
+      "affectedContexts": [
+        {
+          "name": "Iwanttostartanaquarium-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "start-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "621291fc-6741-4a69-a4a5-32131479475f",
+          "required": true,
+          "dataType": "@sys.unit-volume",
+          "name": "tanksize",
+          "value": "$tanksize",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many gallons is the aquarium?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8ca93be0-1fc6-4aab-a30c-346cfe6a2b0d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "filter",
+          "value": "$filter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of filter do you have?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, so to confirm, you want to start a $tanksize gallon aquarium with $filter? Is this correct?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508848135,
+  "fallbackIntent": false,
+  "events": []
+}

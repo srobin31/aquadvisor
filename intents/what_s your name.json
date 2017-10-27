@@ -1,0 +1,28 @@
+{
+  "id": "dae2a42e-2ddd-4b23-a3e1-04817d432d5f",
+  "name": "what\u0027s your name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "My name is Aqua. I\u0027m here to assist you with all of your aquarium needs."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1507553796,
+  "fallbackIntent": false,
+  "events": []
+}
