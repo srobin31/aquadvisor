@@ -1,6 +1,6 @@
 {
-  "id": "8ec34071-5b1e-4540-99c5-a28c366f7f2e",
-  "name": "hi",
+  "id": "d257eeee-a2f1-45ab-b077-9b75fc31ec17",
+  "name": "test webhook",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -12,7 +12,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Hello! What do you need help with?"
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -20,9 +20,9 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1507553180,
+  "lastUpdate": 1512453787,
   "fallbackIntent": false,
   "events": []
 }

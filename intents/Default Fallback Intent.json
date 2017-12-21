@@ -1,7 +1,7 @@
 {
   "id": "a3821386-1b17-45b0-9630-bda702cf4de3",
   "name": "Default Fallback Intent",
-  "auto": true,
+  "auto": false,
   "contexts": [],
   "responses": [
     {
@@ -27,6 +27,11 @@
             "I didn\u0027t get that.",
             "I missed that."
           ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m only interested in helping you with your aquarium."
         }
       ],
       "defaultResponsePlatforms": {},

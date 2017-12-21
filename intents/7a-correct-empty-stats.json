@@ -1,0 +1,41 @@
+{
+  "id": "9089d164-939c-4c57-a243-7e41967c0190",
+  "name": "7a-correct-empty-stats",
+  "auto": true,
+  "contexts": [
+    "confirm-tank-stats"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "confirm-tank-stats",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "stocking-plan",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great. Now I need  you to tell me, what type of fish do you plan on stocking?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511840026,
+  "fallbackIntent": false,
+  "events": []
+}

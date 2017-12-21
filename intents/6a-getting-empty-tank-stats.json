@@ -1,63 +1,60 @@
 {
-  "id": "55af214c-ce85-4b6d-9544-452280d1d1d9",
-  "parentId": "51663e47-7c50-472d-88b1-059a4478033a",
-  "rootParentId": "51663e47-7c50-472d-88b1-059a4478033a",
-  "name": "start - no",
+  "id": "debf010a-1f2e-4412-92d4-5deee2fb8946",
+  "name": "6a-getting-empty-tank-stats",
   "auto": true,
   "contexts": [
-    "start-followup-2"
+    "filter-used",
+    "tank-size"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "start.start-no",
       "affectedContexts": [
         {
-          "name": "start-followup",
+          "name": "filter-used",
           "parameters": {},
           "lifespan": 0
         },
         {
-          "name": "start",
+          "name": "tank-size",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
-          "name": "start-no-followup",
-          "parameters": {},
-          "lifespan": 2
-        },
-        {
-          "name": "start-no-redo",
+          "name": "confirm-tank-stats",
           "parameters": {},
           "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "523a577b-375f-4603-b469-b70642df15b3",
+          "id": "6da90044-448b-44fb-b8f8-59a06cc4a03f",
           "required": true,
-          "dataType": "@sys.number",
-          "name": "tanksize",
-          "value": "$tanksize",
+          "dataType": "@sys.unit-volume",
+          "name": "tank-size",
+          "value": "$tank-size",
           "prompts": [
             {
               "lang": "en",
-              "value": "Ok, so how many gallons is the aquarium?"
+              "value": "I need the size of the tank in gallons please."
             }
           ],
           "isList": false
         },
         {
-          "id": "1998702f-81b8-4798-943d-f08b44b5bc63",
+          "id": "ab74ab15-9f6d-4122-8ce6-9e26aa2f7739",
           "required": true,
           "dataType": "@sys.any",
-          "name": "filter",
-          "value": "$filter",
+          "name": "filter-used",
+          "value": "$filter-used",
           "prompts": [
             {
               "lang": "en",
-              "value": "And what type of filter will be used?"
+              "value": "In order to move forward, you need to tell me what filter you will be using,"
+            },
+            {
+              "lang": "en",
+              "value": "What kind of filter will you be using?"
             }
           ],
           "isList": false
@@ -67,7 +64,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Ok then we\u0027re doing a $tanksize gallon aquarium with a $filter!"
+          "speech": "Fantastic! So we\u0027re looking to start a $tank-size fish tank with a $filter-used filter. Is this correct?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -77,7 +74,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1508848480,
+  "lastUpdate": 1511839872,
   "fallbackIntent": false,
   "events": []
 }

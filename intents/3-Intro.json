@@ -1,18 +1,24 @@
 {
-  "id": "dae2a42e-2ddd-4b23-a3e1-04817d432d5f",
-  "name": "what\u0027s your name",
+  "id": "e5fd2538-e577-42e4-8061-fdfdd6ab1203",
+  "name": "3-Intro",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "have-tank",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": "My name is Aqua. I\u0027m here to assist you with all of your aquarium needs."
+          "speech": "Hi, my name is Aqua. It\u0027s nice to meet you. Do you already own a fish tank?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -22,7 +28,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1507553796,
+  "lastUpdate": 1511790080,
   "fallbackIntent": false,
   "events": []
 }

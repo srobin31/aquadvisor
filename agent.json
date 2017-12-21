@@ -18,13 +18,18 @@
   },
   "defaultTimezone": "America/New_York",
   "webhook": {
-    "available": false,
-    "useForDomains": false,
+    "url": "https://salty-reef-21839.herokuapp.com/",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true,
     "cloudFunctionsEnabled": false,
     "cloudFunctionsInitialized": false
   },
   "isPrivate": true,
   "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
-  "supportedLanguages": []
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
 }

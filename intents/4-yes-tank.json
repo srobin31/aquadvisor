@@ -1,0 +1,41 @@
+{
+  "id": "4754d939-8f02-4715-922b-a49a1f7f6953",
+  "name": "4-yes-tank",
+  "auto": true,
+  "contexts": [
+    "have-tank"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "have-tank",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "filled",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok. Is it already filled and running with fish?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511877196,
+  "fallbackIntent": false,
+  "events": []
+}

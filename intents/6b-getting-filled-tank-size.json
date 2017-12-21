@@ -1,41 +1,48 @@
 {
-  "id": "51663e47-7c50-472d-88b1-059a4478033a",
-  "name": "start",
+  "id": "f888f82f-97cd-4689-be2a-02205c029ad5",
+  "name": "6b-getting-filled-tank-size",
   "auto": true,
-  "contexts": [],
+  "contexts": [
+    "yes-tank-size",
+    "yes-filter-used"
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "start.aquarium",
       "affectedContexts": [
         {
-          "name": "Iwanttostartanaquarium-followup",
+          "name": "yes-tank-size",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 0
         },
         {
-          "name": "start-followup-2",
+          "name": "yes-filter-used",
           "parameters": {},
-          "lifespan": 2
+          "lifespan": 0
+        },
+        {
+          "name": "correct-specs",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [
         {
-          "id": "621291fc-6741-4a69-a4a5-32131479475f",
+          "id": "54166933-df92-4285-a4ac-231076e1f1d2",
           "required": true,
-          "dataType": "@sys.unit-volume",
-          "name": "tanksize",
-          "value": "$tanksize",
+          "dataType": "@sys.number",
+          "name": "tank-volume",
+          "value": "$tank-volume",
           "prompts": [
             {
               "lang": "en",
-              "value": "How many gallons is the aquarium?"
+              "value": "Could you please tell me how many gallons the fish tank holds?"
             }
           ],
-          "isList": false
+          "isList": true
         },
         {
-          "id": "8ca93be0-1fc6-4aab-a30c-346cfe6a2b0d",
+          "id": "0f2e4886-6bf5-413d-a148-377767fa49a0",
           "required": true,
           "dataType": "@sys.any",
           "name": "filter",
@@ -43,7 +50,7 @@
           "prompts": [
             {
               "lang": "en",
-              "value": "What kind of filter do you have?"
+              "value": "And what kind of filter is being used?"
             }
           ],
           "isList": false
@@ -53,7 +60,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Ok, so to confirm, you want to start a $tanksize gallon aquarium with $filter? Is this correct?"
+          "speech": "Ok, so you have a $tank-volume gallon fish tank with a $filter . Is this correct?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -63,7 +70,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1508848135,
+  "lastUpdate": 1511876357,
   "fallbackIntent": false,
   "events": []
 }

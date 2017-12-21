@@ -1,0 +1,36 @@
+{
+  "id": "6f694345-9fdc-4731-adf8-9f9ab0f0897a",
+  "name": "7b-correct-filled-stats",
+  "auto": true,
+  "contexts": [
+    "correct-specs"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "correct-specs",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic. So what kind of fish do you have in the tank right now?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511879138,
+  "fallbackIntent": false,
+  "events": []
+}
