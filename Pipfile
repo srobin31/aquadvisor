@@ -10,6 +10,10 @@ django = "*"
 gunicorn = "*"
 django-heroku = "*"
 requests = "*"
+flask = "*"
+fuzzywuzzy = "*"
+"beautifulsoup4" = "*"
+python-levenshtein = "*"
 
 
 [requires]

@@ -1,18 +1,18 @@
 
 # MIT License
-# 
+#
 # Copyright (c) 2016 David Mantilla
-# 
+#
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
 # in the Software without restriction, including without limitation the rights
 # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 # copies of the Software, and to permit persons to whom the Software is
 # furnished to do so, subject to the following conditions:
-# 
+#
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-# 
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -33,10 +33,10 @@ a non-RESTful interface.
 #import numpy as np
 from sys import stderr
 import re
-from urllib import quote
+import urllib.parse
 import requests
 from fuzzywuzzy import process
-from BeautifulSoup import BeautifulSoup as beatsoup
+from bs4 import BeautifulSoup as beatsoup
 
 from pyaqadvisor.aqadvisor_assets import TANK_INFO, fish_species
 
@@ -67,16 +67,16 @@ def build_url(tank_dimensions, filter_data, fish_selection, fish_quantity, alrea
                 "&AqJuvMode=" +\
                 "&AqSpeciesWindowSize=short" +\
                 "&AqSearchMode=simple"
-    uri_params = uri_params.format(AquTankLength=quote(tank_dimensions[0]),
-                                   AquTankDepth=quote(tank_dimensions[1]),
-                                   AquTankHeight=quote(tank_dimensions[2]),
-                                   AquListBoxFilter=quote(filter_data[0]),
-                                   AquTextFilterRate=quote(filter_data[1]),
-                                   AquListBoxChooser=quote(fish_selection),
-                                   AquTextBoxQuantity=quote(fish_quantity),
-                                   AlreadySelected=quote(alreadyselected))
+    uri_params = uri_params.format(AquTankLength=urllib.parse.quote(tank_dimensions[0]),
+                                   AquTankDepth=urllib.parse.quote(tank_dimensions[1]),
+                                   AquTankHeight=urllib.parse.quote(tank_dimensions[2]),
+                                   AquListBoxFilter=urllib.parse.quote(filter_data[0]),
+                                   AquTextFilterRate=urllib.parse.quote(filter_data[1]),
+                                   AquListBoxChooser=urllib.parse.quote(fish_selection),
+                                   AquTextBoxQuantity=urllib.parse.quote(fish_quantity),
+                                   AlreadySelected=urllib.parse.quote(alreadyselected))
     uri = uri_root + uri_params
-    print uri
+    print (uri)
     return uri
 
 def call_aqadvisor(url):
@@ -105,7 +105,7 @@ def call_aqadvisor(url):
         if returnval:
             return returnval, alreadyselected
     else:
-        raise Exception, "Could not complete the call to AqAdvisor.com.  HTTP Status Code was {0}".format(r.status_code)
+        raise Exception("Could not complete the call to AqAdvisor.com.  HTTP Status Code was {0}").format(r.status_code)
     return "Could not complete call to AqAdvisor. Please try again later.", ""
 
 def get_stocking_info(stocking_plan, ldh_dimensions, filter_data):
@@ -141,5 +141,4 @@ if __name__ == '__main__':
     my_ldh_dimensions = TANK_INFO['55g']
     my_filter_data = ('User Defined', '200')
 
-    print get_stocking_info(my_stocking, my_ldh_dimensions, my_filter_data)
-
+    print (get_stocking_info(my_stocking, my_ldh_dimensions, my_filter_data))

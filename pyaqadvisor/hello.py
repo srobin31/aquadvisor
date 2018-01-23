@@ -20,12 +20,12 @@ from lxml import html
 from pyaqadvisor import Tank, Stocking
 from BeautifulSoup import BeautifulSoup
 import urllib2
-from flask import Flask, url_for, request, jsonify
+from flask import Flask, url_for, request, jsonify, Response
 import requests
 app = Flask(__name__)
 
 @app.route('/')
-def api_root():
+def index():
     return 'Welcome'
 
 @app.route('/articles')
@@ -59,7 +59,7 @@ def aqadvisor_api():
     #print t.get_stocking_level()
     #string = (str(t.get_stocking_level()))
     #lines = string.split('\n')
-    stocking_stats = str(t.get_stocking_level())
+    stocking_stats = Flask.Response(t.get_stocking_level())
     j = {
         "speech": stocking_stats,
         "displayText": stocking_stats,
