@@ -79,6 +79,19 @@ def aqadvisor(request):
     #print "Aqadvisor tells me: ",
     #print t.get_stocking_level()
     stocking_stats = str(t.get_stocking_level())
+    # j = {
+    #     "speech": stocking_stats,
+    #     "displayText": stocking_stats,
+    #     "data": {},
+    #     "contextOut": [],
+    #     "source": "DuckDuckGo"
+    # }
+    # return JsonResponse(j)
+    return HttpResponse(stocking_stats)
+
+@app.route('/json')
+def json(request):
+    stocking_stats = aqadvisor(request)
     j = {
         "speech": stocking_stats,
         "displayText": stocking_stats,
@@ -86,7 +99,7 @@ def aqadvisor(request):
         "contextOut": [],
         "source": "DuckDuckGo"
     }
-    return JsonResponse(j)
+    return stocking_stats
 
 if __name__ == '__main__':
     app.run()

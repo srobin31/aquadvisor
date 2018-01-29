@@ -16,10 +16,10 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080, debug=True)
 
 """
-from lxml import html
+#from lxml import html
 from pyaqadvisor import Tank, Stocking
-from BeautifulSoup import BeautifulSoup
-import urllib2
+#from BeautifulSoup import BeautifulSoup
+# import urllib2
 from flask import Flask, url_for, request, jsonify, Response
 import requests
 app = Flask(__name__)

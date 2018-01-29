@@ -5,6 +5,7 @@ from django.contrib import admin
 admin.autodiscover()
 
 import hello.views
+import pyaqadvisor.hello
 
 # Examples:
 # url(r'^$', 'gettingstarted.views.home', name='home'),
@@ -14,5 +15,7 @@ urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
     url(r'^db', hello.views.db, name='db'),
     url(r'^aqadvisor', hello.views.aqadvisor, name="aqadvisor"),
+    url(r'^json', hello.views.json, name="json"),
+    url(r'^aqadvisor_api', pyaqadvisor.hello.aqadvisor_api, name="aqadvisor_api"),
     path('admin/', admin.site.urls),
 ]
