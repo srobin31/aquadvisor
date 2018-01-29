@@ -78,10 +78,10 @@ def aqadvisor(request):
     t = Tank('55g').add_filter("AquaClear 30").add_stocking(stocking)
     #print "Aqadvisor tells me: ",
     #print t.get_stocking_level()
-    stocking_stats = (t.get_stocking_level())
+    stocking_stats = str(t.get_stocking_level())
     j = {
-        "speech": "welcome",
-        "displayText": "welcome",
+        "speech": stocking_stats,
+        "displayText": stocking_stats,
         "data": {},
         "contextOut": [],
         "source": "DuckDuckGo"
