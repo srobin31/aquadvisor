@@ -43,8 +43,8 @@ def api_hello():
     else:
         return 'Hello John Doe'
 
-@app.route('/aqadvisor')
-def aqadvisor_api():
+@app.route('/api')
+def api():
     stocking = Stocking().add('cardinal tetra', 5)\
                          .add('panda cory', 6)\
                          .add('lemon_tetra', 12)\
@@ -61,8 +61,8 @@ def aqadvisor_api():
     #lines = string.split('\n')
     stocking_stats = Flask.Response(t.get_stocking_level())
     j = {
-        "speech": stocking_stats,
-        "displayText": stocking_stats,
+        "speech": "welcome",
+        "displayText": "welcome",
         "data": {},
         "contextOut": [],
         "source": "DuckDuckGo"
@@ -70,12 +70,6 @@ def aqadvisor_api():
     return jsonify(j)
     #print soup.get_text()
     #return "a"
-
-"""@app.route('/parse')
-def parse_api():
-    page = urllib2.urlopen('http://127.0.0.1:5000/aqadvisor')
-    soup = BeautifulSoup(page, 'html.parser')
-    return soup.get_text()"""
 
 
 if __name__ == '__main__':
