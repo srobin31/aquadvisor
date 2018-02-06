@@ -14,7 +14,7 @@ import pyaqadvisor.hello
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
     url(r'^db', hello.views.db, name='db'),
-    url('api', pyaqadvisor.hello.api, name="api"),
+    #url(r'^api', pyaqadvisor.hello.api, name="api"),
     url(r'^aqadvisor', hello.views.aqadvisor, name="aqadvisor"),
     url(r'^json', hello.views.json, name="json"),
     path('admin/', admin.site.urls),

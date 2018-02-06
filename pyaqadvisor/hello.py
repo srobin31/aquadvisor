@@ -44,7 +44,7 @@ def api_hello():
         return 'Hello John Doe'
 
 @app.route('/api')
-def api():
+def api(request):
     stocking = Stocking().add('cardinal tetra', 5)\
                          .add('panda cory', 6)\
                          .add('lemon_tetra', 12)\
@@ -59,7 +59,7 @@ def api():
     #print t.get_stocking_level()
     #string = (str(t.get_stocking_level()))
     #lines = string.split('\n')
-    stocking_stats = Flask.Response(t.get_stocking_level())
+    #stocking_stats = Flask.Response(t.get_stocking_level())
     j = {
         "speech": "welcome",
         "displayText": "welcome",
