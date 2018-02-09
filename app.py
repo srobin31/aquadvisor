@@ -1,11 +1,11 @@
 from flask import Flask, jsonify
 from pyaqadvisor import Tank, Stocking
 app = Flask(__name__, static_url_path = "")
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
 	return "Yo, it's working!"
 
-@app.route('/test')
+@app.route('/test', methods=['GET', 'POST'])
 def aquadvisor():
     stocking = Stocking().add('cardinal tetra', 5)\
                          .add('panda cory', 6)\
@@ -16,7 +16,7 @@ def aquadvisor():
     stocking_stats = t.get_stocking_level()
     return stocking_stats
 
-@app.route('/json')
+@app.route('/json', methods=['GET', 'POST'])
 def json():
     return jsonify(
         {
