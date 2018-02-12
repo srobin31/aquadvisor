@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from pyaqadvisor import Tank, Stocking
+import re
 
 app = Flask(__name__, static_url_path = "")
 
@@ -17,6 +18,12 @@ def aquadvisor():
     t = Tank('55g').add_filter("AquaClear 30").add_stocking(stocking)
     stocking_stats = t.get_stocking_level()
     return stocking_stats
+
+@app.route('/parsed', methods=['GET', 'POST'])
+def parsed():
+	stats = aquadvisor()
+	bold = re.search('<b>(.*)</b>', stats)
+	return bold
 
 @app.route('/json', methods=['GET', 'POST'])
 def json():
