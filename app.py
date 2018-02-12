@@ -20,10 +20,11 @@ def aquadvisor():
 
 @app.route('/json', methods=['GET', 'POST'])
 def json():
+	stats = aquadvisor()
     return jsonify(
         {
-            "speech":aquadvisor(),
-            "displayText": aquadvisor(),
+            "speech":stats,
+            "displayText": stats,
             "data": {},
             "contextOut": [],
             "source": "DuckDuckGo"
