@@ -1,6 +1,8 @@
 from flask import Flask, jsonify
 from pyaqadvisor import Tank, Stocking
+
 app = Flask(__name__, static_url_path = "")
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
 	return "Yo, it's working!"

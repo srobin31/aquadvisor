@@ -11,4 +11,3 @@ name = "pypi"
 
 [packages]
 
-rq = "*"
