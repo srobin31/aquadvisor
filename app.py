@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 from pyaqadvisor import Tank, Stocking
-import regex
+import re
 
 app = Flask(__name__, static_url_path = "")
 
@@ -22,7 +22,7 @@ def aquadvisor():
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
 	stats = aquadvisor()
-	bold = regex.search('<b>(.*)</b>', stats)
+	bold = re.search('<b>(.*)</b>', stats)
 	return bold
 
 @app.route('/json', methods=['GET', 'POST'])
