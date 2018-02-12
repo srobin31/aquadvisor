@@ -20,7 +20,7 @@ def aquadvisor():
 
 @app.route('/json', methods=['GET', 'POST'])
 def json():
-	stats = aquadvisor()
+    stats = aquadvisor()
     return jsonify(
         {
             "speech":stats,
