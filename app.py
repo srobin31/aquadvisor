@@ -30,7 +30,7 @@ def parsed():
 			"type":type(stats).__name__,
 			"bold":bold,
 			"speech":speech,
-			"level":bold[1]
+			"level":bold[2]
 		}
 	)
 
