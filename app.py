@@ -21,9 +21,14 @@ def aquadvisor():
 
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
-	stats = str(aquadvisor())
-	bold = re.findall(r'\<b\>(.*)\</b\>', stats)
-	return bold
+	stats = aquadvisor()
+	bold = re.search(r'<b>(.*)</b>', stats)
+	return jsonify(
+		{
+			"text":stats,
+			"bold":bold
+		}
+	)
 
 @app.route('/json', methods=['GET', 'POST'])
 def json():
@@ -34,7 +39,7 @@ def json():
             "displayText": stats,
             "data": {},
             "contextOut": [],
-            "source": "DuckDuckGo"
+            "source": ""
         }
     )
 
