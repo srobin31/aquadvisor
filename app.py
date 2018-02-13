@@ -29,7 +29,8 @@ def parsed():
 			"text":stats,
 			"type":type(stats).__name__,
 			"bold":bold,
-			"speech":speech
+			"speech":speech,
+			"level":bold[1]
 		}
 	)
 
