@@ -22,7 +22,7 @@ def aquadvisor():
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
 	stats = str(aquadvisor())
-	bold = re.search('<b>(.*)</b>', stats)
+	bold = re.findall(r'\<b\>(.*)\</b\>', stats)
 	return stats
 
 @app.route('/json', methods=['GET', 'POST'])
