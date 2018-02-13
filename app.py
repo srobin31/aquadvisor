@@ -22,11 +22,12 @@ def aquadvisor():
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
 	stats = aquadvisor()
-	#bold = re.search(r'<b>(.*)</b>', str(stats))
+	bold = re.findall(r'<b>(.*?)</b>', stats)
 	return jsonify(
 		{
 			"text":stats,
-			"type":type(stats).__name__
+			"type":type(stats).__name__,
+			"bold":bold
 		}
 	)
 
