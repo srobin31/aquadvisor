@@ -21,8 +21,8 @@ def aquadvisor():
 
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
-	stats = aquadvisor()
-	#bold = re.search('<b>(.*)</b>', stats)
+	stats = str(aquadvisor())
+	bold = re.search('<b>(.*)</b>', stats)
 	return stats
 
 @app.route('/json', methods=['GET', 'POST'])
