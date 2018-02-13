@@ -22,11 +22,11 @@ def aquadvisor():
 @app.route('/parsed', methods=['GET', 'POST'])
 def parsed():
 	stats = aquadvisor()
-	bold = re.search(r'<b>(.*)</b>', stats)
+	#bold = re.search(r'<b>(.*)</b>', str(stats))
 	return jsonify(
 		{
 			"text":stats,
-			"bold":bold
+			"type":type(stats)
 		}
 	)
 
