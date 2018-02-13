@@ -37,10 +37,12 @@ def parsed():
 @app.route('/json', methods=['GET', 'POST'])
 def json():
     stats = aquadvisor()
+	bold = re.findall(r'<b>(.*?)</b>', stats)
+	speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
     return jsonify(
         {
-            "speech":stats,
-            "displayText": stats,
+            "speech":speech,
+            "displayText": speech,
             "data": {},
             "contextOut": [],
             "source": ""
