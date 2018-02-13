@@ -23,11 +23,13 @@ def aquadvisor():
 def parsed():
 	stats = aquadvisor()
 	bold = re.findall(r'<b>(.*?)</b>', stats)
+	speech = "Your aquarium filtration capacity" + bold[0] + ". " + stats[2] + "."
 	return jsonify(
 		{
 			"text":stats,
 			"type":type(stats).__name__,
 			"bold":bold
+			"speech":speech
 		}
 	)
 
