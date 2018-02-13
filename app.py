@@ -26,7 +26,7 @@ def parsed():
 	return jsonify(
 		{
 			"text":stats,
-			"type":type(stats)
+			"type":type(stats).__name__
 		}
 	)
 
