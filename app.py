@@ -19,28 +19,30 @@ def aquadvisor():
     stocking_stats = t.get_stocking_level()
     return stocking_stats
 
-@app.route('/parsed', methods=['GET', 'POST'])
-def parsed():
-	stats = aquadvisor()
-	bold = re.findall(r'<b>(.*?)</b>', stats)
-	speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
-	return jsonify(
-		{
-			"text":stats,
-			"type":type(stats).__name__,
-			"bold":bold,
-			"speech":speech,
-			"level":bold[2]
-		}
-	)
+# @app.route('/parsed', methods=['GET', 'POST'])
+# def parsed():
+# 	stats = aquadvisor()
+# 	bold = re.findall(r'<b>(.*?)</b>', stats)
+# 	speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
+# 	return jsonify(
+# 		{
+# 			"text":stats,
+# 			"type":type(stats).__name__,
+# 			"bold":bold,
+# 			"speech":speech,
+# 			"level":bold[2]
+# 		}
+# 	)
 
 @app.route('/json', methods=['GET', 'POST'])
 def json():
     stats = aquadvisor()
+	bold = re.findall(r'<b>(.*?)</b>', stats)
+	speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
     return jsonify(
         {
-            "speech":stats,
-            "displayText": stats,
+            "speech":speech,
+            "displayText": speech,
             "data": {},
             "contextOut": [],
             "source": ""
