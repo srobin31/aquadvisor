@@ -29,7 +29,17 @@ def parsed():
 			"speech":speech,
             "displayText": speech,
             "data": {},
-            "contextOut": [],
+            "contextOut": {
+				"name": event.result.metadata.intentId + "_dialog_context",
+				"parameters": {
+					"filter.original": "",
+					"filter": "",
+					"tank-volume.original": "55"
+					"tank-volume": [
+            			55
+					],
+				}
+			},
             "source": ""
 			# "text":stats,
 			# "type":type(stats).__name__,
