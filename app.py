@@ -32,8 +32,8 @@ def parsed():
             "contextOut": {
 				"name": "_dialog_context",
 				"parameters": {
-# 					"filter.original": "",
-# 					"filter": "",
+					"filter.original": "",
+					"filter": "",
 # 					"tank-volume.original": "55",
 # 					"tank-volume": [
 #             			55
