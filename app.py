@@ -30,15 +30,13 @@ def parsed():
             "displayText": speech,
             "data": {},
             "contextOut": {
-				"name": "_dialog_context",
-				"parameters": {
-					"filter.original": "",
-					"filter": "",
-# 					"tank-volume.original": "55",
-# 					"tank-volume": [
-#             			55
-# 					],
-				}
+				# "name": "_dialog_context",
+				# "parameters": {
+				# 	"filter.original": "",
+				# 	"filter": "",
+				# 	"tank-volume.original": "55g",
+				# 	"tank-volume": "55g"
+				# }
 			},
             "source": ""
 			# "text":stats,
@@ -65,4 +63,5 @@ def json():
     )
 
 if __name__ == "__main__":
-	app.run()
+	port = 9001
+	app.run(host='0.0.0.0', port=port)

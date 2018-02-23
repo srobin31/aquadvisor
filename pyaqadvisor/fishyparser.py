@@ -33,7 +33,11 @@ a non-RESTful interface.
 #import numpy as np
 from sys import stderr
 import re
-import urllib.parse
+#import urllib.parse
+try:
+    from urllib.parse import quote
+except ImportError:
+    from urllib import quote
 import requests
 from fuzzywuzzy import process
 from bs4 import BeautifulSoup as beatsoup
@@ -67,14 +71,14 @@ def build_url(tank_dimensions, filter_data, fish_selection, fish_quantity, alrea
                 "&AqJuvMode=" +\
                 "&AqSpeciesWindowSize=short" +\
                 "&AqSearchMode=simple"
-    uri_params = uri_params.format(AquTankLength=urllib.parse.quote(tank_dimensions[0]),
-                                   AquTankDepth=urllib.parse.quote(tank_dimensions[1]),
-                                   AquTankHeight=urllib.parse.quote(tank_dimensions[2]),
-                                   AquListBoxFilter=urllib.parse.quote(filter_data[0]),
-                                   AquTextFilterRate=urllib.parse.quote(filter_data[1]),
-                                   AquListBoxChooser=urllib.parse.quote(fish_selection),
-                                   AquTextBoxQuantity=urllib.parse.quote(fish_quantity),
-                                   AlreadySelected=urllib.parse.quote(alreadyselected))
+    uri_params = uri_params.format(AquTankLength=quote(tank_dimensions[0]),
+                                   AquTankDepth=quote(tank_dimensions[1]),
+                                   AquTankHeight=quote(tank_dimensions[2]),
+                                   AquListBoxFilter=quote(filter_data[0]),
+                                   AquTextFilterRate=quote(filter_data[1]),
+                                   AquListBoxChooser=quote(fish_selection),
+                                   AquTextBoxQuantity=quote(fish_quantity),
+                                   AlreadySelected=quote(alreadyselected))
     uri = uri_root + uri_params
     print (uri)
     return uri
