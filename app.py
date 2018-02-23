@@ -30,7 +30,7 @@ def parsed():
             "displayText": speech,
             "data": {},
             "contextOut": {
-# 				"name": "_dialog_context",
+				"name": "_dialog_context"
 # 				"parameters": {
 # 					"filter.original": "",
 # 					"filter": "",
