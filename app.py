@@ -31,14 +31,14 @@ def parsed():
             "data": {},
             "contextOut": {
 				"name": "_dialog_context"
-# 				"parameters": {
-# 					"filter.original": "",
-# 					"filter": "",
-# 					"tank-volume.original": "55"
-# 					"tank-volume": [
-#             			55
-# 					],
-# 				}
+				"parameters": {
+					"filter.original": "",
+					"filter": "",
+					"tank-volume.original": "55",
+					"tank-volume": [
+            			55
+					],
+				}
 			},
             "source": ""
 			# "text":stats,
