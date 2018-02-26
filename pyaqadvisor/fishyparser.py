@@ -80,7 +80,7 @@ def build_url(tank_dimensions, filter_data, fish_selection, fish_quantity, alrea
                                    AquTextBoxQuantity=quote(fish_quantity),
                                    AlreadySelected=quote(alreadyselected))
     uri = uri_root + uri_params
-    print (uri)
+    #print (uri)
     return uri
 
 def call_aqadvisor(url):
@@ -145,4 +145,4 @@ if __name__ == '__main__':
     my_ldh_dimensions = TANK_INFO['55g']
     my_filter_data = ('User Defined', '200')
 
-    print (get_stocking_info(my_stocking, my_ldh_dimensions, my_filter_data))
+    #print (get_stocking_info(my_stocking, my_ldh_dimensions, my_filter_data))
