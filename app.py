@@ -29,15 +29,7 @@ def parsed():
 			"speech":speech,
             "displayText": speech,
             "data": {},
-            "contextOut": {
-				# "name": "_dialog_context",
-				# "parameters": {
-				# 	"filter.original": "",
-				# 	"filter": "",
-				# 	"tank-volume.original": "55g",
-				# 	"tank-volume": "55g"
-				# }
-			},
+            "contextOut": [],
             "source": ""
 			# "text":stats,
 			# "type":type(stats).__name__,
