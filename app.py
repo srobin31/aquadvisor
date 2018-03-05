@@ -20,7 +20,7 @@ def webhook():
     return res
 
 def processRequest(req):
-	if req.get("result").get("action") != "filterExample":
+    if req.get("result").get("action") != "filterExample":
         return {}
     stocking = Stocking().add('cardinal tetra', 5)
     filter = req.get("result").get("parameters").get("filter")
