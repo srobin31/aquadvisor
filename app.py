@@ -20,6 +20,8 @@ def webhook():
     return res
 
 def processRequest(req):
+	if req.get("result").get("action") != "filterExample":
+        return {}
     stocking = Stocking().add('cardinal tetra', 5)
     filter = req.get("result").get("parameters").get("filter")
     t = Tank('55g').add_filter(filter).add_stocking(stocking)
