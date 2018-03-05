@@ -1,12 +1,34 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request, make_response
 from pyaqadvisor import Tank, Stocking
 import re
 
 app = Flask(__name__, static_url_path = "")
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def index():
 	return "Yo, it's working!"
+
+@app.route('/webhook', methods=['POST'])
+def webhook():
+	req = request.get_json(silent=True, force=True)
+
+    res = processRequest(req)
+
+    res = json.dumps(res, indent=4)
+    r = make_response(res)
+    r.headers['Content-Type'] = 'application/json'
+    return res
+
+def processRequest(req):
+	stocking = Stocking().add('cardinal tetra', 5)\
+                         .add('panda cory', 6)\
+                         .add('lemon_tetra', 12)\
+                         .add('pearl gourami', 4)
+
+    filter = req.get("result").get("parameters").get("filter")
+	t = Tank('55g').add_filter(filter).add_stocking(stocking)
+	aquadvisor = t.get_stocking_level()
+	return parse(aquadvisor)
 
 @app.route('/test', methods=['GET', 'POST'])
 def aquadvisor():
@@ -19,9 +41,7 @@ def aquadvisor():
     stocking_stats = t.get_stocking_level()
     return stocking_stats
 
-@app.route('/parsed', methods=['GET', 'POST'])
-def parsed():
-	stats = aquadvisor()
+def parse(req):
 	bold = re.findall(r'<b>(.*?)</b>', stats)
 	speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
 	return jsonify(
@@ -39,9 +59,7 @@ def parsed():
 		}
 	)
 
-@app.route('/json', methods=['GET', 'POST'])
-def json():
-    stats = aquadvisor()
+def json(stats):
 	# bold = re.findall(r'<b>(.*?)</b>', stats)
 	# speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
     return jsonify(
