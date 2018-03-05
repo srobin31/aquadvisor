@@ -24,6 +24,9 @@ def processRequest(req):
     if req.get("result").get("action") != "filterExample":
         return {}
     stocking = Stocking().add('cardinal tetra', 5)
+                        .add('panda cory', 6)\
+                        .add('lemon_tetra', 12)\
+                        .add('pearl gourami', 4)
     tankFilter = req.get("result").get("parameters").get("filter")
     t = Tank('55g').add_filter(tankFilter).add_stocking(stocking)
     stocking_stats = t.get_stocking_level()
