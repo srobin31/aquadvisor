@@ -24,10 +24,10 @@ def processRequest(req):
     if req.get("result").get("action") != "filterExample":
         return {}
     stocking = Stocking().add('cardinal tetra', 5)
-    filter = req.get("result").get("parameters").get("filter")
-    t = Tank('55g').add_filter(filter).add_stocking(stocking)
-    aquadvisor = t.get_stocking_level()
-    return parse(aquadvisor)
+    tankFilter = req.get("result").get("parameters").get("filter")
+    t = Tank('55g').add_filter(tankFilter).add_stocking(stocking)
+    stocking_stats = t.get_stocking_level()
+    return parse(stocking_stats)
 
 @app.route('/test', methods=['GET', 'POST'])
 def aquadvisor():
@@ -40,13 +40,13 @@ def aquadvisor():
     stocking_stats = t.get_stocking_level()
     return stocking_stats
 
-def parse(req):
+def parse(stats):
     bold = re.findall(r'<b>(.*?)</b>', stats)
     speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
     return {
         "speech":speech,
         "displayText": speech,
-        "data": req,
+        "data": stats,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
