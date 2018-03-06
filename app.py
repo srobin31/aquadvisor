@@ -41,7 +41,7 @@ def aquadvisor():
 
     t = Tank('55g').add_filter("AquaClear 30").add_stocking(stocking)
     stocking_stats = t.get_stocking_level()
-    return stocking_stats
+    return parse(stocking_stats)
 
 def parse(stats):
     bold = re.findall(r'<b>(.*?)</b>', stats)
