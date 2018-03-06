@@ -13,10 +13,10 @@ def index():
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-	if req.get("result").get("action") == "webhookTest":
+    if req.get("result").get("action") == "webhookTest":
     	res = testWebhook(req)
-	else:
-		res = {}
+    else:
+        res = {}
     res = json.dumps(res, indent=4)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
