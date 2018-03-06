@@ -13,7 +13,7 @@ def index():
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-	if req.get("result").get("action") equals "webhookTest":
+	if req.get("result").get("action") == "webhookTest":
     	res = testWebhook(req)
 
 
