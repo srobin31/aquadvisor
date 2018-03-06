@@ -13,16 +13,16 @@ def index():
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-    res = processRequest(req)
+	if req.get("result").get("action") equals "webhookTest":
+    	res = testWebhook(req)
+
 
     res = json.dumps(res, indent=4)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return res
 
-def processRequest(req):
-    if req.get("result").get("action") != "filterExample":
-        return {}
+def testWebhook(req):
     stocking = Stocking().add('cardinal tetra', 5)\
                         .add('panda cory', 6)\
                         .add('lemon_tetra', 12)\
