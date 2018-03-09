@@ -1,0 +1,73 @@
+[
+  {
+    "id": "2f59dcc4-5d2d-47a5-a141-9feaf6dc5caf",
+    "data": [
+      {
+        "text": "yeah i have a tank",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7620de9a-c34f-4a48-8edd-ce1ca6bf04db",
+    "data": [
+      {
+        "text": "yeah",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d0ce719d-882a-479a-9af9-367d92090537",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "05fac572-58e2-42e5-984b-243cd05fa11a",
+    "data": [
+      {
+        "text": "yup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "766aee4b-7039-485a-962c-f0c110285fa1",
+    "data": [
+      {
+        "text": "i have ",
+        "userDefined": false
+      },
+      {
+        "text": "one",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c2aa9023-51bf-4522-b87a-4b9ec3b0dd59",
+    "data": [
+      {
+        "text": "yessir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

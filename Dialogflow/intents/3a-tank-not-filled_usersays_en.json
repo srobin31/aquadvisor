@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1d8ce8dd-4e28-4c99-8e28-678e2d285605",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ebbf5003-1b7f-45d4-b72e-89d5c6d8012c",
+    "data": [
+      {
+        "text": "not filled",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e45e34bc-67a0-47cf-bc4c-f12adc08e94c",
+    "data": [
+      {
+        "text": "empty",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "907b74b7-7f6a-4e60-84f1-10170d714860",
+    "data": [
+      {
+        "text": "not started",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "394ddd7b-a1c6-4fdd-be67-3e013fe9db8b",
+    "data": [
+      {
+        "text": "not full",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "42593d06-a959-46be-8667-e196d89937ee",
+    "data": [
+      {
+        "text": "looking to start",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c32bba33-9858-4d42-b75b-2dae710197df",
+    "data": [
+      {
+        "text": "my tank is not full",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "02782a40-172d-484a-b732-35a44b32a4fa",
+    "data": [
+      {
+        "text": "not running",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

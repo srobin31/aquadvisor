@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d295c1e1-bc7b-440f-bc4b-dbd7d6e4e92a",
+    "data": [
+      {
+        "text": "greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520256443
+  },
+  {
+    "id": "b2109d43-29e1-4a2c-b5e1-d6c1bdff5e7e",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "af57aa92-d2a7-48c7-a23c-36ffa3fd0a98",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "21992a7f-1b0f-41bf-89c7-47296ae016f2",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8ae01c68-b78d-401d-a89d-0e6631ecf65f",
+    "data": [
+      {
+        "text": "can you help me please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "637aa7f5-6d60-480e-bc67-15e8e9565923",
+    "data": [
+      {
+        "text": "i need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

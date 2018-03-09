@@ -1,0 +1,89 @@
+{
+  "id": "f888f82f-97cd-4689-be2a-02205c029ad5",
+  "name": "4b-getting-filled-tank-size",
+  "auto": true,
+  "contexts": [
+    "yes-tank-size",
+    "yes-filter-used"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes-tank-size",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "yes-filter-used",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "fish-type-1",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0f2e4886-6bf5-413d-a148-377767fa49a0",
+          "required": true,
+          "dataType": "@filter",
+          "name": "filter",
+          "value": "$filter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And what kind of filter is being used?"
+            },
+            {
+              "lang": "en",
+              "value": "I need to know what kind of filter you\u0027re using"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2074236d-d3af-4dab-90bf-33920f7b6d97",
+          "required": true,
+          "dataType": "@gallons",
+          "name": "gallons",
+          "value": "$gallons",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many gallons?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, so you have a $gallons fish tank with a $filter."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Please tell me what kind of fish you have and how many. If you have more than one type of fish just list the first type and the amount of them in your aquarium."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520614332,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "get-filter"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "d257eeee-a2f1-45ab-b077-9b75fc31ec17",
+  "name": "test webhook",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "webhookTest",
+      "affectedContexts": [
+        {
+          "name": "filter",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "01da1f7f-09fc-4ad9-a0cd-1d452e4a352d",
+          "required": true,
+          "dataType": "@filter",
+          "name": "filter",
+          "value": "$filter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What filter"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520342169,
+  "fallbackIntent": false,
+  "events": []
+}

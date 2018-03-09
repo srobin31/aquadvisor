@@ -1,0 +1,33 @@
+{
+  "id": "0fb8fe12-07f7-4c0a-8c0b-499cd456cb1b",
+  "name": "2-no-tank",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, so I can\u0027t really help you until you have already purchased a fish tank and filter. I recommend that you first go to your local pet or fish store and buy one. Once, you\u0027ve done this come back and we\u0027ll chat about setting it up!"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here is a list of what you should buy. Fish tank, adequate filter, substrate, and decorations. Once you have done all this, fill the tank and let it cycle for at least one week. This allows healthy bacteria to build up in the filter and water while also adjusting the ph and chemicals in the water to healthy levels."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520256678,
+  "fallbackIntent": false,
+  "events": []
+}

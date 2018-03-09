@@ -1,0 +1,41 @@
+{
+  "id": "1ceae21a-d082-4235-8b02-be1a036cb487",
+  "name": "6-more fish",
+  "auto": true,
+  "contexts": [
+    "morefish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "morefish",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "fish2",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great! Please list in the same way was as before."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520612760,
+  "fallbackIntent": false,
+  "events": []
+}

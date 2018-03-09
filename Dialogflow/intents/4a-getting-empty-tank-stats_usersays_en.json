@@ -1,0 +1,54 @@
+[
+  {
+    "id": "74ba745c-3c95-4409-be77-0e65dc53ac06",
+    "data": [
+      {
+        "text": " fluval ",
+        "userDefined": false
+      },
+      {
+        "text": "aquaclear 70",
+        "alias": "filter-used",
+        "meta": "@filter",
+        "userDefined": false
+      },
+      {
+        "text": " in a ",
+        "userDefined": false
+      },
+      {
+        "text": "40 gallon",
+        "alias": "gallon",
+        "meta": "@gallons",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1520010147
+  },
+  {
+    "id": "74a7eb69-930f-43b6-a593-0075a0a68d8f",
+    "data": [
+      {
+        "text": "60",
+        "alias": "gallon",
+        "meta": "@gallons",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "azoo oxygen 3 plus",
+        "alias": "filter-used",
+        "meta": "@filter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1520010147
+  }
+]

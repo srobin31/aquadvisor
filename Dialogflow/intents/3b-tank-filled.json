@@ -1,0 +1,51 @@
+{
+  "id": "47b61718-83fd-4f00-9c81-343fe865cc86",
+  "name": "3b-tank-filled",
+  "auto": true,
+  "contexts": [
+    "filled"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "yes-tank-size",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "yes-filter-used",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "filled",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, great so I\u0027m going to need you to give me some details about your fish tank."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How many gallons does it hold?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1518442234,
+  "fallbackIntent": false,
+  "events": []
+}

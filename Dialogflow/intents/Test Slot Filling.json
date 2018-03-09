@@ -1,0 +1,71 @@
+{
+  "id": "46b0bbc9-c353-4a6a-8da8-610ed0460c10",
+  "name": "Test Slot Filling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fdd9d928-a466-4d3c-afe7-b2a2315899fe",
+          "required": true,
+          "dataType": "@sys.unit-volume",
+          "name": "tankvolume",
+          "value": "tankvolume",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I need the tanksize"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "16149ad2-351c-422e-a855-86b6ae2be26d",
+          "required": true,
+          "dataType": "@filter",
+          "name": "filter",
+          "value": "filter",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I need to know what type of filter"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "477a1421-6d73-42a0-ba35-fd705bef65b6",
+          "required": true,
+          "dataType": "@species",
+          "name": "species",
+          "value": "species",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What kind of fish"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519305989,
+  "fallbackIntent": false,
+  "events": []
+}

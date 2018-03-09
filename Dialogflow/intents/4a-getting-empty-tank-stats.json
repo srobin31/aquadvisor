@@ -1,0 +1,85 @@
+{
+  "id": "debf010a-1f2e-4412-92d4-5deee2fb8946",
+  "name": "4a-getting-empty-tank-stats",
+  "auto": true,
+  "contexts": [
+    "filter-used",
+    "tank-size"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "filter-used",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "tank-size",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "decorations",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ab74ab15-9f6d-4122-8ce6-9e26aa2f7739",
+          "required": true,
+          "dataType": "@filter",
+          "name": "filter-used",
+          "value": "$filter-used",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "In order to move forward, you need to tell me what filter you will be using,"
+            },
+            {
+              "lang": "en",
+              "value": "What kind of filter will you be using?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "f47aaac3-1796-42e1-9f1b-8700dc812b1c",
+          "required": true,
+          "dataType": "@gallons",
+          "name": "gallon",
+          "value": "$gallon",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what kind of filter?"
+            }
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fantastic! So we\u0027re looking to start a $gallon fish tank with a $filter-used filter."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Now, do you plan on having any decorations, substrate, or anything else inside the aquarium besides the fish?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520257480,
+  "fallbackIntent": false,
+  "events": []
+}
