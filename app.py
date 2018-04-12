@@ -15,9 +15,12 @@ def webhook():
 
     if req.get("result").get("action") == "webhookTest":
         res = testWebhook(req)
-    if req.get("result").get("action") == "addFish":
+    elif req.get("result").get("action") == "addFish":
         stocking = addFish(req)
         res = testWebhook(req, stocking)
+    elif req.get("result").get("action") == "FishList":
+        stocking = makeStocking(req)
+        res = callApi(stocking)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -25,9 +28,26 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return res
 
+def makeStocking(req):
+    parameters = req.get("result").get("parameters")
+    fishList = parameters.get("number-of-fish")
+    speech = "you have "
+    for fish in fishList:
+        speech += str(fish.number)
+        speecy += " "
+        speech += fish.fish
+        speech += " and "
+    return {
+        "speech":speech,
+        "displayText": speech,
+        "data": fishList,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
+
 def addFish(req):
     current_stocking = get_stocking()
-    paraemeters = req.get("result").get("parameters")
+    parameters = req.get("result").get("parameters")
     fish_type = parameters.get("species")
     quantity = parameters.get("fishnum")
     new_stocking = current_stocking.add(fish_type, quantity)
@@ -49,9 +69,6 @@ def testWebhook(req, stocking):
     stocking_stats = t.get_stocking_level()
     return parse(stocking_stats)
 
-@app.route('/test2', methods=['GET'])
-def test2():
-    return
 
 @app.route('/test', methods=['GET'])
 def aquadvisor():
