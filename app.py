@@ -20,7 +20,7 @@ def webhook():
         res = testWebhook(req, stocking)
     elif req.get("result").get("action") == "FishList":
         stocking = makeStocking(req)
-        res = callApi(stocking)
+        #res = callApi(stocking)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -32,11 +32,11 @@ def makeStocking(req):
     parameters = req.get("result").get("parameters")
     fishList = parameters.get("number-of-fish")
     speech = "you have "
-    for fish in fishList:
-        speech += str(fish.number)
-        speecy += " "
-        speech += fish.fish
-        speech += " and "
+    # for fish in fishList:
+    #     speech += str(fish.number)
+    #     speecy += " "
+    #     speech += fish.fish
+    #     speech += " and "
     return {
         "speech":speech,
         "displayText": speech,
