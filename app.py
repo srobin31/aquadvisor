@@ -19,7 +19,7 @@ def webhook():
         stocking = addFish(req)
         res = testWebhook(req, stocking)
     elif req.get("result").get("action") == "FishList":
-        stocking = makeStocking(req)
+        res = makeStocking(req)
         #res = callApi(stocking)
     else:
         res = {}
