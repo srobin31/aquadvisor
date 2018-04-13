@@ -26,6 +26,7 @@ def webhook():
 
 def testFishList(req):
     fishList = req.get("result").get("parameters").get("number-of-fish")
+    speech = "hi"
     return {
         "speech":speech,
         "displayText": speech,
