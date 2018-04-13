@@ -15,12 +15,24 @@ def webhook():
 
     if req.get("result").get("action") == "webhookTest":
     	res = testWebhook(req)
+    elif req.get("result").get("action") == "FishList":
+        res = testFishList(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return res
+
+def testFishList(req):
+    fishList = req.get("result").get("parameters").get("number-of-fish")
+    return {
+        "speech":speech,
+        "displayText": speech,
+        "data": stats,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
 
 def testWebhook(req):
     stocking = Stocking().add('cardinal tetra', 5)\
