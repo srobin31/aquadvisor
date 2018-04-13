@@ -57,11 +57,11 @@ def get_stocking():
     return stocking = Stocking().stock_list()
 
 def testWebhook(req, stocking):
-    # stocking = Stocking().add('cardinal tetra', 5)\
-    #                     .add('panda cory', 6)\
-    #                     .add('lemon_tetra', 12)\
-    #                     .add('pearl gourami', 4)
-    stocking = get_stocking()
+    stocking = Stocking().add('cardinal tetra', 5)\
+                        .add('panda cory', 6)\
+                        .add('lemon_tetra', 12)\
+                        .add('pearl gourami', 4)
+    #stocking = get_stocking()
 
     tankSize = req.get("result").get("parameters").get("gallons")
     tankFilter = req.get("result").get("parameters").get("filter")
