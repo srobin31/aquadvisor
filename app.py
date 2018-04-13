@@ -14,13 +14,7 @@ def webhook():
     req = request.get_json(silent=True, force=True)
 
     if req.get("result").get("action") == "webhookTest":
-        res = testWebhook(req)
-    elif req.get("result").get("action") == "addFish":
-        stocking = addFish(req)
-        res = testWebhook(req, stocking)
-    elif req.get("result").get("action") == "FishList":
-        res = aquadvisor()
-        #res = callApi(stocking)
+    	res = testWebhook(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -28,40 +22,11 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return res
 
-def makeStocking(req):
-    parameters = req.get("result").get("parameters")
-    fishList = parameters.get("number-of-fish")
-    speech = "you have "
-    # for fish in fishList:
-    #     speech += str(fish.number)
-    #     speecy += " "
-    #     speech += fish.fish
-    #     speech += " and "
-    return {
-        "speech":"speech",
-        "displayText": "speech",
-        "data": req,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
-
-def addFish(req):
-    current_stocking = get_stocking()
-    parameters = req.get("result").get("parameters")
-    fish_type = parameters.get("species")
-    quantity = parameters.get("fishnum")
-    new_stocking = current_stocking.add(fish_type, quantity)
-    return new_stocking
-
-def get_stocking():
-    return stocking = Stocking().stock_list()
-
-def testWebhook(req, stocking):
+def testWebhook(req):
     stocking = Stocking().add('cardinal tetra', 5)\
                         .add('panda cory', 6)\
                         .add('lemon_tetra', 12)\
                         .add('pearl gourami', 4)
-    #stocking = get_stocking()
 
     tankSize = req.get("result").get("parameters").get("gallons")
     tankFilter = req.get("result").get("parameters").get("filter")
@@ -69,6 +34,9 @@ def testWebhook(req, stocking):
     stocking_stats = t.get_stocking_level()
     return parse(stocking_stats)
 
+@app.route('/test2', methods=['GET'])
+def test2():
+    return "hello"
 
 @app.route('/test', methods=['GET'])
 def aquadvisor():
