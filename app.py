@@ -16,7 +16,8 @@ def webhook():
     if req.get("result").get("action") == "webhookTest":
     	res = testWebhook(req)
     elif req.get("result").get("action") == "FishList":
-        res = testFishList(req)
+        stocking = makeStocking(req)
+        res = testStocking(stocking)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -24,19 +25,17 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return res
 
-def testFishList(req):
+def makeStocking(req):
     fishList = req.get("result").get("parameters").get("number-of-fish")
-    speech = "you have "
+    stocking = Stocking()
     for fish in fishList:
-        fishStr = str(fish.get("number")) + " " + fish.get("fish") + " "
-        speech+=fishStr
-    return {
-        "speech":speech,
-        "displayText": speech,
-        "data": req,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+        stocking.add(fish.get("fish"), fish.get("number"))
+    return stocking
+
+def testStocking(stocking):
+    t = Tank('55g').add_filter('AquaClear 30').add_stocking(stocking)
+    stocking_stats = t.get_stocking_level()
+    return parse(stocking_stats)
 
 def testWebhook(req):
     stocking = Stocking().add('cardinal tetra', 5)\
