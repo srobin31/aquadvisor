@@ -38,9 +38,9 @@ def makeStocking(req):
     #     speech += fish.fish
     #     speech += " and "
     return {
-        "speech":speech,
-        "displayText": speech,
-        "data": fishList,
+        "speech":"speech",
+        "displayText": "speech",
+        "data": req,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
