@@ -30,7 +30,7 @@ def testFishList(req):
     return {
         "speech":speech,
         "displayText": speech,
-        "data": stats,
+        "data": req,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
