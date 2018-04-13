@@ -28,7 +28,7 @@ def testFishList(req):
     fishList = req.get("result").get("parameters").get("number-of-fish")
     speech = "you have "
     for fish in fishList:
-        fishStr = str(fish.get("number")) + " " + fish.get("fish")
+        fishStr = str(fish.get("number")) + " " + fish.get("fish") + " "
         speech+=fishStr
     return {
         "speech":speech,
