@@ -18,12 +18,25 @@ def webhook():
     elif req.get("result").get("action") == "FishList":
         stocking = makeStocking(req)
         res = testStocking(stocking)
+    elif req.get("result").get("action") == "getSpecs":
+        res = getSpecs(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
     return res
+
+def getSpecs(req):
+    fishList = req.get("result").get("parameters").get("fishnum")
+    stocking = Stocking()
+    for fish in fishList:
+        stocking.add(fish.get("fish"), fish.get("number"))
+    tankSize = req.get("result").get("parameters").get("gallons")
+    tankFilter = req.get("result").get("parameters").get("filter")
+    t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
+    stocking_stats = t.get_stocking_level()
+    return parse(stocking_stats)
 
 def makeStocking(req):
     fishList = req.get("result").get("parameters").get("number-of-fish")
