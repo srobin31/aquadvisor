@@ -31,7 +31,8 @@ def getSpecs(req):
 
 def parse(stats):
     bold = re.findall(r'<b>(.*?)</b>', stats)
-    speech = "Your aquarium filtration capacity is " + bold[0] + ". " + bold[2] + "."
+    filtCap = bold[0][:-1]
+    speech = "Your aquarium filtration capacity is " + filtCap + "%. " + bold[2] + "."
     return {
         "speech":speech,
         "displayText": speech,
