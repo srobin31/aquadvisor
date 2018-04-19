@@ -34,16 +34,16 @@ def parse(stats):
     filtCap = bold[0][:-1]
     speech = "Your aquarium filtration capacity is " + filtCap + "%. " + bold[2] + "."
     extra = ""
-    if filtCap < 90:
-        extra += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
+    if (filtCap < 90):
+        extra = "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
     elif (filtCap > 90) and (filtCap < 110):
-        extra += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
+        extra = "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
     else:
-        extra += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
+        extra = "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
     return {
         "speech":speech,
         "displayText": speech,
-        "data": stats,
+        "data": stats+extra,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
