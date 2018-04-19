@@ -35,7 +35,7 @@ def parse(stats):
     speech = "Your aquarium filtration capacity is " + filtCap + "%. " + bold[2] + "."
     if filtCap < 90:
         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
-    elif filtCap > 90 and filtCap < 110:
+    elif (filtCap > 90) and (filtCap < 110):
         speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
     else:
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
