@@ -5,20 +5,11 @@ import json
 
 app = Flask(__name__, static_url_path = "")
 
-@app.route('/', methods=['GET'])
-def index():
-    return "Yo, it's working!"
-
 @app.route('/webhook', methods=['POST'])
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-    if req.get("result").get("action") == "webhookTest":
-    	res = testWebhook(req)
-    elif req.get("result").get("action") == "FishList":
-        stocking = makeStocking(req)
-        res = testStocking(stocking)
-    elif req.get("result").get("action") == "getSpecs":
+    if req.get("result").get("action") == "getSpecs":
         res = getSpecs(req)
     else:
         res = {}
@@ -37,45 +28,6 @@ def getSpecs(req):
     t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
     stocking_stats = t.get_stocking_level()
     return parse(stocking_stats)
-
-def makeStocking(req):
-    fishList = req.get("result").get("parameters").get("number-of-fish")
-    stocking = Stocking()
-    for fish in fishList:
-        stocking.add(fish.get("fish"), fish.get("number"))
-    return stocking
-
-def testStocking(stocking):
-    t = Tank('55g').add_filter('AquaClear 30').add_stocking(stocking)
-    stocking_stats = t.get_stocking_level()
-    return parse(stocking_stats)
-
-def testWebhook(req):
-    stocking = Stocking().add('cardinal tetra', 5)\
-                        .add('panda cory', 6)\
-                        .add('lemon_tetra', 12)\
-                        .add('pearl gourami', 4)
-
-    tankSize = req.get("result").get("parameters").get("gallons")
-    tankFilter = req.get("result").get("parameters").get("filter")
-    t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
-    stocking_stats = t.get_stocking_level()
-    return parse(stocking_stats)
-
-@app.route('/test2', methods=['GET'])
-def test2():
-    return "hello"
-
-@app.route('/test', methods=['GET'])
-def aquadvisor():
-    stocking = Stocking().add('cardinal tetra', 5)\
-                        .add('panda cory', 6)\
-                        .add('lemon_tetra', 12)\
-                        .add('pearl gourami', 4)
-
-    t = Tank('55g').add_filter("AquaClear 30").add_stocking(stocking)
-    stocking_stats = t.get_stocking_level()
-    return stocking_stats
 
 def parse(stats):
     bold = re.findall(r'<b>(.*?)</b>', stats)
