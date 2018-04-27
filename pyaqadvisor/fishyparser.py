@@ -106,8 +106,9 @@ def call_aqadvisor(url):
                 if i['name'] == 'AlreadySelected':
                     alreadyselected =  i['value']
 
-        if returnval:
-            return returnval, alreadyselected
+        # if returnval:
+        #     return returnval, alreadyselected
+        return r.text
     else:
         raise Exception("Could not complete the call to AqAdvisor.com.  HTTP Status Code was {0}").format(r.status_code)
     return "Could not complete call to AqAdvisor. Please try again later.", ""
