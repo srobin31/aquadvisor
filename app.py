@@ -38,7 +38,7 @@ def parse(stats):
     elif int(filtCap) > 90 and int(filtCap) < 110:
         speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
     else:
-        speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish"
+        speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
     return {
         "speech":speech,
         "displayText": speech,
