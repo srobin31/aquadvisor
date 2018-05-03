@@ -44,8 +44,8 @@ def parse(stats):
     else:
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
     return {
-        "speech":speech,
-        "displayText": speech,
+        "speech":"hi",
+        "displayText": "hi",
         "data": stats,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
