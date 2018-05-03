@@ -33,8 +33,10 @@ def parse(stats):
     ranges = re.findall(r'range:(.*?)</font>', stats)
     bold = re.findall(r'<b>(.*?)</b>', stats)
     filtCap = bold[0][:-1]
-    speech = "Your recommended temperature range is " + ranges[0] + "Your recommended pH range is " + ranges[1]
-    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. " + bold[2] + ".\n"
+    speech = "Your recommended temperature range is " + ranges[0]
+    speech += "\nYour recommended pH range is " + ranges[1] + "\n\n"
+    speech += bold[2]
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. " +  + ".\n"
     if int(filtCap) < 90:
         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
     elif int(filtCap) > 90 and int(filtCap) < 110:
