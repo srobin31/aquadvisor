@@ -92,7 +92,8 @@ def call_aqadvisor(url):
     if r.status_code == 200: # yay success!
         # find relevant filtration info
         for line in r.text.split('\n'):
-            m = re.search('Recommended temperature range.*\\.', line)
+            #m = re.search('Recommended temperature range.*\\.', line)
+            m = re.search('Warning.*\\.', line)
             if m:
                 returnval = m.group(0)
 
