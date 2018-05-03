@@ -36,7 +36,7 @@ def parse(stats):
     speech = "Your recommended temperature range is" + ranges[0]
     speech += "\nYour recommended pH range is" + ranges[1] + "\n\n"
     speech += bold[2] + "."
-    speech += "Your aquarium filtration capacity is " + filtCap + "%. "
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
     if int(filtCap) < 90:
         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
     elif int(filtCap) > 90 and int(filtCap) < 110:
