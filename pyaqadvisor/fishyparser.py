@@ -89,7 +89,7 @@ def call_aqadvisor(url):
     returnval = None
     html_proc = None
     alreadyselected = None
-    return r.text
+    return typeof(r.text)
     # if r.status_code == 200: # yay success!
     #     # find relevant filtration info
     #     for line in r.text.split('\n'):
