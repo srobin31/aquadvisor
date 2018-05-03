@@ -93,7 +93,7 @@ def call_aqadvisor(url):
         # find relevant filtration info
         for line in r.text.split('\n'):
             #m = re.search('Recommended temperature range.*\\.', line)
-            m = re.search('Warning.*\\.', line)
+            m = re.search('recommended in a group.*\\.', line)
             if m:
                 returnval = m.group(0)
 
