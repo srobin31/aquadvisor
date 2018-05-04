@@ -30,6 +30,7 @@ def getSpecs(req):
     return parse(stocking_stats)
 
 def parse(info):
+    warnings = re.findall(r'<li>(.*?)</li>', info)
     ranges = re.findall(r'range:(.*?)</font>', info)
     stats = re.search('Your aquarium filtration.*\\.', info)
     bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
@@ -44,6 +45,8 @@ def parse(info):
         speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
     else:
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
+    for warning in warnings:
+        speech+=warning
     return {
         "speech": speech,
         "displayText": speech,
