@@ -89,30 +89,30 @@ def call_aqadvisor(url):
     returnval = None
     html_proc = None
     alreadyselected = None
-    return r.text, ""
-    # if r.status_code == 200: # yay success!
-    #     # find relevant filtration info
-    #     for line in r.text.split('\n'):
-    #         #m = re.search('Recommended temperature range.*\\.', line)
-    #         m = re.search('recommended in a group.*\\.', line)
-    #         if m:
-    #             returnval = m.group(0)
-    #
-    #             html_proc = beatsoup(r.text)
-    #     #if not html_proc: raise Exception, "html_proc is null"
-    #     if html_proc:
-    #         hiddeninput = html_proc.findAll('input', {'type':'hidden'})
-    #
-    #         # extract already selected hidden form value
-    #         for i in hiddeninput:
-    #             if i['name'] == 'AlreadySelected':
-    #                 alreadyselected =  i['value']
-    #
-    #     if returnval:
-    #         return returnval, alreadyselected
-    # else:
-    #     raise Exception("Could not complete the call to AqAdvisor.com.  HTTP Status Code was {0}").format(r.status_code)
-    # return "Could not complete call to AqAdvisor. Please try again later.", ""
+
+    if r.status_code == 200: # yay success!
+        # find relevant filtration info
+        for line in r.text.split('\n'):
+            #m = re.search('Recommended temperature range.*\\.', line)
+            m = re.search('Warning:.*\\.', line)
+            if m:
+                returnval = m.group(0)
+
+                html_proc = beatsoup(r.text)
+        #if not html_proc: raise Exception, "html_proc is null"
+        if html_proc:
+            hiddeninput = html_proc.findAll('input', {'type':'hidden'})
+
+            # extract already selected hidden form value
+            for i in hiddeninput:
+                if i['name'] == 'AlreadySelected':
+                    alreadyselected =  i['value']
+
+        if returnval:
+            return returnval, alreadyselected
+    else:
+        raise Exception("Could not complete the call to AqAdvisor.com.  HTTP Status Code was {0}").format(r.status_code)
+    return "Could not complete call to AqAdvisor. Please try again later.", ""
 
 def get_stocking_info(stocking_plan, ldh_dimensions, filter_data):
     """
