@@ -45,7 +45,9 @@ def parse(info):
         speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
     else:
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
+
     for warning in warnings:
+        warning = re.sub(r'<.*?>', '', warning)
         speech+=warning
     return {
         "speech": speech,
