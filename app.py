@@ -41,12 +41,12 @@ def parse(info):
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
 
-    speech = "You have " + information.warnings.length " warnings."
+    #speech = "You have " + information.warnings.length " warnings."
 
     return {
-        "speech": speech,
-        "displayText": speech,
-        "data": info,
+        "speech": "speech",
+        "displayText": "speech",
+        "data": information.warnings,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
