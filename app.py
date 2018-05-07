@@ -43,10 +43,12 @@ def parse(info):
 
     #speech = "You have " + information.warnings.length " warnings."
 
+    information.speech = "hello"
+
     return {
         "speech": "speech",
         "displayText": "speech",
-        "data": information.warnings,
+        "data": information.speech,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
@@ -106,6 +108,16 @@ class info(object):
     def warnings(self):
         """I'm the 'x' property."""
         return self._warnings
+
+    @property
+    def speech(self):
+        """I'm the 'x' property."""
+        return self._speech
+
+    @speech.setter
+    def ranges(self, value):
+        #print("setter of x called")
+        self._speech = value
 
     @ranges.setter
     def ranges(self, value):
