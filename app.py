@@ -26,8 +26,8 @@ def getSpecs(req):
     tankSize = req.get("result").get("parameters").get("gallons")
     tankFilter = req.get("result").get("parameters").get("filter")
     t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
-    stocking_stats = t.get_stocking_level()
-    return parse(stocking_stats)
+    api_response = t.get_stocking_level()
+    return parse(api_response)
 
 def parse(api_response):
     information = info()
@@ -38,16 +38,16 @@ def parse(api_response):
     #filtCap = information.bold[0][:-1]
 
     information.warnings = "hello"
-    # information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
+    information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
     # for warning in information.warnings:
     #     warning = re.sub(r'<.*?>', '', warning)
 
-    #speech = "You have " + len(information.warnings) " warnings."
+    speech = "You have " + len(information.warnings) + " warnings."
 
     return {
-        "speech": "speech",
-        "displayText": "speech",
-        "data": information.warnings,
+        "speech": speech,
+        "displayText": speech,
+        "data": api_response,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
