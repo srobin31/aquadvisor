@@ -53,33 +53,6 @@ def parse(info):
         "source": "rocky-lowlands-15066"
     }
 
-
-
-
-    # ranges = re.findall(r'range:(.*?)</font>', info)
-    # stats = re.search('Your aquarium filtration.*\\.', info)
-    # bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
-    # filtCap = bold[0][:-1]
-    # speech = "Your recommended temperature range is" + ranges[0]
-    # speech += "\nYour recommended pH range is" + ranges[1] + "\n\n"
-    # speech += bold[1] + "."
-    # speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
-    # if int(filtCap) < 90:
-    #     speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
-    # elif int(filtCap) > 90 and int(filtCap) < 110:
-    #     speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
-    # else:
-    #     speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
-    #
-    #
-    # return {
-    #     "speech": speech,
-    #     "displayText": speech,
-    #     "data": info,
-    #     "contextOut": [],
-    #     "source": "rocky-lowlands-15066"
-    # }
-
 def filtCapHelp(filtCap):
     if filtCap < 90:
         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
@@ -88,7 +61,7 @@ def filtCapHelp(filtCap):
     else:
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
 
-class info(object):
+class info():
     def __init__(self):
         self._ranges = None
         self._bold = None
