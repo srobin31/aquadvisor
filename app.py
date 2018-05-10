@@ -31,7 +31,7 @@ def getSpecs(req):
 
 def parse(api_response):
     information = info()
-    # information.ranges = re.findall(r'range:(.*?)</font>', api_response)
+    information.ranges = re.findall(r'range:(.*?)</font>', api_response)
     # stats = re.search('Your aquarium filtration.*\\.', api_response)
     # information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
 
