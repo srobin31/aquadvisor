@@ -35,12 +35,12 @@ def parse(api_response):
     stats = re.search('Your aquarium filtration.*\\.', api_response)
     information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
 
-    #filtCap = information.bold[0][:-1]
+    filtCap = information.bold[0][:-1]
 
     information.warnings = "hello"
     information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
-    # for warning in information.warnings:
-    #     warning = re.sub(r'<.*?>', '', warning)
+    for warning in information.warnings:
+        warning = re.sub(r'<.*?>', '', warning)
 
     speech = "You have " + str(len(information.warnings)) + " warnings."
 
