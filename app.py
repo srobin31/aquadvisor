@@ -42,11 +42,11 @@ def parse(api_response):
     # for warning in information.warnings:
     #     warning = re.sub(r'<.*?>', '', warning)
 
-    speech = "You have " + len(information.warnings) + " warnings."
+    # speech = "You have " + len(information.warnings) + " warnings."
 
     return {
-        "speech": speech,
-        "displayText": speech,
+        "speech": "speech",
+        "displayText": "speech",
         "data": api_response,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
