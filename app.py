@@ -31,15 +31,15 @@ def getSpecs(req):
 
 def parse(info):
     information = info()
-    information.ranges = re.findall(r'range:(.*?)</font>', info)
-    stats = re.search('Your aquarium filtration.*\\.', info)
-    information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
-
-    filtCap = information.bold[0][:-1]
-
-    information.warnings = re.findall(r'<li>(.*?)</li>', info)
-    for warning in information.warnings:
-        warning = re.sub(r'<.*?>', '', warning)
+    # information.ranges = re.findall(r'range:(.*?)</font>', info)
+    # stats = re.search('Your aquarium filtration.*\\.', info)
+    # information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
+    #
+    # filtCap = information.bold[0][:-1]
+    #
+    # information.warnings = re.findall(r'<li>(.*?)</li>', info)
+    # for warning in information.warnings:
+    #     warning = re.sub(r'<.*?>', '', warning)
 
     #speech = "You have " + information.warnings.length " warnings."
 
@@ -93,6 +93,7 @@ class info(object):
         self._ranges = None
         self._bold = None
         self._warnings = None
+        self._speech = None
 
     @property
     def ranges(self):
