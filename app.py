@@ -42,7 +42,7 @@ def parse(api_response):
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
 
-    speech = "You have " + str(len(information.warnings)) + " warnings."
+    speech = "Say \"ranges\" for your recommended temperature and pH ranges.\nSay \"stats\" for your stocking level and filtration capacity.\nWe also found " + str(len(information.warnings)) + " warnings. Say warnings to see them."
 
     return {
         "speech": speech,
@@ -71,42 +71,26 @@ class info():
 
     @property
     def ranges(self):
-        """I'm the 'x' property."""
         return self._ranges
 
     @property
     def bold(self):
-        """I'm the 'x' property."""
         return self._bold
 
     @property
     def warnings(self):
-        """I'm the 'x' property."""
         return self._warnings
-
-    @property
-    def speech(self):
-        """I'm the 'x' property."""
-        return self._speech
-
-    @speech.setter
-    def speech(self, value):
-        #print("setter of x called")
-        self._speech = value
 
     @ranges.setter
     def ranges(self, value):
-        #print("setter of x called")
         self._ranges = value
 
     @bold.setter
     def bold(self, value):
-        #print("setter of x called")
         self._bold = value
 
     @warnings.setter
     def warnings(self, value):
-        #print("setter of x called")
         self._warnings = value
 
 if __name__ == "__main__":
