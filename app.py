@@ -31,24 +31,22 @@ def getSpecs(req):
 
 def parse(api_response):
     information = info()
-    # information.ranges = re.findall(r'range:(.*?)</font>', info)
-    # stats = re.search('Your aquarium filtration.*\\.', info)
-    # information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
-    #
-    # filtCap = information.bold[0][:-1]
-    #
-    # information.warnings = re.findall(r'<li>(.*?)</li>', info)
-    # for warning in information.warnings:
-    #     warning = re.sub(r'<.*?>', '', warning)
+    information.ranges = re.findall(r'range:(.*?)</font>', api_response)
+    stats = re.search('Your aquarium filtration.*\\.', api_response)
+    information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
 
-    #speech = "You have " + information.warnings.length " warnings."
+    filtCap = information.bold[0][:-1]
 
-    information.speech = "hello"
+    information.warnings = re.findall(r'<li>(.*?)</li>', info)
+    for warning in information.warnings:
+        warning = re.sub(r'<.*?>', '', warning)
+
+    speech = "You have " + information.warnings.length " warnings."
 
     return {
-        "speech": "speech",
-        "displayText": "speech",
-        "data": information.speech,
+        "speech": speech,
+        "displayText": speech,
+        "data": api_response,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
