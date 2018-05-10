@@ -41,7 +41,7 @@ def parse(api_response):
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
 
-    speech = "You have " + information.warnings.length " warnings."
+    speech = "You have " + len(information.warnings) " warnings."
 
     return {
         "speech": speech,
