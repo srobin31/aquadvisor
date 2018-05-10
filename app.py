@@ -29,7 +29,7 @@ def getSpecs(req):
     stocking_stats = t.get_stocking_level()
     return parse(stocking_stats)
 
-def parse(info):
+def parse(api_response):
     information = info()
     # information.ranges = re.findall(r'range:(.*?)</font>', info)
     # stats = re.search('Your aquarium filtration.*\\.', info)
