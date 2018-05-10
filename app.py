@@ -116,7 +116,7 @@ class info(object):
         return self._speech
 
     @speech.setter
-    def ranges(self, value):
+    def speech(self, value):
         #print("setter of x called")
         self._speech = value
 
@@ -126,7 +126,7 @@ class info(object):
         self._ranges = value
 
     @bold.setter
-    def ranges(self, value):
+    def bold(self, value):
         #print("setter of x called")
         self._bold = value
 
