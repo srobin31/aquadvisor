@@ -100,19 +100,19 @@ def getRanges():
         "source": "rocky-lowlands-15066"
     }
 
-def getStats():
-    b = information.bold
-    #filtCap = b[0][:-1]
-    #speech = b[1] + "."
-    #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
-    #speech += filtCapHelp(int(filtCap))
-    return {
-        "speech": "speech",
-        "displayText": "speech",
-        "data": b,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+# def getStats():
+#     b = information.bold
+#     #filtCap = b[0][:-1]
+#     #speech = b[1] + "."
+#     #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
+#     #speech += filtCapHelp(int(filtCap))
+#     return {
+#         "speech": "speech",
+#         "displayText": "speech",
+#         "data": b,
+#         "contextOut": [],
+#         "source": "rocky-lowlands-15066"
+#     }
 
 def filtCapHelp(filtCap):
     speech = ""
