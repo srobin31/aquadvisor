@@ -48,7 +48,7 @@ def webhook():
     elif action == "getRanges":
         res = getRanges()
     elif action == "getStats":
-        res = getStats(req)
+        res = getStats()
     # elif action == "getWarnings":
     #     res = getWarnings(req)
     else:
