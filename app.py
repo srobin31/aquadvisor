@@ -104,9 +104,9 @@ def getRanges():
 
 def getStats():
     b = information.bold
-    filtCap = b[0][:-1]
+    #filtCap = b[0][:-1]
     speech = b[1]
-    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
+    #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
     #speech += filtCapHelp(int(filtCap))
     return {
         "speech": speech,
