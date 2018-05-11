@@ -61,7 +61,7 @@ def parse(api_response):
 
 def getRanges(req):
     ranges = info.ranges
-    speech = "Your recommended temperature range is" + info.ranges[0] + ".\nYour recommended pH range is " + info.ranges[1] "."
+    speech = "Your recommended temperature range is" + ranges[0] + ".\nYour recommended pH range is " + ranges[1] "."
     return {
         "speech": speech,
         "displayText": speech,
