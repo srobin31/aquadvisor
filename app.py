@@ -45,12 +45,12 @@ def webhook():
 
     if action == "callApi":
         res = callApi(req)
-    elif action == "getRanges":
-        res = getRanges()
-    elif action == "getStats":
-        res = getStats(req)
-    elif action == "getWarnings":
-        res = getWarnings(req)
+    # elif action == "getRanges":
+    #     res = getRanges()
+    # elif action == "getStats":
+    #     res = getStats(req)
+    # elif action == "getWarnings":
+    #     res = getWarnings(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -91,16 +91,16 @@ def parse(api_response):
         "source": "rocky-lowlands-15066"
     }
 
-def getRanges():
-    r = information.ranges
-    speech = "Your recommended temperature range is" + r[0] + ".\nYour recommended pH range is " + r[1] "."
-    return {
-        "speech": speech,
-        "displayText": speech,
-        "data": ranges,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+# def getRanges():
+#     r = information.ranges
+#     speech = "Your recommended temperature range is" + r[0] + ".\nYour recommended pH range is " + r[1] "."
+#     return {
+#         "speech": speech,
+#         "displayText": speech,
+#         "data": ranges,
+#         "contextOut": [],
+#         "source": "rocky-lowlands-15066"
+#     }
 
 def filtCapHelp(filtCap, speech):
     if filtCap < 90:
