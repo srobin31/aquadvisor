@@ -102,7 +102,22 @@ def getRanges():
         "source": "rocky-lowlands-15066"
     }
 
-def filtCapHelp(filtCap, speech):
+def getStats():
+    b = information.bold
+    filtCap = b[0][:-1]
+    speech = b[1]
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
+    speech += filtCapHelp(int(filtCap))
+    return {
+        "speech": speech,
+        "displayText": speech,
+        "data": b,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
+
+def filtCapHelp(filtCap):
+    speech = ""
     if filtCap < 90:
         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
     elif filtCap > 90 and filtCap < 110:
