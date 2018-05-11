@@ -9,8 +9,16 @@ app = Flask(__name__, static_url_path = "")
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-    if req.get("result").get("action") == "getSpecs":
+    action = req.get("result").get("action")
+
+    if action == "callApi":
         res = getSpecs(req)
+    elif action == "getRanges":
+        res = getRanges(req)
+    elif action == "getStats":
+        res = getStats(req)
+    elif action == "getWarnings":
+        res = getWarnings(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -37,17 +45,27 @@ def parse(api_response):
 
     filtCap = information.bold[0][:-1]
 
-    information.warnings = "hello"
     information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
 
-    speech = "Say \"ranges\" for your recommended temperature and pH ranges.\nSay \"stats\" for your stocking level and filtration capacity.\nWe also found " + str(len(information.warnings)) + " warnings. Say warnings to see them."
+    speech = "Say \"ranges\" for your recommended temperature and pH ranges.\nSay \"stats\" for your stocking level and filtration capacity.\nWe also found " + str(len(information.warnings)) + " warnings. Say \"warnings\" to see them."
 
     return {
         "speech": speech,
         "displayText": speech,
         "data": api_response,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
+
+def getRanges(req):
+    ranges = info.ranges
+    speech = "Your recommended temperature range is" + info.ranges[0] + ".\nYour recommended pH range is " + info.ranges[1] "."
+    return {
+        "speech": speech,
+        "displayText": speech,
+        "data": ranges,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
@@ -67,7 +85,6 @@ class info():
         self._ranges = None
         self._bold = None
         self._warnings = None
-        self._speech = None
 
     @property
     def ranges(self):
