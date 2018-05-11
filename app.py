@@ -75,8 +75,6 @@ def parse(api_response):
     stats = re.search('Your aquarium filtration.*\\.', api_response)
     information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
 
-    filtCap = information.bold[0][:-1]
-
     information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
@@ -105,12 +103,12 @@ def getRanges():
 def getStats():
     b = information.bold
     #filtCap = b[0][:-1]
-    speech = b[1] + "."
+    #speech = b[1] + "."
     #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
     #speech += filtCapHelp(int(filtCap))
     return {
-        "speech": speech,
-        "displayText": speech,
+        "speech": "speech",
+        "displayText": "speech",
         "data": b,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
