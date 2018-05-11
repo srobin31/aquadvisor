@@ -12,7 +12,7 @@ def webhook():
     action = req.get("result").get("action")
 
     if action == "callApi":
-        res = getSpecs(req)
+        res = callApi(req)
     elif action == "getRanges":
         res = getRanges(req)
     elif action == "getStats":
@@ -26,7 +26,7 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return res
 
-def getSpecs(req):
+def callApi(req):
     fishList = req.get("result").get("parameters").get("fishnum")
     stocking = Stocking()
     for fish in fishList:
