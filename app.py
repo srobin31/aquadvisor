@@ -45,8 +45,8 @@ def webhook():
 
     if action == "callApi":
         res = callApi(req)
-    # elif action == "getRanges":
-    #     res = getRanges()
+    elif action == "getRanges":
+        res = getRanges()
     # elif action == "getStats":
     #     res = getStats()
     # elif action == "getWarnings":
@@ -88,16 +88,16 @@ def parse(api_response):
         "source": "rocky-lowlands-15066"
     }
 
-# def getRanges():
-#     r = information.ranges
-#     speech = "Your recommended temperature range is" + str(r[0]) + ".\nYour recommended pH range is " + str(r[1]) "."
-#     return {
-#         "speech": speech,
-#         "displayText": speech,
-#         "data": r,
-#         "contextOut": [],
-#         "source": "rocky-lowlands-15066"
-#     }
+def getRanges():
+    r = information.ranges
+    speech = "Your recommended temperature range is" + str(r[0]) + ".\nYour recommended pH range is " + str(r[1]) "."
+    return {
+        "speech": speech,
+        "displayText": speech,
+        "data": r,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
 
 # def getStats():
 #     b = information.bold
