@@ -103,9 +103,9 @@ def getStats():
     b = information.bold
     filtCap = b[0][:-1]
     speech = b[1] + "."
-    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%."
     data = filtCapHelp(int(filtCap))
-    #speech += filtCapHelp(int(filtCap))
+    speech += " " + filtCapHelp(int(filtCap))
     return {
         "speech": speech,
         "displayText": speech,
