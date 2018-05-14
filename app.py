@@ -74,16 +74,19 @@ def parse(api_response):
     stats = re.search('Your aquarium filtration.*\\.', api_response)
     information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
 
+    data = ""
     information.warnings = re.findall(r'<li>(.*?)</li>', api_response)
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
+        data += ""+warning
+
 
     speech = "Say \"ranges\" for your recommended temperature and pH ranges.\nSay \"stats\" for your stocking level and filtration capacity.\nWe also found " + str(len(information.warnings)) + " warnings. Say \"warnings\" to see them."
 
     return {
         "speech": speech,
         "displayText": speech,
-        "data": information.warnings,
+        "data": data,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
