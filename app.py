@@ -83,7 +83,7 @@ def parse(api_response):
     return {
         "speech": speech,
         "displayText": speech,
-        "data": api_response,
+        "data": information.warnings,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
@@ -117,7 +117,7 @@ def getWarnings():
     w = information.warnings
     speech = ""
     for warning in w:
-        speech += warning
+        speech += "" + warning
         speech += "\n"
     return {
         "speech": speech,
