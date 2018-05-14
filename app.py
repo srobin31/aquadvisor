@@ -106,8 +106,8 @@ def getStats():
     #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
     #speech += filtCapHelp(int(filtCap))
     return {
-        "speech": "speech",
-        "displayText": "speech",
+        "speech": speech,
+        "displayText": speech,
         "data": b,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
