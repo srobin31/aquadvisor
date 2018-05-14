@@ -49,8 +49,8 @@ def webhook():
         res = getRanges()
     elif action == "getStats":
         res = getStats()
-    # elif action == "getWarnings":
-    #     res = getWarnings(req)
+    elif action == "getWarnings":
+        res = getWarnings()
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -104,12 +104,24 @@ def getStats():
     filtCap = b[0][:-1]
     speech = b[1] + "."
     speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%."
-    data = filtCapHelp(int(filtCap))
     speech += " " + filtCapHelp(int(filtCap))
     return {
         "speech": speech,
         "displayText": speech,
-        "data": data,
+        "data": b,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
+
+def getWarnings():
+    w = information.warnings
+    speech = ""
+    for warnings in w:
+        speech += warning + "\n"
+    return {
+        "speech": speech,
+        "displayText": speech,
+        "data": w,
         "contextOut": [],
         "source": "rocky-lowlands-15066"
     }
