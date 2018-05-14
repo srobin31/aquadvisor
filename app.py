@@ -103,8 +103,8 @@ def getStats():
     b = information.bold
     filtCap = b[0][:-1]
     speech = b[1] + "."
-    #speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
-    #speech += filtCapHelp(int(filtCap))
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. "
+    speech += filtCapHelp(int(filtCap))
     return {
         "speech": speech,
         "displayText": speech,
@@ -113,16 +113,16 @@ def getStats():
         "source": "rocky-lowlands-15066"
     }
 
-# def filtCapHelp(filtCap):
-#     speech = ""
-#     if filtCap < 90:
-#         speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
-#     elif filtCap > 90 and filtCap < 110:
-#         speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
-#     else:
-#         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
-#
-#     return speech
+def filtCapHelp(filtCap):
+    speech = ""
+    if filtCap < 90:
+        speech += "Because your filtration capacity is less than 90%, we recommend that you get a more powerful filter."
+    elif filtCap > 90 and filtCap < 110:
+        speech += "Because your filtration capacity is around 100%, you have an okay filter. If you add more fish, we recommend upgrading to a stronger filter."
+    else:
+        speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
+
+    return speech
 
 if __name__ == "__main__":
 	port = 9001
