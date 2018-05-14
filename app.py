@@ -117,7 +117,8 @@ def getWarnings():
     w = information.warnings
     speech = ""
     for warning in w:
-        speech += warning + "\n"
+        speech += warning
+        speech += "\n"
     return {
         "speech": speech,
         "displayText": speech,
