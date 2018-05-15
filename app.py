@@ -5,6 +5,36 @@ import json
 
 app = Flask(__name__, static_url_path = "")
 
+class tankInfo():
+    def __init__(self):
+        self._size = None
+        self._filter = None
+        self._stocking = None
+
+    @property
+    def size(self):
+        return self._size
+
+    @property
+    def filter(self):
+        return self._filter
+
+    @property
+    def stocking(self):
+        return self._stocking
+
+    @size.setter
+    def size(self, value):
+        self._size = value
+
+    @filter.setter
+    def filter(self, value):
+        self._filter = value
+
+    @stocking.setter
+    def stocking(self, value):
+        self._stocking = value
+
 class info():
     def __init__(self):
         self._ranges = None
@@ -35,6 +65,7 @@ class info():
     def warnings(self, value):
         self._warnings = value
 
+myTank = tankInfo()
 information = info()
 
 @app.route('/webhook', methods=['POST'])
@@ -60,12 +91,14 @@ def webhook():
 
 def callApi(req):
     fishList = req.get("result").get("parameters").get("fishnum")
-    stocking = Stocking()
+    myStocking = Stocking()
     for fish in fishList:
-        stocking.add(fish.get("fish"), fish.get("number"))
-    tankSize = req.get("result").get("parameters").get("gallons")
-    tankFilter = req.get("result").get("parameters").get("filter")
-    t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
+        myStocking.add(fish.get("fish"), fish.get("number"))
+    myTank.stocking = myStocking
+
+    myTank.size = req.get("result").get("parameters").get("gallons")
+    myTank.filter = req.get("result").get("parameters").get("filter")
+    t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
     api_response = t.get_stocking_level()
     return parse(api_response)
 
