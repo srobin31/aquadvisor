@@ -66,6 +66,7 @@ class info():
         self._warnings = value
 
 myTank = tankInfo()
+myStocking = Stocking()
 information = info()
 
 @app.route('/webhook', methods=['POST'])
@@ -82,6 +83,8 @@ def webhook():
         res = getStats()
     elif action == "getWarnings":
         res = getWarnings()
+    elif action == "addFish":
+        res = callApi(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -91,7 +94,6 @@ def webhook():
 
 def callApi(req):
     fishList = req.get("result").get("parameters").get("fishnum")
-    myStocking = Stocking()
     for fish in fishList:
         myStocking.add(fish.get("fish"), fish.get("number"))
     myTank.stocking = myStocking
