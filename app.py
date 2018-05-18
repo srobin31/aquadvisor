@@ -84,7 +84,7 @@ def webhook():
     elif action == "getWarnings":
         res = getWarnings()
     elif action == "addFish":
-        res = callApi(req)
+        res = addFish(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -100,6 +100,16 @@ def callApi(req):
 
     myTank.size = req.get("result").get("parameters").get("gallons")
     myTank.filter = req.get("result").get("parameters").get("filter")
+    t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
+    api_response = t.get_stocking_level()
+    return parse(api_response)
+
+def addFish(req):
+    fishList = req.get("result").get("parameters").get("fishnum")
+    for fish in fishList:
+        myStocking.add(fish.get("fish"), fish.get("number"))
+    myTank.stocking = myStocking
+
     t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
     api_response = t.get_stocking_level()
     return parse(api_response)
