@@ -65,6 +65,8 @@ class info():
     def warnings(self, value):
         self._warnings = value
 
+information = info()
+
 @app.route('/webhook', methods=['POST'])
 def webhook():
     req = request.get_json(silent=True, force=True)
@@ -114,8 +116,6 @@ def callApi(req):
 #     return parse(api_response)
 
 def parse(api_response):
-    information = info()
-
     information.ranges = re.findall(r'range:(.*?)</font>', api_response)
     stats = re.search('Your aquarium filtration.*\\.', api_response)
     information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
