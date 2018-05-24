@@ -83,8 +83,8 @@ def webhook():
         res = getStats()
     elif action == "getWarnings":
         res = getWarnings()
-    elif action == "addFish":
-        res = addFish(req)
+    # elif action == "addFish":
+    #     res = addFish(req)
     else:
         res = {}
     res = json.dumps(res, indent=4)
@@ -104,15 +104,15 @@ def callApi(req):
     api_response = t.get_stocking_level()
     return parse(api_response)
 
-def addFish(req):
-    fishList = req.get("result").get("parameters").get("fishnum")
-    for fish in fishList:
-        myStocking.add(fish.get("fish"), fish.get("number"))
-    myTank.stocking = myStocking
-
-    t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
-    api_response = t.get_stocking_level()
-    return parse(api_response)
+# def addFish(req):
+#     fishList = req.get("result").get("parameters").get("fishnum")
+#     for fish in fishList:
+#         myStocking.add(fish.get("fish"), fish.get("number"))
+#     myTank.stocking = myStocking
+#
+#     t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
+#     api_response = t.get_stocking_level()
+#     return parse(api_response)
 
 def parse(api_response):
     information.ranges = re.findall(r'range:(.*?)</font>', api_response)
@@ -122,38 +122,19 @@ def parse(api_response):
 
     speech = "Say \"ranges\" for your recommended temperature and pH ranges.\nSay \"stats\" for your stocking level and filtration capacity.\nWe also found " + str(len(information.warnings)) + " warnings. Say \"warnings\" to see them."
 
-    return {
-        "speech": speech,
-        "displayText": speech,
-        "data": api_response,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+    return makeJson(speech, api_response)
 
 def getRanges():
     r = information.ranges
     speech = "Your recommended temperature range is" + str(r[0]) + "\nYour recommended pH range is " + str(r[1])
-    return {
-        "speech": speech,
-        "displayText": speech,
-        "data": r,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+    return makeJson(speech, r)
 
 def getStats():
     b = information.bold
     filtCap = b[0][:-1]
-    speech = b[1] + "."
-    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%."
-    speech += " " + filtCapHelp(int(filtCap))
-    return {
-        "speech": speech,
-        "displayText": speech,
-        "data": b,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+    speech = b[2] + "."
+    speech += "\n\nYour aquarium filtration capacity is " + filtCap + "%. " + filtCapHelp(int(filtCap))
+    return makeJson(speech, b)
 
 def getWarnings():
     w = information.warnings
@@ -161,13 +142,7 @@ def getWarnings():
     for warning in information.warnings:
         warning = re.sub(r'<.*?>', '', warning)
         speech += ""+warning+"\n"
-    return {
-        "speech": speech,
-        "displayText": speech,
-        "data": w,
-        "contextOut": [],
-        "source": "rocky-lowlands-15066"
-    }
+    return makeJson(speech, w)
 
 def filtCapHelp(filtCap):
     speech = ""
@@ -179,6 +154,15 @@ def filtCapHelp(filtCap):
         speech += "Because your filtration capacity is above 110%, you're in good shape. However, you'll want to check again if you add more fish."
 
     return speech
+
+def makeJson(speech, data):
+    return {
+        "speech": speech,
+        "displayText": speech,
+        "data": data,
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
 
 if __name__ == "__main__":
 	port = 9001
