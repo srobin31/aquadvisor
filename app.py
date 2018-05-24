@@ -72,7 +72,6 @@ def webhook():
     action = req.get("result").get("action")
 
     if action == "callApi":
-        makeObjects()
         res = callApi(req)
     elif action == "getRanges":
         res = getRanges()
@@ -90,7 +89,7 @@ def webhook():
     return res
 
 def callApi(req):
-    mymyTank = tankInfo()
+    myTank = tankInfo()
     myStocking = Stocking()
 
     fishList = req.get("result").get("parameters").get("fishnum")
