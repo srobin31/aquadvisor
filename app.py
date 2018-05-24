@@ -65,10 +65,6 @@ class info():
     def warnings(self, value):
         self._warnings = value
 
-myTank = tankInfo()
-myStocking = Stocking()
-information = info()
-
 @app.route('/webhook', methods=['POST'])
 def webhook():
     req = request.get_json(silent=True, force=True)
@@ -76,6 +72,7 @@ def webhook():
     action = req.get("result").get("action")
 
     if action == "callApi":
+        makeObjects()
         res = callApi(req)
     elif action == "getRanges":
         res = getRanges()
@@ -93,6 +90,9 @@ def webhook():
     return res
 
 def callApi(req):
+    mymyTank = tankInfo()
+    myStocking = Stocking()
+
     fishList = req.get("result").get("parameters").get("fishnum")
     for fish in fishList:
         myStocking.add(fish.get("fish"), fish.get("number"))
@@ -115,6 +115,8 @@ def callApi(req):
 #     return parse(api_response)
 
 def parse(api_response):
+    information = info()
+
     information.ranges = re.findall(r'range:(.*?)</font>', api_response)
     stats = re.search('Your aquarium filtration.*\\.', api_response)
     information.bold = re.findall(r'<b>(.*?)</b>', stats.group(0))
