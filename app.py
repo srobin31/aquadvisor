@@ -97,11 +97,11 @@ def callApi(req):
     fishList = req.get("result").get("parameters").get("fishnum")
     for fish in fishList:
         myStocking.add(fish.get("fish"), fish.get("number"))
-    myTank.stocking = myStocking
+    stocking = myStocking
 
-    myTank.size = req.get("result").get("parameters").get("gallons")
-    myTank.filter = req.get("result").get("parameters").get("filter")
-    t = Tank(myTank.size).add_filter(myTank.filter).add_stocking(myTank.stocking)
+    size = req.get("result").get("parameters").get("gallons")
+    filter = req.get("result").get("parameters").get("filter")
+    t = Tank(size).add_filter(filter).add_stocking(stocking)
     api_response = t.get_stocking_level()
     return parse(api_response)
 
