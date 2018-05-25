@@ -92,7 +92,7 @@ def webhook():
 
 def callApi(req):
     # myTank = tankInfo()
-    myStocking = Stocking()
+    stocking = Stocking()
 
     fishList = req.get("result").get("parameters").get("fishnum")
     for fish in fishList:
