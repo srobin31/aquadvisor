@@ -5,35 +5,35 @@ import json
 
 app = Flask(__name__, static_url_path = "")
 
-class tankInfo():
-    def __init__(self):
-        self._size = None
-        self._filter = None
-        self._stocking = None
-
-    @property
-    def size(self):
-        return self._size
-
-    @property
-    def filter(self):
-        return self._filter
-
-    @property
-    def stocking(self):
-        return self._stocking
-
-    @size.setter
-    def size(self, value):
-        self._size = value
-
-    @filter.setter
-    def filter(self, value):
-        self._filter = value
-
-    @stocking.setter
-    def stocking(self, value):
-        self._stocking = value
+# class tankInfo():
+#     def __init__(self):
+#         self._size = None
+#         self._filter = None
+#         self._stocking = None
+#
+#     @property
+#     def size(self):
+#         return self._size
+#
+#     @property
+#     def filter(self):
+#         return self._filter
+#
+#     @property
+#     def stocking(self):
+#         return self._stocking
+#
+#     @size.setter
+#     def size(self, value):
+#         self._size = value
+#
+#     @filter.setter
+#     def filter(self, value):
+#         self._filter = value
+#
+#     @stocking.setter
+#     def stocking(self, value):
+#         self._stocking = value
 
 class info():
     def __init__(self):
@@ -91,7 +91,7 @@ def webhook():
     return res
 
 def callApi(req):
-    myTank = tankInfo()
+    # myTank = tankInfo()
     myStocking = Stocking()
 
     fishList = req.get("result").get("parameters").get("fishnum")
