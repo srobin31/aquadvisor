@@ -96,8 +96,7 @@ def callApi(req):
 
     fishList = req.get("result").get("parameters").get("fishnum")
     for fish in fishList:
-        myStocking.add(fish.get("fish"), fish.get("number"))
-    stocking = myStocking
+        stocking.add(fish.get("fish"), fish.get("number"))
 
     tankSize = req.get("result").get("parameters").get("gallons")
     tankFilter = req.get("result").get("parameters").get("filter")
