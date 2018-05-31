@@ -10,16 +10,6 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "confirm-tank-stats",
-          "parameters": {},
-          "lifespan": 0
-        },
-        {
-          "name": "stocking-plan",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
           "name": "decorations",
           "parameters": {},
           "lifespan": 0
@@ -36,6 +26,11 @@
           "type": 0,
           "lang": "en",
           "speech": "In order for us to move forward, here\u0027s what we\u0027re going to need to do."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Start by reading these links about setting up your aquarium and cycling it. Cycling is a crucial part of maintaining a healthy environment for your fish.: \nhttps://aquariuminfo.org/beginner.html\nhttps://aquariuminfo.org/cycling.html"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -45,7 +40,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1520613827,
+  "lastUpdate": 1524831313,
   "fallbackIntent": false,
   "events": []
 }

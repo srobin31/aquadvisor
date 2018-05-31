@@ -1,0 +1,49 @@
+{
+  "id": "efc4e434-ebe7-4020-a5c2-8602790bf207",
+  "parentId": "48876c83-2125-47e4-9db3-72f3eac04ad4",
+  "rootParentId": "48876c83-2125-47e4-9db3-72f3eac04ad4",
+  "name": "I have a question - Feeding",
+  "auto": true,
+  "contexts": [
+    "question",
+    "Ihaveaquestion-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Ihaveaquestion.Ihaveaquestion-custom",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "966d58a9-f724-4ef8-b89d-61ab1a6e444b",
+          "required": false,
+          "dataType": "@feeding",
+          "name": "feeding",
+          "value": "$feeding",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is best to give your fish two or three small feedings per day. Only give an amount of food that the fish can eat in 2 minutes or less."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527121815,
+  "fallbackIntent": false,
+  "events": []
+}

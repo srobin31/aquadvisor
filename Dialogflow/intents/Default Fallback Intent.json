@@ -31,7 +31,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "I\u0027m only interested in helping you with your aquarium."
+          "speech": []
         }
       ],
       "defaultResponsePlatforms": {},
@@ -41,6 +41,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
+  "lastUpdate": 1526300343,
   "fallbackIntent": true,
   "events": []
 }

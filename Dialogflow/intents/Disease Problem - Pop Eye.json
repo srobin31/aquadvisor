@@ -1,0 +1,54 @@
+{
+  "id": "f6770cde-572f-41cb-a3f4-68368ac6c036",
+  "parentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "rootParentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "name": "Disease Problem - Pop Eye",
+  "auto": true,
+  "contexts": [
+    "DiseaseProblem-followup",
+    "disease_description"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DiseaseProblem.DiseaseProblem-custom",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3c82dcc1-035b-456d-ab5a-34397c13ab1c",
+          "required": false,
+          "dataType": "@popEye",
+          "name": "popEye",
+          "value": "$popEye",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seems like your fish is suffering from pop eye."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Read about pop eye and its treatments here: https://www.thesprucepets.com/pop-eye-symptoms-and-cure-1379917"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119497,
+  "fallbackIntent": false,
+  "events": []
+}

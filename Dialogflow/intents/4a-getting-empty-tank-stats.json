@@ -31,13 +31,9 @@
           "id": "ab74ab15-9f6d-4122-8ce6-9e26aa2f7739",
           "required": true,
           "dataType": "@filter",
-          "name": "filter-used",
-          "value": "$filter-used",
+          "name": "filter-1",
+          "value": "$filter-1",
           "prompts": [
-            {
-              "lang": "en",
-              "value": "In order to move forward, you need to tell me what filter you will be using,"
-            },
             {
               "lang": "en",
               "value": "What kind of filter will you be using?"
@@ -64,7 +60,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Fantastic! So we\u0027re looking to start a $gallon fish tank with a $filter-used filter."
+          "speech": "Fantastic! So we\u0027re looking to start a $gallon fish tank with a $filter-1 filter."
         },
         {
           "type": 0,
@@ -79,7 +75,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1520257480,
+  "lastUpdate": 1523622482,
   "fallbackIntent": false,
   "events": []
 }

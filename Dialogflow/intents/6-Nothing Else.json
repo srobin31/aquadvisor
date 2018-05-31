@@ -1,0 +1,36 @@
+{
+  "id": "40f26f7c-e864-4987-8f14-49e56781c4de",
+  "name": "6-Nothing Else",
+  "auto": true,
+  "contexts": [
+    "anythingElse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "anythingElse",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, I\u0027m glad I was able to help. Come back and talk if you ever have anymore questions!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527118427,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3625e409-38ad-47d0-b33a-bb4dd8e9f68e",
+  "name": "5B-Get Ranges",
+  "auto": true,
+  "contexts": [
+    "continue"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getRanges",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "please try again"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526041057,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "giveRanges"
+    }
+  ]
+}

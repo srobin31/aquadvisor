@@ -1,0 +1,64 @@
+{
+  "id": "9f3cdcc9-efab-4f21-bc66-89b2d9669fbf",
+  "parentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "rootParentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "name": "Disease Problem - dropsy",
+  "auto": true,
+  "contexts": [
+    "DiseaseProblem-followup",
+    "disease_description"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DiseaseProblem.DiseaseProblem-custom",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "102a1183-7319-4ae9-82a1-9d777306d3d5",
+          "required": false,
+          "dataType": "@dropsy",
+          "name": "dropsy",
+          "value": "$dropsy",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Alright so there\u0027s a chance that you\u0027re fish may have dropsy. However, it could also be pregnant."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I want you to take a good look at your fish from all angles and see if its scales are sticking out similar to a pinecone. Remember that if the fish is a livebearer such as a guppy or platy it may be pregnant."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here\u0027s a video to explain how to identify dropsy: https://www.youtube.com/watch?v\u003dCNgyz-GRXok\nIf it is dropsy try feeding the fish a piece of cooked pea with the outer shell removed."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Read about dropsy here: http://www.tropicalfishsite.com/dropsy-fish-disease/"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119484,
+  "fallbackIntent": false,
+  "events": []
+}

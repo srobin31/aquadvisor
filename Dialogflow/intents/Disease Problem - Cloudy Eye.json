@@ -1,0 +1,59 @@
+{
+  "id": "50270b7a-c444-4419-b572-9e597f505593",
+  "parentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "rootParentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "name": "Disease Problem - Cloudy Eye",
+  "auto": true,
+  "contexts": [
+    "DiseaseProblem-followup",
+    "disease_description"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DiseaseProblem.DiseaseProblem-custom-2",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "19dd6b91-88ce-439e-a592-225ef2f97ff5",
+          "required": false,
+          "dataType": "@cloudyEye",
+          "name": "cloudyEye",
+          "value": "$cloudyEye",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It looks like your fish has cloudy eye. This could be a result of water quality. You may need to raise the pH in your aquarium through water changes and pH supplements."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Read about cloudy eye in the following links\nhttps://www.petcha.com/fish-cloudy-eyes/\nhttp://www.tropicalfishsite.com/cloudy-eye-fish-disease/"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here is a link to a water testing kit: https://www.amazon.com/API-FRESHWATER-800-Test-Freshwater-Aquarium/dp/B000255NCI\nYou may also be able to get a free water test at your local fish store."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119526,
+  "fallbackIntent": false,
+  "events": []
+}

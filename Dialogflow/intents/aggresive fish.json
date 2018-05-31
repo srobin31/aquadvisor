@@ -1,0 +1,28 @@
+{
+  "id": "cc2ddd7d-f1c9-46a3-b0c0-1c81d530b851",
+  "name": "aggresive fish",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119785,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ef66a7b8-546d-4797-88f5-010a20e9b2c0",
+  "name": "5AA -  Warnings",
+  "auto": true,
+  "contexts": [
+    "warnings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "warnings",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525695647,
+  "fallbackIntent": false,
+  "events": []
+}

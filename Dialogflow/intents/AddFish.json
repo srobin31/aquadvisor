@@ -1,21 +1,15 @@
 {
-  "id": "1ceae21a-d082-4235-8b02-be1a036cb487",
-  "name": "6-more fish",
+  "id": "23d12421-4045-4a3e-bd3f-ef9d1cc2cc94",
+  "name": "AddFish",
   "auto": true,
-  "contexts": [
-    "morefish"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [
         {
-          "name": "morefish",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
-          "name": "fish2",
+          "name": "moreFish",
           "parameters": {},
           "lifespan": 5
         }
@@ -25,7 +19,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Great! Please list in the same way was as before."
+          "speech": "What fish would you like to add?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -35,7 +29,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1520612760,
+  "lastUpdate": 1526560484,
   "fallbackIntent": false,
   "events": []
 }

@@ -23,6 +23,11 @@
           "name": "filled",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "yes-fish",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -45,7 +50,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1518442234,
+  "lastUpdate": 1523966943,
   "fallbackIntent": false,
   "events": []
 }

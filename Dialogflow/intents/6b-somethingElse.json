@@ -1,29 +1,23 @@
 {
-  "id": "0f6d0091-44a7-4de7-8ac0-d187e42f7423",
-  "name": "incorrect-tank-stats",
+  "id": "55e67b1a-fbbc-468e-ae06-5c3c089f3f89",
+  "name": "6b-somethingElse",
   "auto": true,
   "contexts": [
-    "confirm-tank-stats",
-    "correct-specs"
+    "anythingElse"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "confirm-tank-stats",
+          "name": "anythingElse",
           "parameters": {},
           "lifespan": 0
         },
         {
-          "name": "fish-type",
+          "name": "wantToKnow",
           "parameters": {},
-          "lifespan": 0
-        },
-        {
-          "name": "correct-specs",
-          "parameters": {},
-          "lifespan": 0
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -31,7 +25,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Ok, so I will need you to give me the correct tank size and filter being used."
+          "speech": "Alright, what do you want to know?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -41,7 +35,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1511840844,
+  "lastUpdate": 1527125948,
   "fallbackIntent": false,
   "events": []
 }

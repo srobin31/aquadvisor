@@ -1,0 +1,104 @@
+[
+  {
+    "id": "15c80ac2-12fc-458d-be5f-4d49060cf324",
+    "data": [
+      {
+        "text": "best ",
+        "userDefined": false
+      },
+      {
+        "text": "feeding",
+        "alias": "feeding",
+        "meta": "@feeding",
+        "userDefined": false
+      },
+      {
+        "text": " schedule",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527119182
+  },
+  {
+    "id": "4e494d19-5ea4-43ea-8b04-fd2a5250217b",
+    "data": [
+      {
+        "text": "how times do they need to ",
+        "userDefined": false
+      },
+      {
+        "text": "eat",
+        "alias": "feeding",
+        "meta": "@feeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527119182
+  },
+  {
+    "id": "03a4d7be-29f5-4040-999a-4e5efb9506e4",
+    "data": [
+      {
+        "text": "how many times a day do the fish need to ",
+        "userDefined": false
+      },
+      {
+        "text": "eat",
+        "alias": "feeding",
+        "meta": "@feeding",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527119182
+  },
+  {
+    "id": "0a96af89-8ef9-4350-9d26-1e08251d391b",
+    "data": [
+      {
+        "text": "How often should I ",
+        "userDefined": false
+      },
+      {
+        "text": "feed",
+        "alias": "feeding",
+        "meta": "@feeding",
+        "userDefined": true
+      },
+      {
+        "text": " my tropical fish?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527119182
+  },
+  {
+    "id": "a58c15fe-6508-4d68-866f-bed71d527d4d",
+    "data": [
+      {
+        "text": "how often should I ",
+        "userDefined": false
+      },
+      {
+        "text": "feed",
+        "alias": "feeding",
+        "meta": "@feeding",
+        "userDefined": true
+      },
+      {
+        "text": " my fish",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1527119182
+  }
+]

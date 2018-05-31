@@ -1,0 +1,46 @@
+{
+  "id": "ebb098fd-92d5-48e3-bc9b-12dc642ce24c",
+  "name": "algaeIssue",
+  "auto": true,
+  "contexts": [
+    "wantToKnow"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wantToKnow",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Algae problems are infuriating and generally exist due to a number of reasons. There may be an unbalance of nutrients in the water, you might have too much lighting and not enough co2 and fertilizers, the plants can only consume these three in an equal ratio so having an off balance on one will lead to an algae outbreak."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Algae may also grow on slower growth plants like anubais and java fern. This is very common and manual removal of the algae is recommended. If you have constant algae problems and are near direct sunlight try to reduce this during the day as it will be a major contributor to the amount of algae. If you feed too much or put in too much fertilizer it will once again cause the imbalance and a rise in algae."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527127323,
+  "fallbackIntent": false,
+  "events": []
+}

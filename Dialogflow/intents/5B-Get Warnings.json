@@ -1,0 +1,41 @@
+{
+  "id": "6420ce49-b679-4e8b-bf45-9932c4a1ee45",
+  "name": "5B-Get Warnings",
+  "auto": true,
+  "contexts": [
+    "continue"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getWarnings",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526041286,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "giveWarnings"
+    }
+  ]
+}

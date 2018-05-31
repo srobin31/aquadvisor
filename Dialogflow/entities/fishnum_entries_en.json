@@ -1,0 +1,14 @@
+[
+  {
+    "value": "@sys.number-integer:number @species:fish",
+    "synonyms": [
+      "@sys.number-integer:number @species:fish"
+    ]
+  },
+  {
+    "value": "@species:fish @sys.number-integer:number\u0027",
+    "synonyms": [
+      "@species:fish @sys.number-integer:number\u0027"
+    ]
+  }
+]

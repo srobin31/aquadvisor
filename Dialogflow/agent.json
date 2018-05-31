@@ -1,20 +1,25 @@
 {
   "description": "Weather Test",
   "language": "en",
+  "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": false,
     "project": "weather-test-b5c40",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [],
+    "endIntentIds": [
+      "0fb8fe12-07f7-4c0a-8c0b-499cd456cb1b",
+      "40f26f7c-e864-4987-8f14-49e56781c4de"
+    ],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"
     },
     "voiceType": "MALE_1",
     "capabilities": [],
-    "protocolVersion": "V2"
+    "protocolVersion": "V2",
+    "isDeviceAgent": false
   },
   "defaultTimezone": "America/New_York",
   "webhook": {
@@ -31,5 +36,5 @@
   "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
   "supportedLanguages": [],
-  "enableOnePlatformApi": false
+  "onePlatformApiVersion": "v1legacy"
 }

@@ -1,6 +1,6 @@
 {
-  "id": "e5fd2538-e577-42e4-8061-fdfdd6ab1203",
-  "name": "1-Intro",
+  "id": "48876c83-2125-47e4-9db3-72f3eac04ad4",
+  "name": "I have a question",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -8,24 +8,22 @@
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "have-tank",
+          "name": "question",
           "parameters": {},
           "lifespan": 5
-        }
-      ],
-      "parameters": [
+        },
         {
-          "id": "e29c0339-b26e-43f6-8ae1-9158b0c5b734",
-          "dataType": "@sys.any",
-          "name": "start",
-          "value": "$start"
+          "name": "Ihaveaquestion-followup",
+          "parameters": {},
+          "lifespan": 2
         }
       ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
           "lang": "en",
-          "speech": "Hi, my name is Aqua. It\u0027s nice to meet you. Do you already own a fish tank?"
+          "speech": "What\u0027s your question?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -35,7 +33,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1525956045,
+  "lastUpdate": 1526043040,
   "fallbackIntent": false,
   "events": []
 }

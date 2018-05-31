@@ -1,0 +1,64 @@
+{
+  "id": "72fef7ca-5230-4a84-bbdc-20b8d84efb09",
+  "parentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "rootParentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "name": "Disease Problem - Ich",
+  "auto": true,
+  "contexts": [
+    "DiseaseProblem-followup",
+    "disease_description"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DiseaseProblem.DiseaseProblem-custom",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "69799cbb-d432-4f77-895d-60a5d20e9735",
+          "required": false,
+          "dataType": "@ich",
+          "name": "ich",
+          "value": "$ich",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It seems like your fish is experiencing ich."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "There are several ways to tackle this problem.\n1. Quarantine the fish in a separate aquarium and treat it until healed.\n2. Treat your entire aquarium to help decrease the risk of the infection spreading to other fish."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I recommend you buy this product to help treat ich along with various other possible diseases that can appear i your aquarium. \nhttps://www.amazon.com/Fritz-Aquatics-Mardel-Copper-16-Ounce/dp/B00OTH6914/ref\u003dsr_1_1?s\u003dpet-supplies\u0026ie\u003dUTF8\u0026qid\u003d1524838325\u0026sr\u003d1-1\u0026keywords\u003dCopperSafe%2B"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Read about ich here: https://www.thesprucepets.com/treat-ichthyophthirius-multifiliis-1378482"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119511,
+  "fallbackIntent": false,
+  "events": []
+}

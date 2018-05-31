@@ -1,39 +1,203 @@
 [
   {
-    "value": "lemon tetra",
+    "value": "african dwarf frog",
     "synonyms": [
-      "lemon tetra"
+      "african dwarf frog",
+      "water frog",
+      "water frogs",
+      "aquatic frog",
+      "aquatic frogs",
+      "albino water frog",
+      "albino water frogs",
+      "albino aquatic frog",
+      "albino aquatic frogs",
+      "albino african dwarf frog",
+      "albino african dwarf frogs"
     ]
   },
   {
-    "value": "Red belly piranha",
+    "value": "albino cory",
     "synonyms": [
-      "Red belly piranha"
+      "albino cory",
+      "albino cories"
     ]
   },
   {
-    "value": "cardinal tetra",
+    "value": "african clawed frog",
     "synonyms": [
-      "cardinal tetra"
+      "african clawed frog",
+      "african clawed frogs",
+      "clawed frogs",
+      "clawed frog"
     ]
   },
   {
-    "value": "silver arowana",
+    "value": "agassiz cory",
     "synonyms": [
-      "silver arowana",
-      "arowana"
+      "agassiz cory",
+      "agassiz cories"
     ]
   },
   {
-    "value": "zebra danio",
+    "value": "banded cichlid",
     "synonyms": [
-      "zebra danio"
+      "banded cichlid",
+      "banded cichlids",
+      "cichlids",
+      "cichlid",
+      "african cichlid",
+      "african cichlids"
     ]
   },
   {
-    "value": "Tiger oscar",
+    "value": "allens rainbowfish",
     "synonyms": [
-      "tiger oscar"
+      "allens rainbowfish"
+    ]
+  },
+  {
+    "value": "emerald green cory",
+    "synonyms": [
+      "emerald green cory",
+      "green cory",
+      "emerald cory",
+      "green cories",
+      "emerald green cories",
+      "emerald cories"
+    ]
+  },
+  {
+    "value": "alligator pleco",
+    "synonyms": [
+      "alligator pleco",
+      "alligator plecos"
+    ]
+  },
+  {
+    "value": "amazon leaf fish",
+    "synonyms": [
+      "amazon leaf fish"
+    ]
+  },
+  {
+    "value": "african leaf fish",
+    "synonyms": [
+      "african leaf fish",
+      "leaf fish"
+    ]
+  },
+  {
+    "value": "apistogramma mamor",
+    "synonyms": [
+      "apistogramma mamor",
+      "apistogramma",
+      "apistogramma black chin",
+      "apistogramma black-chin",
+      "apistogramma broad-banded",
+      "apistogramma maulbr",
+      "apistogramma orange tail",
+      "apistogramma parrot"
+    ]
+  },
+  {
+    "value": "arfak rainbowfish",
+    "synonyms": [
+      "arfak rainbowfish"
+    ]
+  },
+  {
+    "value": "arulius barb",
+    "synonyms": [
+      "arulius barb",
+      "arulius barbs"
+    ]
+  },
+  {
+    "value": "asian arowana",
+    "synonyms": [
+      "asian arowana",
+      "asian arowanas"
+    ]
+  },
+  {
+    "value": "assassin snail",
+    "synonyms": [
+      "assassin snail",
+      "assassin snails"
+    ]
+  },
+  {
+    "value": "bala shark",
+    "synonyms": [
+      "bala shark",
+      "bala",
+      "silver shark",
+      "balas",
+      "bala sharks",
+      "silver sharks"
+    ]
+  },
+  {
+    "value": "banana loach",
+    "synonyms": [
+      "banana loach",
+      "banana loaches"
+    ]
+  },
+  {
+    "value": "banded leporinus",
+    "synonyms": [
+      "banded leporinus"
+    ]
+  },
+  {
+    "value": "angfa rainbowfish",
+    "synonyms": [
+      "angfa rainbowfish"
+    ]
+  },
+  {
+    "value": "guppy",
+    "synonyms": [
+      "guppy",
+      "guppies"
+    ]
+  },
+  {
+    "value": "adolfo cory",
+    "synonyms": [
+      "adolfo cory",
+      "adolfo cories"
+    ]
+  },
+  {
+    "value": "african arowana",
+    "synonyms": [
+      "african arowana",
+      "african arowanas"
+    ]
+  },
+  {
+    "value": "amano shrimp",
+    "synonyms": [
+      "amano shrimp",
+      "amano shrimps"
+    ]
+  },
+  {
+    "value": "badis badis",
+    "synonyms": [
+      "badis badis",
+      "badis",
+      "dwarf chameleon fish",
+      "chameleon fish"
+    ]
+  },
+  {
+    "value": "achara catfish",
+    "synonyms": [
+      "achara catfish",
+      "achara catfishes"
     ]
   },
   {
@@ -46,9 +210,62 @@
     ]
   },
   {
-    "value": "african dwarf frog",
+    "value": "silver arowana",
     "synonyms": [
-      "african dwarf frog"
+      "silver arowana",
+      "arowana"
+    ]
+  },
+  {
+    "value": "bamboo shrimp",
+    "synonyms": [
+      "bamboo shrimp"
+    ]
+  },
+  {
+    "value": "altum angel",
+    "synonyms": [
+      "altum angel",
+      "altum angels"
+    ]
+  },
+  {
+    "value": "american flagfish",
+    "synonyms": [
+      "american flagfish",
+      "amierican killifish",
+      "american flag killifish",
+      "american flagfish killifish"
+    ]
+  },
+  {
+    "value": "balloon molly",
+    "synonyms": [
+      "balloon molly",
+      "balloon mollies"
+    ]
+  },
+  {
+    "value": "banded chromide",
+    "synonyms": [
+      "banded chromide",
+      "banded chromides"
+    ]
+  },
+  {
+    "value": "zebra danio",
+    "synonyms": [
+      "zebra danio",
+      "danio",
+      "danios",
+      "zebra danios"
+    ]
+  },
+  {
+    "value": "african pipefish",
+    "synonyms": [
+      "african pipefish",
+      "pipefish"
     ]
   },
   {
@@ -56,6 +273,4555 @@
     "synonyms": [
       "arapaima gigas",
       "arapaima"
+    ]
+  },
+  {
+    "value": "abei puffer",
+    "synonyms": [
+      "abei puffer",
+      "abei puffers"
+    ]
+  },
+  {
+    "value": "african knifefish",
+    "synonyms": [
+      "african knifefish",
+      "african knifefishes"
+    ]
+  },
+  {
+    "value": "albino bristlenose pleco",
+    "synonyms": [
+      "albino bristlenose pleco"
+    ]
+  },
+  {
+    "value": "amazon puffer",
+    "synonyms": [
+      "amazon puffer",
+      "amazon puffers",
+      "south american pufferfish",
+      "south american puffer",
+      "brazilian puffer",
+      "brazilian puffers",
+      "bumble bee puffer",
+      "bumble bee pufferfish",
+      "puffer",
+      "pufferfish",
+      "puffers"
+    ]
+  },
+  {
+    "value": "angelicus loach",
+    "synonyms": [
+      "angelicus loach",
+      "angelicus burmese loach",
+      "burmese loach",
+      "angelicus botia loach",
+      "burmese border loach"
+    ]
+  },
+  {
+    "value": "antennae stingray",
+    "synonyms": [
+      "antennae stingray"
+    ]
+  },
+  {
+    "value": "asian upside down catfish",
+    "synonyms": [
+      "asian upside down catfish",
+      "asian upsidedown catfish",
+      "upside down catfish"
+    ]
+  },
+  {
+    "value": "african filter shrimp",
+    "synonyms": [
+      "african filter shrimp",
+      "african filter shrimps",
+      "filter shrimp"
+    ]
+  },
+  {
+    "value": "alligator gar",
+    "synonyms": [
+      "alligator gar",
+      "alligator gars"
+    ]
+  },
+  {
+    "value": "american tigerfish",
+    "synonyms": [
+      "american tigerfish"
+    ]
+  },
+  {
+    "value": "arrowhead puffer",
+    "synonyms": [
+      "arrowhead puffer",
+      "arrowhead puffers"
+    ]
+  },
+  {
+    "value": "lemon tetra",
+    "synonyms": [
+      "lemon tetra",
+      "lemon tetras"
+    ]
+  },
+  {
+    "value": "ajamaru rainbowfish",
+    "synonyms": [
+      "ajamaru rainbowfish",
+      "rainbowfish"
+    ]
+  },
+  {
+    "value": "australian pearl arowana",
+    "synonyms": [
+      "australian pearl arowana",
+      "australian pearl arowanas",
+      "pearl arowana",
+      "pearl arowanas",
+      "australian arowana"
+    ]
+  },
+  {
+    "value": "adonis pleco",
+    "synonyms": [
+      "adonis pleco",
+      "adonis plecos"
+    ]
+  },
+  {
+    "value": "cardinal tetra",
+    "synonyms": [
+      "cardinal tetra",
+      "cardinal tetras"
+    ]
+  },
+  {
+    "value": "albino tiget barb",
+    "synonyms": [
+      "albino tiger barb",
+      "albino tiger barbs"
+    ]
+  },
+  {
+    "value": "african pike",
+    "synonyms": [
+      "african pike",
+      "african pikes",
+      "pike",
+      "pikes"
+    ]
+  },
+  {
+    "value": "axelrods rainbowfish",
+    "synonyms": [
+      "axelrods rainbowfish"
+    ]
+  },
+  {
+    "value": "banded rainbowfish",
+    "synonyms": [
+      "banded rainbowfish"
+    ]
+  },
+  {
+    "value": "african butterfly cichlid",
+    "synonyms": [
+      "african butterfly cichlid",
+      "african butterfly cichlids",
+      "butterfly cichlid",
+      "butterfly cichlids"
+    ]
+  },
+  {
+    "value": "angelfish",
+    "synonyms": [
+      "angelfish",
+      "angel fish"
+    ]
+  },
+  {
+    "value": "apple snail",
+    "synonyms": [
+      "apple snail",
+      "apple snails"
+    ]
+  },
+  {
+    "value": "asher cory",
+    "synonyms": [
+      "asher cory",
+      "asher cories"
+    ]
+  },
+  {
+    "value": "banded archerfish",
+    "synonyms": [
+      "banded archerfish"
+    ]
+  },
+  {
+    "value": "banded gourami",
+    "synonyms": [
+      "banded gourami",
+      "banded gouramis"
+    ]
+  },
+  {
+    "value": "american grass shrimp",
+    "synonyms": [
+      "american grass shrimp",
+      "american shrimp",
+      "grass shrimp"
+    ]
+  },
+  {
+    "value": "australian smelt",
+    "synonyms": [
+      "australian smelt",
+      "australiant smelts"
+    ]
+  },
+  {
+    "value": "cardinal tetra",
+    "synonyms": [
+      "cardinal tetra",
+      "cards",
+      "cardinal tetras"
+    ]
+  },
+  {
+    "value": "bandit cory",
+    "synonyms": [
+      "bandit cory",
+      "bandit cories"
+    ]
+  },
+  {
+    "value": "black fin cory",
+    "synonyms": [
+      "black fin cory",
+      "black fin cories"
+    ]
+  },
+  {
+    "value": "boesemans rainbowfish",
+    "synonyms": [
+      "boesemans rainbowfish"
+    ]
+  },
+  {
+    "value": "black phantom tetra",
+    "synonyms": [
+      "black phantom tetra",
+      "black phantom tetras"
+    ]
+  },
+  {
+    "value": "banjo catfish",
+    "synonyms": [
+      "banjo catfish"
+    ]
+  },
+  {
+    "value": "bearded cory",
+    "synonyms": [
+      "bearded cory",
+      "bearded cories"
+    ]
+  },
+  {
+    "value": "black acara",
+    "synonyms": [
+      "black acara",
+      "black acaras"
+    ]
+  },
+  {
+    "value": "black bass",
+    "synonyms": [
+      "black bass"
+    ]
+  },
+  {
+    "value": "blind cave tetra",
+    "synonyms": [
+      "blind cave tetra",
+      "blind cave tetras"
+    ]
+  },
+  {
+    "value": "bullseye snakehead",
+    "synonyms": [
+      "bullseye snakehead"
+    ]
+  },
+  {
+    "value": "ceylon puffer",
+    "synonyms": [
+      "ceylon puffer",
+      "ceylon puffers"
+    ]
+  },
+  {
+    "value": "chocolate kuhli",
+    "synonyms": [
+      "chocolate kuhli",
+      "chocolate kuhlis",
+      "chocolate kuhli loach",
+      "chocolate kuhli loaches"
+    ]
+  },
+  {
+    "value": "common stingray",
+    "synonyms": [
+      "common stingray",
+      "common stingrays",
+      "freshwater stingray",
+      "freshwater stingrays",
+      "stingray",
+      "stingrays"
+    ]
+  },
+  {
+    "value": "congo puffer",
+    "synonyms": [
+      "congo puffer",
+      "congo puffers",
+      "congo pufferfish",
+      "congo puffer fish"
+    ]
+  },
+  {
+    "value": "corydoras C079",
+    "synonyms": [
+      "corydoras C079",
+      "C079",
+      "C079s",
+      "C079\u0027s",
+      "cory C079",
+      "cories C079",
+      "C079 cory",
+      "C079 cories"
+    ]
+  },
+  {
+    "value": "diamond tetra",
+    "synonyms": [
+      "diamond tetra",
+      "diamond tetras"
+    ]
+  },
+  {
+    "value": "bentos tetra",
+    "synonyms": [
+      "bentos tetra",
+      "bentos tetras"
+    ]
+  },
+  {
+    "value": "bengal loach",
+    "synonyms": [
+      "bengal loach"
+    ]
+  },
+  {
+    "value": "black moor goldfish",
+    "synonyms": [
+      "black moor goldfish"
+    ]
+  },
+  {
+    "value": "black neon tetra",
+    "synonyms": [
+      "black neon tetra",
+      "black neon tetras"
+    ]
+  },
+  {
+    "value": "black cory",
+    "synonyms": [
+      "black cory",
+      "black cories"
+    ]
+  },
+  {
+    "value": "black kuhli",
+    "synonyms": [
+      "black kuhli",
+      "black kuhlis",
+      "black kuhli loach"
+    ]
+  },
+  {
+    "value": "bumblebee goby",
+    "synonyms": [
+      "bumblebee goby",
+      "bumblebee gobies",
+      "bumble bee goby",
+      "bumble bee gobies"
+    ]
+  },
+  {
+    "value": "cardinal shrimp",
+    "synonyms": [
+      "cardinal shrimp"
+    ]
+  },
+  {
+    "value": "dwarf gourami",
+    "synonyms": [
+      "dwarf gourami",
+      "dwarf gouramis"
+    ]
+  },
+  {
+    "value": "dwarf green pike cichlid",
+    "synonyms": [
+      "dwarf green pike cichlid",
+      "dwarf green pike cichlids",
+      "dwarf pike cichlid",
+      "dwarf pike cichlids"
+    ]
+  },
+  {
+    "value": "black-banded rainbowfish",
+    "synonyms": [
+      "black-banded rainbowfish",
+      "black banded rainbowfish"
+    ]
+  },
+  {
+    "value": "blue acara",
+    "synonyms": [
+      "blue acara",
+      "blue acaras",
+      "electric blue acara",
+      "electric blue acaras"
+    ]
+  },
+  {
+    "value": "bluegill sunfish",
+    "synonyms": [
+      "bluegill sunfish"
+    ]
+  },
+  {
+    "value": "bumblebee cory",
+    "synonyms": [
+      "bumblebee cory",
+      "bumblebee cories",
+      "bumble bee cory",
+      "bumble bee cories"
+    ]
+  },
+  {
+    "value": "butterfly splitfin",
+    "synonyms": [
+      "butterfly splitfin",
+      "butterfly splitfins"
+    ]
+  },
+  {
+    "value": "celebes halfbeak",
+    "synonyms": [
+      "celebes halfbeak",
+      "halfbeak",
+      "halfbeaks",
+      "celebes halfbeaks"
+    ]
+  },
+  {
+    "value": "bronze cory",
+    "synonyms": [
+      "bronze cory",
+      "bronze cories"
+    ]
+  },
+  {
+    "value": "bulolo rainbowfish",
+    "synonyms": [
+      "bulolo rainbowfish"
+    ]
+  },
+  {
+    "value": "celestial pearl danio",
+    "synonyms": [
+      "celestial pearl danio",
+      "celestial pearl danios"
+    ]
+  },
+  {
+    "value": "checkered barb",
+    "synonyms": [
+      "checkered barb",
+      "checkered barbs"
+    ]
+  },
+  {
+    "value": "common whiptail catfish",
+    "synonyms": [
+      "common whiptail catfish",
+      "whiptail catfish"
+    ]
+  },
+  {
+    "value": "discus",
+    "synonyms": [
+      "discus"
+    ]
+  },
+  {
+    "value": "dutch ram",
+    "synonyms": [
+      "dutch ram",
+      "dutch rams"
+    ]
+  },
+  {
+    "value": "blue pearl shrimp",
+    "synonyms": [
+      "blue pearl shrimp"
+    ]
+  },
+  {
+    "value": "blue ram",
+    "synonyms": [
+      "blue ram",
+      "blue rams",
+      "electric blue ram",
+      "electric blue rams"
+    ]
+  },
+  {
+    "value": "bolivian ram",
+    "synonyms": [
+      "bolivian ram",
+      "bolivian rams"
+    ]
+  },
+  {
+    "value": "brown hoplo",
+    "synonyms": [
+      "brown hoplo",
+      "brown hoplos"
+    ]
+  },
+  {
+    "value": "clown killifish",
+    "synonyms": [
+      "clown killifish"
+    ]
+  },
+  {
+    "value": "convict",
+    "synonyms": [
+      "convict",
+      "black convicts",
+      "black convict",
+      "convicts",
+      "black convict cichlid",
+      "black convict ciclids",
+      "convict cichlid",
+      "convict cichlids"
+    ]
+  },
+  {
+    "value": "blue tilapia",
+    "synonyms": [
+      "blue tilapia"
+    ]
+  },
+  {
+    "value": "bulldog pleco",
+    "synonyms": [
+      "bulldog pleco",
+      "bulldog plecos"
+    ]
+  },
+  {
+    "value": "bumblebee catfish SA",
+    "synonyms": [
+      "bumblebee catfish SA",
+      "bumblebee catfish",
+      "bumble bee catfish"
+    ]
+  },
+  {
+    "value": "cherry spot rasbora",
+    "synonyms": [
+      "cherry spot rasbora",
+      "cherry spot rasboras"
+    ]
+  },
+  {
+    "value": "colombian tetra",
+    "synonyms": [
+      "colombian tetra",
+      "colombian tetras"
+    ]
+  },
+  {
+    "value": "copper harlequin",
+    "synonyms": [
+      "copper harlequin",
+      "copper harlequins"
+    ]
+  },
+  {
+    "value": "dwarf loach",
+    "synonyms": [
+      "dwarf loach",
+      "dwarf loaches"
+    ]
+  },
+  {
+    "value": "blue emperor tetra",
+    "synonyms": [
+      "blue emperor tetra",
+      "blue emeperor tetras"
+    ]
+  },
+  {
+    "value": "brown pencilfish",
+    "synonyms": [
+      "brown pencilfish"
+    ]
+  },
+  {
+    "value": "chameleon fish",
+    "synonyms": [
+      "chameleon fish"
+    ]
+  },
+  {
+    "value": "clown pleco",
+    "synonyms": [
+      "clown pleco",
+      "clown plecos"
+    ]
+  },
+  {
+    "value": "dainty cory",
+    "synonyms": [
+      "dainty cory",
+      "dainty cories"
+    ]
+  },
+  {
+    "value": "blue lyretail",
+    "synonyms": [
+      "blue lyretail",
+      "blue lyretails"
+    ]
+  },
+  {
+    "value": "butterfly pleco L168",
+    "synonyms": [
+      "butterfly pleco L168",
+      "butterfly plecos l168",
+      "l168 pleco",
+      "L168 plecos",
+      "L168",
+      "L168s",
+      "L168\u0027s"
+    ]
+  },
+  {
+    "value": "clown knife",
+    "synonyms": [
+      "clown knife",
+      "clown knifefish",
+      "clow knife fish"
+    ]
+  },
+  {
+    "value": "congo bichir",
+    "synonyms": [
+      "congo bichir",
+      "congo bichirs"
+    ]
+  },
+  {
+    "value": "corydoras C082",
+    "synonyms": [
+      "corydoras C082",
+      "cory C082",
+      "C082",
+      "C082s",
+      "C082\u0027s",
+      "C082 cory",
+      "C082 cories",
+      "cories C082"
+    ]
+  },
+  {
+    "value": "cuban cichlid",
+    "synonyms": [
+      "cuban cichlid",
+      "cuban cichlids"
+    ]
+  },
+  {
+    "value": "black pacu",
+    "synonyms": [
+      "black pacu",
+      "black pacus"
+    ]
+  },
+  {
+    "value": "brown camo shrimp",
+    "synonyms": [
+      "brown camo shrimp"
+    ]
+  },
+  {
+    "value": "butterfly peacock",
+    "synonyms": [
+      "butterfly peacock",
+      "butterfly peacocks",
+      "butterfly peacock cichlid",
+      "butterfly peacock cichlids"
+    ]
+  },
+  {
+    "value": "checkerboard cichlid",
+    "synonyms": [
+      "checkerboard cichlid",
+      "checkerboard cichlids"
+    ]
+  },
+  {
+    "value": "cherry red cichlid",
+    "synonyms": [
+      "cherry red cichlid",
+      "cherry red cichlids"
+    ]
+  },
+  {
+    "value": "chocolate cichlid",
+    "synonyms": [
+      "chocolate cichlid",
+      "chocolate cichlids"
+    ]
+  },
+  {
+    "value": "corydoras C083",
+    "synonyms": [
+      "corydoras C083",
+      "cory C083",
+      "C083",
+      "C083s",
+      "C083\u0027s",
+      "C083 cory",
+      "C083 cories"
+    ]
+  },
+  {
+    "value": "dojo loach",
+    "synonyms": [
+      "dojo loach",
+      "dojo loaches"
+    ]
+  },
+  {
+    "value": "dwarf chain loach",
+    "synonyms": [
+      "dwarf chain loach",
+      "dwarf chain loaches"
+    ]
+  },
+  {
+    "value": "batanta rainbowfish",
+    "synonyms": [
+      "batanta rainbowfish"
+    ]
+  },
+  {
+    "value": "black belt cichlid",
+    "synonyms": [
+      "black belt cichlid",
+      "black belt cichlids"
+    ]
+  },
+  {
+    "value": "betta [male]",
+    "synonyms": [
+      "betta [male]",
+      "male betta",
+      "boy betta"
+    ]
+  },
+  {
+    "value": "bigmouth bass",
+    "synonyms": [
+      "bigmouth bass",
+      "bigmouth bass"
+    ]
+  },
+  {
+    "value": "bee shrimp",
+    "synonyms": [
+      "bee shrimp"
+    ]
+  },
+  {
+    "value": "barred rainbowfish",
+    "synonyms": [
+      "barred rainbowfish"
+    ]
+  },
+  {
+    "value": "black widow tetra",
+    "synonyms": [
+      "black widow tetra",
+      "black widow tetras"
+    ]
+  },
+  {
+    "value": "bullseye catfish",
+    "synonyms": [
+      "bullseye catfish"
+    ]
+  },
+  {
+    "value": "cobalt blue zebra",
+    "synonyms": [
+      "cobalt blue zebra",
+      "cobalt blue zebras"
+    ]
+  },
+  {
+    "value": "common pleco",
+    "synonyms": [
+      "common pleco",
+      "common plecos",
+      "pleco",
+      "plecos"
+    ]
+  },
+  {
+    "value": "cuban gar",
+    "synonyms": [
+      "cuban gar"
+    ]
+  },
+  {
+    "value": "buffalo head cichlid",
+    "synonyms": [
+      "buffalo head cichlid",
+      "buffalo head cichlids"
+    ]
+  },
+  {
+    "value": "chili rasbora",
+    "synonyms": [
+      "chili rasbora",
+      "chili rasboras"
+    ]
+  },
+  {
+    "value": "chocolate gourami",
+    "synonyms": [
+      "chocolate gourami",
+      "chocolate gouramis"
+    ]
+  },
+  {
+    "value": "crown pearlscale goldfish",
+    "synonyms": [
+      "crown pearlscale goldfish",
+      "pearlscale goldfish",
+      "crown goldfish"
+    ]
+  },
+  {
+    "value": "black ghost knife fish",
+    "synonyms": [
+      "black ghost knife fish",
+      "african ghost knife fish",
+      "black ghost knife",
+      "african ghost knife"
+    ]
+  },
+  {
+    "value": "bluefin notho killifish",
+    "synonyms": [
+      "bluefin notho killifish"
+    ]
+  },
+  {
+    "value": "brilliant rasbora",
+    "synonyms": [
+      "brilliant rasbora",
+      "brilliant rasboras"
+    ]
+  },
+  {
+    "value": "bumble bee cichlid",
+    "synonyms": [
+      "bumble bee cichlid",
+      "bumble bee cichlids",
+      "bumblebee cichlid",
+      "bumblebee cichlids"
+    ]
+  },
+  {
+    "value": "checkerboard cory",
+    "synonyms": [
+      "checkerboard cory",
+      "checkerboard cories"
+    ]
+  },
+  {
+    "value": "chinese barb",
+    "synonyms": [
+      "chinese barb",
+      "chinese barbs"
+    ]
+  },
+  {
+    "value": "chocolate zebra pleco L270",
+    "synonyms": [
+      "chocolate zebra pleco L270",
+      "chocolate zebra plecos",
+      "chocolate zebra pleco",
+      "L270",
+      "L270s",
+      "L270\u0027s"
+    ]
+  },
+  {
+    "value": "cigar shark",
+    "synonyms": [
+      "cigar shark",
+      "cigar sharks"
+    ]
+  },
+  {
+    "value": "crimsonspotted rainbowfish",
+    "synonyms": [
+      "crimsonspotted rainbowfish",
+      "crimson spotted rainbowfish"
+    ]
+  },
+  {
+    "value": "crystal red shrimp",
+    "synonyms": [
+      "crystal red shrimp"
+    ]
+  },
+  {
+    "value": "betta [female]",
+    "synonyms": [
+      "betta [female]",
+      "female betta",
+      "girl betta"
+    ]
+  },
+  {
+    "value": "black bullhead catfish",
+    "synonyms": [
+      "black bullhead catfish"
+    ]
+  },
+  {
+    "value": "black ruby barb",
+    "synonyms": [
+      "black ruby barb",
+      "black ruby barbs"
+    ]
+  },
+  {
+    "value": "bloodfin tetra",
+    "synonyms": [
+      "bloodfin tetra",
+      "bloodfin tetras"
+    ]
+  },
+  {
+    "value": "blue gourami",
+    "synonyms": [
+      "blue gourami",
+      "blue gouramis"
+    ]
+  },
+  {
+    "value": "blue rainbowfish",
+    "synonyms": [
+      "blue rainbowfish"
+    ]
+  },
+  {
+    "value": "bristlenose pleco",
+    "synonyms": [
+      "bristlenose pleco"
+    ]
+  },
+  {
+    "value": "brown puffer",
+    "synonyms": [
+      "brown puffer",
+      "brown puffers",
+      "brown pufferfish",
+      "brown puffer fish"
+    ]
+  },
+  {
+    "value": "dwarf croaking gourami",
+    "synonyms": [
+      "dwarf croaking gourami",
+      "dwarf croaking gouramis"
+    ]
+  },
+  {
+    "value": "dwarf livebearer",
+    "synonyms": [
+      "dwarf livebearer",
+      "dwarf livebearers",
+      "dwarf male livebearer",
+      "dwarf male livebearers",
+      "dwarf female livebearer",
+      "dwarf female livebearers"
+    ]
+  },
+  {
+    "value": "brown bullhead catfish",
+    "synonyms": [
+      "brown bullhead catfish"
+    ]
+  },
+  {
+    "value": "cairns rainbowfish",
+    "synonyms": [
+      "cairns rainbowfish"
+    ]
+  },
+  {
+    "value": "clown loach",
+    "synonyms": [
+      "clown loach",
+      "clown loaches"
+    ]
+  },
+  {
+    "value": "crayfish",
+    "synonyms": [
+      "crayfish"
+    ]
+  },
+  {
+    "value": "dalmation molly",
+    "synonyms": [
+      "dalmation molly",
+      "dalmation mollies"
+    ]
+  },
+  {
+    "value": "bengal loach",
+    "synonyms": [
+      "bengal loach",
+      "bengal loaches"
+    ]
+  },
+  {
+    "value": "blue apple snail",
+    "synonyms": [
+      "blue apple snail",
+      "blue apple snails"
+    ]
+  },
+  {
+    "value": "buenos aires tetra",
+    "synonyms": [
+      "buenos aires tetra",
+      "buenos aires tetras"
+    ]
+  },
+  {
+    "value": "cameron armoured shrimp",
+    "synonyms": [
+      "cameron armoured shrimp",
+      "armoured shrimp",
+      "armored shrimp",
+      "cameron armored shrimp"
+    ]
+  },
+  {
+    "value": "checker barb",
+    "synonyms": [
+      "checker barb",
+      "checker barbs"
+    ]
+  },
+  {
+    "value": "congo tetra",
+    "synonyms": [
+      "congo tetra",
+      "congo tetras"
+    ]
+  },
+  {
+    "value": "black diamond cichlid",
+    "synonyms": [
+      "black diamond cichlid",
+      "black diamond cichlids"
+    ]
+  },
+  {
+    "value": "black ocellatus",
+    "synonyms": [
+      "black ocellatus"
+    ]
+  },
+  {
+    "value": "black skirt tetra",
+    "synonyms": [
+      "black skirt tetra",
+      "black skirt tetras"
+    ]
+  },
+  {
+    "value": "blood parrot",
+    "synonyms": [
+      "blood parrot",
+      "blood parrots"
+    ]
+  },
+  {
+    "value": "cherry barb",
+    "synonyms": [
+      "cherry barb",
+      "cherry barbs"
+    ]
+  },
+  {
+    "value": "cherry shrimp",
+    "synonyms": [
+      "cherry shrimp"
+    ]
+  },
+  {
+    "value": "chinese algae eater",
+    "synonyms": [
+      "chinese algae eaters",
+      "chinese algae eater"
+    ]
+  },
+  {
+    "value": "comet goldfish",
+    "synonyms": [
+      "comet goldfish",
+      "feeder goldfish"
+    ]
+  },
+  {
+    "value": "dragon goby",
+    "synonyms": [
+      "dragon goby",
+      "dragon gobies"
+    ]
+  },
+  {
+    "value": "dwarf cory",
+    "synonyms": [
+      "dwarf cory",
+      "dwarf cories"
+    ]
+  },
+  {
+    "value": "electric blue jack dempsey",
+    "synonyms": [
+      "electric blue jack dempsey",
+      "electric blue jack dempseys"
+    ]
+  },
+  {
+    "value": "fancy goldfish",
+    "synonyms": [
+      "fancy goldfish"
+    ]
+  },
+  {
+    "value": "dwarf rasbora",
+    "synonyms": [
+      "dwarf rasbora"
+    ]
+  },
+  {
+    "value": "elephantnose fish",
+    "synonyms": [
+      "elephantnose fish"
+    ]
+  },
+  {
+    "value": "flase rosy tetra",
+    "synonyms": [
+      "flase rosy tetra",
+      "false rosy tetras"
+    ]
+  },
+  {
+    "value": "freshwater sole",
+    "synonyms": [
+      "freshwater sole",
+      "freshwater soles"
+    ]
+  },
+  {
+    "value": "fantail goldfish",
+    "synonyms": [
+      "fantail goldfish"
+    ]
+  },
+  {
+    "value": "electric blue hap",
+    "synonyms": [
+      "electric blue hap",
+      "electric blue haps"
+    ]
+  },
+  {
+    "value": "flag tetra",
+    "synonyms": [
+      "flag tetra",
+      "flg tetras"
+    ]
+  },
+  {
+    "value": "forktail rainbowfish",
+    "synonyms": [
+      "forktail rainbowfish"
+    ]
+  },
+  {
+    "value": "freshwater flounder",
+    "synonyms": [
+      "freshwater flounder",
+      "freshwater flounders"
+    ]
+  },
+  {
+    "value": "featherfin cichlid",
+    "synonyms": [
+      "featherfin cichlid",
+      "featherfin cichlids"
+    ]
+  },
+  {
+    "value": "finger fish",
+    "synonyms": [
+      "finger fish"
+    ]
+  },
+  {
+    "value": "dwarf pencilfish",
+    "synonyms": [
+      "dwarf pencilfish"
+    ]
+  },
+  {
+    "value": "dwarf puffer",
+    "synonyms": [
+      "dwarf puffer",
+      "dwarf puffers",
+      "dwarf pufferfish",
+      "dwarf puffer fish"
+    ]
+  },
+  {
+    "value": "endler",
+    "synonyms": [
+      "endler",
+      "endlers"
+    ]
+  },
+  {
+    "value": "eclipse catfish",
+    "synonyms": [
+      "eclipse catfish"
+    ]
+  },
+  {
+    "value": "emerald cichlid",
+    "synonyms": [
+      "emerald cichlid",
+      "emerald cichlids",
+      "green cichlid",
+      "green cichlids"
+    ]
+  },
+  {
+    "value": "emperor snakehead",
+    "synonyms": [
+      "emperor snakehead",
+      "emperor snakeheads"
+    ]
+  },
+  {
+    "value": "empire gudgeon",
+    "synonyms": [
+      "empire gudgeon",
+      "empire gudgeons"
+    ]
+  },
+  {
+    "value": "european wels catfish",
+    "synonyms": [
+      "european wels catfish"
+    ]
+  },
+  {
+    "value": "false upside down catfish",
+    "synonyms": [
+      "false upside down catfish"
+    ]
+  },
+  {
+    "value": "florida gar",
+    "synonyms": [
+      "florida gar"
+    ]
+  },
+  {
+    "value": "flyspeck hardyhead",
+    "synonyms": [
+      "flyspeck hardyhead",
+      "flyspeck hardyheads"
+    ]
+  },
+  {
+    "value": "freshwater shark",
+    "synonyms": [
+      "freshwater shark",
+      "freshwater sharks"
+    ]
+  },
+  {
+    "value": "dwarf orange crayfish",
+    "synonyms": [
+      "dwarf orange crayfish",
+      "orange crayfish",
+      "mini orange crayfish",
+      "small orange crayfish"
+    ]
+  },
+  {
+    "value": "farlowella catfish",
+    "synonyms": [
+      "farlowella catfish"
+    ]
+  },
+  {
+    "value": "flowerhorn (flowerhorn)",
+    "synonyms": [
+      "flowerhorn",
+      "flowerhorns"
+    ]
+  },
+  {
+    "value": "freshwater barracuda",
+    "synonyms": [
+      "freshwater barracuda",
+      "freshwater barracudas",
+      "barracuda",
+      "barracudas"
+    ]
+  },
+  {
+    "value": "emperor tetra",
+    "synonyms": [
+      "emperor tetra",
+      "emperor tetras"
+    ]
+  },
+  {
+    "value": "emerald eye rasbora",
+    "synonyms": [
+      "emerald eye rasbora",
+      "emerald eye rasboras"
+    ]
+  },
+  {
+    "value": "espei rasbora",
+    "synonyms": [
+      "espei rasbora"
+    ]
+  },
+  {
+    "value": "european catfish",
+    "synonyms": [
+      "european catfish"
+    ]
+  },
+  {
+    "value": "electric blue johanni",
+    "synonyms": [
+      "electric blue johanni",
+      "electric blue johannis",
+      "electric blue johanni cichlid",
+      "electric blue johanni cichlids"
+    ]
+  },
+  {
+    "value": "exquisite rainbowfish",
+    "synonyms": [
+      "exquisite rainbowfish"
+    ]
+  },
+  {
+    "value": "flase firemouth",
+    "synonyms": [
+      "flase firemouth",
+      "false firemouths",
+      "false firemouth cichlid",
+      "false firemouth cichlids"
+    ]
+  },
+  {
+    "value": "five banded barb",
+    "synonyms": [
+      "five banded barb",
+      "five banded barbs"
+    ]
+  },
+  {
+    "value": "florida bass",
+    "synonyms": [
+      "florida bass"
+    ]
+  },
+  {
+    "value": "flying fox",
+    "synonyms": [
+      "flying fox",
+      "flying foxes"
+    ]
+  },
+  {
+    "value": "finescale tigerfish",
+    "synonyms": [
+      "finescale tigerfish"
+    ]
+  },
+  {
+    "value": "flower stingray",
+    "synonyms": [
+      "flower stingray",
+      "flower stingrays"
+    ]
+  },
+  {
+    "value": "fahaka puffer",
+    "synonyms": [
+      "fahaka puffer",
+      "fahaka puffers",
+      "fahaka puffer fish",
+      "fahaka pufferfish"
+    ]
+  },
+  {
+    "value": "flame tetra",
+    "synonyms": [
+      "flame tetra",
+      "flame tetras"
+    ]
+  },
+  {
+    "value": "fly river rainbowfish",
+    "synonyms": [
+      "fly river rainbowfish"
+    ]
+  },
+  {
+    "value": "fire eel",
+    "synonyms": [
+      "fire eel",
+      "fire eels"
+    ]
+  },
+  {
+    "value": "flounder pleco L168",
+    "synonyms": [
+      "flounder pleco L168",
+      "flounder pleco",
+      "flounder plecos",
+      "flounder l168",
+      "l168 pleco",
+      "l168 plecos",
+      "flounder plecos l168"
+    ]
+  },
+  {
+    "value": "eastern rainbowfish",
+    "synonyms": [
+      "eastern rainbowfish"
+    ]
+  },
+  {
+    "value": "filament barb",
+    "synonyms": [
+      "filament barb",
+      "filament barbs"
+    ]
+  },
+  {
+    "value": "frogmouth catfish",
+    "synonyms": [
+      "frogmouth catfish"
+    ]
+  },
+  {
+    "value": "ember tetra",
+    "synonyms": [
+      "ember tetra",
+      "ember tetras"
+    ]
+  },
+  {
+    "value": "florida flagfish",
+    "synonyms": [
+      "florida flagfish"
+    ]
+  },
+  {
+    "value": "flowerhorn short body",
+    "synonyms": [
+      "flowerhorn short body"
+    ]
+  },
+  {
+    "value": "false julii cory",
+    "synonyms": [
+      "false julii cory",
+      "false julii cories"
+    ]
+  },
+  {
+    "value": "featherfin catfish",
+    "synonyms": [
+      "featherfin catfish"
+    ]
+  },
+  {
+    "value": "figure eight puffer",
+    "synonyms": [
+      "figure eight puffer",
+      "figure eight puffers",
+      "figure 8 puffer",
+      "figure 8 puffers",
+      "figure eight puffer fish",
+      "figure 8 puffer fish"
+    ]
+  },
+  {
+    "value": "dwarf molly",
+    "synonyms": [
+      "dwarf molly",
+      "dwarf mollies"
+    ]
+  },
+  {
+    "value": "festas cichlid",
+    "synonyms": [
+      "festas cichlid",
+      "festas cichlids"
+    ]
+  },
+  {
+    "value": "firemouth",
+    "synonyms": [
+      "firemouth",
+      "firemouths",
+      "firemouth cichlid",
+      "firemouth cichlids"
+    ]
+  },
+  {
+    "value": "flash pleco",
+    "synonyms": [
+      "flash pleco",
+      "flash plecos"
+    ]
+  },
+  {
+    "value": "flower shrimp",
+    "synonyms": [
+      "flower shrimp"
+    ]
+  },
+  {
+    "value": "dwarf rainbowfish",
+    "synonyms": [
+      "dwarf rainbowfish"
+    ]
+  },
+  {
+    "value": "false glass catfish",
+    "synonyms": [
+      "false glass catfish"
+    ]
+  },
+  {
+    "value": "filigree cory",
+    "synonyms": [
+      "filigree cory",
+      "filigree cories"
+    ]
+  },
+  {
+    "value": "fire tetra",
+    "synonyms": [
+      "fire tetra",
+      "fire tetras"
+    ]
+  },
+  {
+    "value": "gardneri killifish",
+    "synonyms": [
+      "gardneri killifish"
+    ]
+  },
+  {
+    "value": "glo fish",
+    "synonyms": [
+      "glo fish",
+      "glofish"
+    ]
+  },
+  {
+    "value": "furcata rainbowfish",
+    "synonyms": [
+      "furcata rainbowfish"
+    ]
+  },
+  {
+    "value": "geto loach",
+    "synonyms": [
+      "geto loach",
+      "geto loaches"
+    ]
+  },
+  {
+    "value": "giant gourami",
+    "synonyms": [
+      "giant gourami",
+      "giant gouramis"
+    ]
+  },
+  {
+    "value": "golden oto",
+    "synonyms": [
+      "golden oto",
+      "golden otos"
+    ]
+  },
+  {
+    "value": "golden red tail catfish",
+    "synonyms": [
+      "golden red tail catfish",
+      "gold red tail catfish"
+    ]
+  },
+  {
+    "value": "golden zebra danio",
+    "synonyms": [
+      "golden zebra danio",
+      "golden zebra danios"
+    ]
+  },
+  {
+    "value": "indonesian snakehead",
+    "synonyms": [
+      "indonesian snakehead",
+      "indonesian snakeheads"
+    ]
+  },
+  {
+    "value": "jewel cichlid",
+    "synonyms": [
+      "jewel cichlid",
+      "jewel cichlids"
+    ]
+  },
+  {
+    "value": "keyhole cichlid",
+    "synonyms": [
+      "keyhole cichlid",
+      "keyhole cichlids"
+    ]
+  },
+  {
+    "value": "melon barb",
+    "synonyms": [
+      "melon barb",
+      "melon barbs"
+    ]
+  },
+  {
+    "value": "monster wolf fish",
+    "synonyms": [
+      "monster wolf fish"
+    ]
+  },
+  {
+    "value": "orante bichir",
+    "synonyms": [
+      "orante bichir",
+      "ornate bichirs"
+    ]
+  },
+  {
+    "value": "pacific blue eye",
+    "synonyms": [
+      "pacific blue eye",
+      "pacific blue eyes",
+      "pacific blue eye rainbowfish"
+    ]
+  },
+  {
+    "value": "panda tetra",
+    "synonyms": [
+      "panda tetra",
+      "panda tetras"
+    ]
+  },
+  {
+    "value": "pastel cichlid",
+    "synonyms": [
+      "pastel cichlid",
+      "pastel cichlids"
+    ]
+  },
+  {
+    "value": "pictus catfish",
+    "synonyms": [
+      "pictus catfish"
+    ]
+  },
+  {
+    "value": "rainbow cichlid",
+    "synonyms": [
+      "rainbow cichlid",
+      "rainbow cichlids"
+    ]
+  },
+  {
+    "value": "rainbow shark",
+    "synonyms": [
+      "rainbow shark",
+      "rainbow sharks"
+    ]
+  },
+  {
+    "value": "red striped eartheater",
+    "synonyms": [
+      "red striped eartheater",
+      "red striped eartheaters",
+      "red striped earth eater",
+      "red striped earth eaters",
+      "red striped geophagus",
+      "red striped geo",
+      "red striped geos"
+    ]
+  },
+  {
+    "value": "red tupfel shrimp",
+    "synonyms": [
+      "red tupfel shrimp"
+    ]
+  },
+  {
+    "value": "redline shark",
+    "synonyms": [
+      "redline shark",
+      "redline sharks"
+    ]
+  },
+  {
+    "value": "rosy barb",
+    "synonyms": [
+      "rosy barb",
+      "rosy barbs"
+    ]
+  },
+  {
+    "value": "gold barb",
+    "synonyms": [
+      "gold barb",
+      "gold barbs"
+    ]
+  },
+  {
+    "value": "guinean bichir",
+    "synonyms": [
+      "guinean bichir",
+      "guinean bichirs"
+    ]
+  },
+  {
+    "value": "neon tetra",
+    "synonyms": [
+      "neon tetra",
+      "neon tetras"
+    ]
+  },
+  {
+    "value": "ornate rainbowfish",
+    "synonyms": [
+      "ornate rainbowfish"
+    ]
+  },
+  {
+    "value": "payara",
+    "synonyms": [
+      "payara",
+      "payaras"
+    ]
+  },
+  {
+    "value": "port acara",
+    "synonyms": [
+      "port acara",
+      "port acaras"
+    ]
+  },
+  {
+    "value": "ramshorn snail",
+    "synonyms": [
+      "ramshorn snail",
+      "ramshorn snails"
+    ]
+  },
+  {
+    "value": "raphael catfish",
+    "synonyms": [
+      "raphael catfish"
+    ]
+  },
+  {
+    "value": "redhead cichlid",
+    "synonyms": [
+      "redhead cichlid",
+      "redhead cichlids"
+    ]
+  },
+  {
+    "value": "ruby barb",
+    "synonyms": [
+      "ruby barb",
+      "ruby barbs"
+    ]
+  },
+  {
+    "value": "gold nugger pleco L018",
+    "synonyms": [
+      "gold nugger pleco L018",
+      "gold nugget pleco",
+      "golden nugget pleco",
+      "gold nugget plecos",
+      "golden nugget plecos"
+    ]
+  },
+  {
+    "value": "golden apple snail",
+    "synonyms": [
+      "golden apple snail",
+      "golden apple snails"
+    ]
+  },
+  {
+    "value": "golden pencilfish",
+    "synonyms": [
+      "golden pencilfish"
+    ]
+  },
+  {
+    "value": "golden ram",
+    "synonyms": [
+      "golden ram",
+      "golden rams",
+      "gold ram",
+      "gold rams"
+    ]
+  },
+  {
+    "value": "grants peacock",
+    "synonyms": [
+      "grants peacock",
+      "grants peacocks",
+      "grants peacock cichlid",
+      "grants peacock cichlids"
+    ]
+  },
+  {
+    "value": "green sunfish",
+    "synonyms": [
+      "green sunfish"
+    ]
+  },
+  {
+    "value": "kribensis",
+    "synonyms": [
+      "kribensis"
+    ]
+  },
+  {
+    "value": "longfin zebra danio",
+    "synonyms": [
+      "longfin zebra danio",
+      "longfin zebra danios",
+      "longfin zebra danios"
+    ]
+  },
+  {
+    "value": "longnose gar",
+    "synonyms": [
+      "longnose gar"
+    ]
+  },
+  {
+    "value": "marble hatchet",
+    "synonyms": [
+      "marble hatchet",
+      "marble hatchets",
+      "marble hatchet fish",
+      "marble hatchetfish"
+    ]
+  },
+  {
+    "value": "new guinea rainbowfish",
+    "synonyms": [
+      "new guinea rainbowfish"
+    ]
+  },
+  {
+    "value": "orange delight shrimp",
+    "synonyms": [
+      "orange delight shrimp"
+    ]
+  },
+  {
+    "value": "pacific sturgeon",
+    "synonyms": [
+      "pacific sturgeon"
+    ]
+  },
+  {
+    "value": "panda garra",
+    "synonyms": [
+      "panda garra",
+      "panda garras"
+    ]
+  },
+  {
+    "value": "piraiba",
+    "synonyms": [
+      "piraiba",
+      "piraibas"
+    ]
+  },
+  {
+    "value": "platy",
+    "synonyms": [
+      "platy",
+      "platies"
+    ]
+  },
+  {
+    "value": "pygmy cory",
+    "synonyms": [
+      "pygmy cory",
+      "pygmy cories"
+    ]
+  },
+  {
+    "value": "red bellied piranha",
+    "synonyms": [
+      "red bellied piranha",
+      "red bellied piranhas",
+      "piranha",
+      "piranhas"
+    ]
+  },
+  {
+    "value": "red tail barracuda",
+    "synonyms": [
+      "red tail barracuda",
+      "red tail barracudas",
+      "red tailed barracuda",
+      "red tailed barracudas"
+    ]
+  },
+  {
+    "value": "redline barb",
+    "synonyms": [
+      "redline barb",
+      "redline barbs"
+    ]
+  },
+  {
+    "value": "green chromide",
+    "synonyms": [
+      "green chromide",
+      "green chromides"
+    ]
+  },
+  {
+    "value": "green spotted puffer",
+    "synonyms": [
+      "green spotted puffer",
+      "green spotted puffer fish",
+      "green spotted puffers"
+    ]
+  },
+  {
+    "value": "hatchet",
+    "synonyms": [
+      "hatchet",
+      "hatchet fish"
+    ]
+  },
+  {
+    "value": "highlands rainbowfish",
+    "synonyms": [
+      "highlands rainbowfish"
+    ]
+  },
+  {
+    "value": "malaysian trumpet snail",
+    "synonyms": [
+      "malaysian trumpet snail",
+      "malaysian trumpet snails"
+    ]
+  },
+  {
+    "value": "mosquito rasbora",
+    "synonyms": [
+      "mosquito rasbora",
+      "mosquito rasboras",
+      "mosquitofish",
+      "mosquito fish"
+    ]
+  },
+  {
+    "value": "needlenose gar",
+    "synonyms": [
+      "needlenose gar"
+    ]
+  },
+  {
+    "value": "northern mountain swordtail",
+    "synonyms": [
+      "northern mountain swordtail",
+      "northern mountain swordtails"
+    ]
+  },
+  {
+    "value": "oto",
+    "synonyms": [
+      "oto",
+      "otos"
+    ]
+  },
+  {
+    "value": "peacock bass monoculus",
+    "synonyms": [
+      "peacock bass monoculus",
+      "peacock bass"
+    ]
+  },
+  {
+    "value": "peppermint pleco",
+    "synonyms": [
+      "peppermint pleco",
+      "peppermint plecos"
+    ]
+  },
+  {
+    "value": "pike cichlid",
+    "synonyms": [
+      "pike cichlid",
+      "pike cichlids"
+    ]
+  },
+  {
+    "value": "pygmy rainbowfish",
+    "synonyms": [
+      "pygmy rainbowfish"
+    ]
+  },
+  {
+    "value": "red cherry shrimp",
+    "synonyms": [
+      "red cherry shrimp"
+    ]
+  },
+  {
+    "value": "red phantom tetra",
+    "synonyms": [
+      "red phantom tetra",
+      "red phantom tetras"
+    ]
+  },
+  {
+    "value": "redfin tilapia",
+    "synonyms": [
+      "redfin tilapia"
+    ]
+  },
+  {
+    "value": "royal pleco",
+    "synonyms": [
+      "royal pleco",
+      "royal plecos"
+    ]
+  },
+  {
+    "value": "rubbernose pleco",
+    "synonyms": [
+      "rubbernose pleco",
+      "rubbernose plecos"
+    ]
+  },
+  {
+    "value": "frontosa",
+    "synonyms": [
+      "frontosa",
+      "frontosas"
+    ]
+  },
+  {
+    "value": "glass catfish",
+    "synonyms": [
+      "glass catfish"
+    ]
+  },
+  {
+    "value": "geophagus red head tapajos",
+    "synonyms": [
+      "geophagus red head tapajos",
+      "red head geophagus"
+    ]
+  },
+  {
+    "value": "golden bristlenose pleco",
+    "synonyms": [
+      "golden bristlenose pleco",
+      "golden bristlenose plecos"
+    ]
+  },
+  {
+    "value": "golden dwarf cichlid",
+    "synonyms": [
+      "golden dwarf cichlid",
+      "golden dwarf cichlids"
+    ]
+  },
+  {
+    "value": "galaxy rasbora",
+    "synonyms": [
+      "galaxy rasbora",
+      "galaxy rasboras"
+    ]
+  },
+  {
+    "value": "goldeneye cichlid",
+    "synonyms": [
+      "goldeneye cichlid",
+      "goldeneye cichlids"
+    ]
+  },
+  {
+    "value": "ghost shrimp",
+    "synonyms": [
+      "ghost shrimp"
+    ]
+  },
+  {
+    "value": "geophagus orange head tapajos",
+    "synonyms": [
+      "geophagus orange head tapajos",
+      "geophagus",
+      "earth eater",
+      "eartheater",
+      "eartheaters",
+      "earth eaters",
+      "earth eater cichlid",
+      "eartheater cichlids",
+      "orange head geophagus"
+    ]
+  },
+  {
+    "value": "gangetic leaf fish",
+    "synonyms": [
+      "gangetic leaf fish"
+    ]
+  },
+  {
+    "value": "geophagus altifrons",
+    "synonyms": [
+      "geophagus altifrons"
+    ]
+  },
+  {
+    "value": "leopardfish",
+    "synonyms": [
+      "leopardfish",
+      "leopard fish"
+    ]
+  },
+  {
+    "value": "licorice gourami",
+    "synonyms": [
+      "licorice gourami",
+      "licorice gouramis"
+    ]
+  },
+  {
+    "value": "midas cichlid",
+    "synonyms": [
+      "midas cichlid",
+      "midas cichlids"
+    ]
+  },
+  {
+    "value": "mono argentus",
+    "synonyms": [
+      "mono argentus"
+    ]
+  },
+  {
+    "value": "new guinea tigerfish",
+    "synonyms": [
+      "new guinea tigerfish"
+    ]
+  },
+  {
+    "value": "ninja shrimp",
+    "synonyms": [
+      "ninja shrimp"
+    ]
+  },
+  {
+    "value": "olga cory",
+    "synonyms": [
+      "olga cory",
+      "olga cories"
+    ]
+  },
+  {
+    "value": "panda dwarf cichlid",
+    "synonyms": [
+      "panda dwarf cichlid",
+      "panda dwarf cichlids"
+    ]
+  },
+  {
+    "value": "parrot cichlid",
+    "synonyms": [
+      "parrot cichlid",
+      "parrot cichlids",
+      "parrot",
+      "parrots"
+    ]
+  },
+  {
+    "value": "phuket loach",
+    "synonyms": [
+      "phuket loach",
+      "phuket loaches"
+    ]
+  },
+  {
+    "value": "platinum acara",
+    "synonyms": [
+      "platinum acara",
+      "platinum acaras"
+    ]
+  },
+  {
+    "value": "platinum hatchet",
+    "synonyms": [
+      "platinum hatchet",
+      "platinum hatchets",
+      "platinum hatchet fish",
+      "platinum hatchetfish"
+    ]
+  },
+  {
+    "value": "red breasted acara",
+    "synonyms": [
+      "red breasted acara",
+      "red breasted acaras"
+    ]
+  },
+  {
+    "value": "red goldflake shrimp",
+    "synonyms": [
+      "red goldflake shrimp"
+    ]
+  },
+  {
+    "value": "red peacock",
+    "synonyms": [
+      "red peacock",
+      "red peacocks",
+      "red peacock cichlid",
+      "red peacock cichlids"
+    ]
+  },
+  {
+    "value": "red rainbowfish",
+    "synonyms": [
+      "red rainbowfish"
+    ]
+  },
+  {
+    "value": "redeye tilapia",
+    "synonyms": [
+      "redeye tilapia"
+    ]
+  },
+  {
+    "value": "robertsons cichlid",
+    "synonyms": [
+      "robertsons cichlid",
+      "robertsons cichlids"
+    ]
+  },
+  {
+    "value": "ruby shark",
+    "synonyms": [
+      "ruby shark",
+      "ruby sharks"
+    ]
+  },
+  {
+    "value": "greenstreaked eartheater",
+    "synonyms": [
+      "greenstreaked eartheater",
+      "greenstreaked eartheaters"
+    ]
+  },
+  {
+    "value": "goldfish",
+    "synonyms": [
+      "goldfish"
+    ]
+  },
+  {
+    "value": "half barred spiny eel",
+    "synonyms": [
+      "half barred spiny eel",
+      "half barred spiny eels",
+      "half barred eel",
+      "half barred eels",
+      "barred eel",
+      "barred eels"
+    ]
+  },
+  {
+    "value": "hi fin peppered cory",
+    "synonyms": [
+      "hi fin peppered cory",
+      "hi fin peppered cories"
+    ]
+  },
+  {
+    "value": "hornet cichlid",
+    "synonyms": [
+      "hornet cichlid",
+      "hornet cichlids"
+    ]
+  },
+  {
+    "value": "indian glassfish",
+    "synonyms": [
+      "indian glassfish"
+    ]
+  },
+  {
+    "value": "knight goby",
+    "synonyms": [
+      "knight goby",
+      "knight gobies"
+    ]
+  },
+  {
+    "value": "midnight catfish",
+    "synonyms": [
+      "midnight catfish"
+    ]
+  },
+  {
+    "value": "ornate tetras",
+    "synonyms": [
+      "ornate tetras"
+    ]
+  },
+  {
+    "value": "paradise fish",
+    "synonyms": [
+      "paradise fish",
+      "paradisefish"
+    ]
+  },
+  {
+    "value": "pearl gourami",
+    "synonyms": [
+      "pearl gourami",
+      "pearl gouramis"
+    ]
+  },
+  {
+    "value": "peppered cory",
+    "synonyms": [
+      "peppered cory",
+      "peppered cories"
+    ]
+  },
+  {
+    "value": "redhead severum",
+    "synonyms": [
+      "redhead severum",
+      "redhead severums",
+      "red severum",
+      "red severums"
+    ]
+  },
+  {
+    "value": "reedfish",
+    "synonyms": [
+      "reedfish"
+    ]
+  },
+  {
+    "value": "ropefish",
+    "synonyms": [
+      "ropefish"
+    ]
+  },
+  {
+    "value": "glowlight danio",
+    "synonyms": [
+      "glowlight danio",
+      "glowlight danios",
+      "glo danio",
+      "glo danios",
+      "glow danios",
+      "glow danio"
+    ]
+  },
+  {
+    "value": "giant danio",
+    "synonyms": [
+      "giant danio",
+      "giant danios"
+    ]
+  },
+  {
+    "value": "grime rainbowfish",
+    "synonyms": [
+      "grime rainbowfish"
+    ]
+  },
+  {
+    "value": "hillstream loach",
+    "synonyms": [
+      "hillstream loach",
+      "hillstream loaches"
+    ]
+  },
+  {
+    "value": "iridescent shark",
+    "synonyms": [
+      "iridescent shark",
+      "iridescent sharks"
+    ]
+  },
+  {
+    "value": "leopard cory",
+    "synonyms": [
+      "leopard cory",
+      "leopard cories"
+    ]
+  },
+  {
+    "value": "maison peacock",
+    "synonyms": [
+      "maison peacocks"
+    ]
+  },
+  {
+    "value": "marakeli cichlid",
+    "synonyms": [
+      "marakeli cichlid",
+      "marakeli cichlids"
+    ]
+  },
+  {
+    "value": "moonlight gourami",
+    "synonyms": [
+      "moonlight gourami",
+      "moonlight gouramis"
+    ]
+  },
+  {
+    "value": "nile puffer",
+    "synonyms": [
+      "nile puffer",
+      "nile puffers"
+    ]
+  },
+  {
+    "value": "oranda goldfish",
+    "synonyms": [
+      "oranda goldfish"
+    ]
+  },
+  {
+    "value": "palmas bichir",
+    "synonyms": [
+      "palmas bichir",
+      "palmas bichirs"
+    ]
+  },
+  {
+    "value": "pearl danio",
+    "synonyms": [
+      "pearl danio",
+      "pearl danios"
+    ]
+  },
+  {
+    "value": "penguin tetra",
+    "synonyms": [
+      "penguin tetra",
+      "penguin tetras"
+    ]
+  },
+  {
+    "value": "red hump eartheater",
+    "synonyms": [
+      "red hump eartheater",
+      "red hump eartheaters",
+      "red hump geophagus",
+      "red hump geo",
+      "red hump earth eater",
+      "red hump earth eaters",
+      "red hump geos"
+    ]
+  },
+  {
+    "value": "red lined torpedo barb",
+    "synonyms": [
+      "red lined torpedo barb",
+      "red lined torpedo barbs"
+    ]
+  },
+  {
+    "value": "riffle shrimp",
+    "synonyms": [
+      "riffle shrimp"
+    ]
+  },
+  {
+    "value": "rio negro dwarf cichlid",
+    "synonyms": [
+      "rio negro dwarf cichlid",
+      "rio negro dwarf cichlids"
+    ]
+  },
+  {
+    "value": "german blue ram",
+    "synonyms": [
+      "german blue ram",
+      "german blue rams"
+    ]
+  },
+  {
+    "value": "golden wonder killifish",
+    "synonyms": [
+      "golden wonder killifish",
+      "gold wonder killifish"
+    ]
+  },
+  {
+    "value": "gulper catfish",
+    "synonyms": [
+      "gulper catfish"
+    ]
+  },
+  {
+    "value": "nerite snail",
+    "synonyms": [
+      "nerite snail",
+      "nerite snails"
+    ]
+  },
+  {
+    "value": "orangespotted snakehead",
+    "synonyms": [
+      "orangespotted snakehead",
+      "orangespotted snakeheads",
+      "orange spotted snakehead",
+      "orange spotted snakeheads"
+    ]
+  },
+  {
+    "value": "pakistani loach",
+    "synonyms": [
+      "pakistani loach",
+      "pakistani loaches"
+    ]
+  },
+  {
+    "value": "pygmy gourami",
+    "synonyms": [
+      "pygmy gourami",
+      "pygmy gouramis"
+    ]
+  },
+  {
+    "value": "redstripe rasbora",
+    "synonyms": [
+      "redstripe rasbora",
+      "redstripe rasboras"
+    ]
+  },
+  {
+    "value": "horsefaced loach",
+    "synonyms": [
+      "horsefaced loach",
+      "horsefaced loaches"
+    ]
+  },
+  {
+    "value": "hunched back limia",
+    "synonyms": [
+      "hunched back limia",
+      "hunched back limias"
+    ]
+  },
+  {
+    "value": "java loach",
+    "synonyms": [
+      "java loach",
+      "java loaches"
+    ]
+  },
+  {
+    "value": "kamaka rainbowfish",
+    "synonyms": [
+      "kamaka rainbowfish"
+    ]
+  },
+  {
+    "value": "leopard puffer",
+    "synonyms": [
+      "leopard puffer",
+      "leopard puffers",
+      "leopard pufferfish",
+      "leopard puffer fish"
+    ]
+  },
+  {
+    "value": "mono sebae",
+    "synonyms": [
+      "mono sebae",
+      "mono sabaes"
+    ]
+  },
+  {
+    "value": "mystery snail",
+    "synonyms": [
+      "mystery snail",
+      "mystery snails"
+    ]
+  },
+  {
+    "value": "pristella tetra",
+    "synonyms": [
+      "pristella tetra",
+      "pristella tetras"
+    ]
+  },
+  {
+    "value": "red shoulder peacock",
+    "synonyms": [
+      "red shoulder peacock",
+      "red shoulder peacocks",
+      "red shoulder peacock cichlid",
+      "red shoulder peacock cichlids"
+    ]
+  },
+  {
+    "value": "red tailed catfish",
+    "synonyms": [
+      "red tailed catfish",
+      "red tail catfish",
+      "redtail catfish",
+      "red-tail catfish"
+    ]
+  },
+  {
+    "value": "rose danio",
+    "synonyms": [
+      "rose danio",
+      "rose danios"
+    ]
+  },
+  {
+    "value": "hystrix stingray",
+    "synonyms": [
+      "hystrix stingray",
+      "hystrix stingrays"
+    ]
+  },
+  {
+    "value": "leopard gourami",
+    "synonyms": [
+      "leopard gourami",
+      "leopard gouramis"
+    ]
+  },
+  {
+    "value": "mango pleco",
+    "synonyms": [
+      "mango pleco",
+      "mango plecos"
+    ]
+  },
+  {
+    "value": "mountain rainbowfish",
+    "synonyms": [
+      "mountain rainbowfish"
+    ]
+  },
+  {
+    "value": "neon blue cichlid",
+    "synonyms": [
+      "neon blue cichlid",
+      "neon blue cichlids"
+    ]
+  },
+  {
+    "value": "orange chromide",
+    "synonyms": [
+      "orange chromide",
+      "orange chromides"
+    ]
+  },
+  {
+    "value": "redbreast sunfish",
+    "synonyms": [
+      "redbreast sunfish"
+    ]
+  },
+  {
+    "value": "redtail rasbora",
+    "synonyms": [
+      "redtail rasbora",
+      "redtail rasboras"
+    ]
+  },
+  {
+    "value": "golden dwarf barb",
+    "synonyms": [
+      "golden dwarf barb",
+      "golden dwarf barbs"
+    ]
+  },
+  {
+    "value": "green fire tetra",
+    "synonyms": [
+      "green fire tetra",
+      "green fire tetras"
+    ]
+  },
+  {
+    "value": "highfin platy",
+    "synonyms": [
+      "highfin platy",
+      "highfin platies"
+    ]
+  },
+  {
+    "value": "indonesian tigerfish",
+    "synonyms": [
+      "indonesian tigerfish"
+    ]
+  },
+  {
+    "value": "julii cory",
+    "synonyms": [
+      "julii cory",
+      "julii cories"
+    ]
+  },
+  {
+    "value": "leopard pleco",
+    "synonyms": [
+      "leopard pleco",
+      "leopard plecos"
+    ]
+  },
+  {
+    "value": "murray river rainbowfish",
+    "synonyms": [
+      "murray river rainbowfish"
+    ]
+  },
+  {
+    "value": "nicaraguan cichlid",
+    "synonyms": [
+      "nicaraguan cichlid",
+      "nicaraguan cichlids"
+    ]
+  },
+  {
+    "value": "nile tilapia",
+    "synonyms": [
+      "nile tilapia"
+    ]
+  },
+  {
+    "value": "paroon shark",
+    "synonyms": [
+      "paroon shark",
+      "paroon sharks"
+    ]
+  },
+  {
+    "value": "peacock eel",
+    "synonyms": [
+      "peacock eel",
+      "peacock eels"
+    ]
+  },
+  {
+    "value": "rainbow snakehead",
+    "synonyms": [
+      "rainbow snakehead",
+      "rainbow snakehead"
+    ]
+  },
+  {
+    "value": "red eye tetra",
+    "synonyms": [
+      "red eye tetra",
+      "red eye tetras"
+    ]
+  },
+  {
+    "value": "rhino pleco",
+    "synonyms": [
+      "rhino pleco",
+      "rhino plecos"
+    ]
+  },
+  {
+    "value": "rubberlip pleco",
+    "synonyms": [
+      "rubberlip pleco",
+      "rubberlip plecos"
+    ]
+  },
+  {
+    "value": "glass bloodfin tetra",
+    "synonyms": [
+      "glass bloodfin tetra",
+      "glass bloodfin tetras"
+    ]
+  },
+  {
+    "value": "golden barb",
+    "synonyms": [
+      "golden barb",
+      "golden barbs"
+    ]
+  },
+  {
+    "value": "green barb",
+    "synonyms": [
+      "green barb",
+      "green barbs"
+    ]
+  },
+  {
+    "value": "green phantom pleco",
+    "synonyms": [
+      "green phantom pleco",
+      "green phantom plecos"
+    ]
+  },
+  {
+    "value": "green terror",
+    "synonyms": [
+      "green terror",
+      "green terrors",
+      "green terror cichlid",
+      "green terror cichlids"
+    ]
+  },
+  {
+    "value": "harlequin rasbora",
+    "synonyms": [
+      "harlequin rasbora",
+      "harlequin rasboras"
+    ]
+  },
+  {
+    "value": "honduran red point",
+    "synonyms": [
+      "honduran red point",
+      "honduran red points"
+    ]
+  },
+  {
+    "value": "honey gourami",
+    "synonyms": [
+      "honey gourami",
+      "honey gouramis"
+    ]
+  },
+  {
+    "value": "hujeta gar",
+    "synonyms": [
+      "hujeta gar"
+    ]
+  },
+  {
+    "value": "lace catfish",
+    "synonyms": [
+      "lace catfish"
+    ]
+  },
+  {
+    "value": "lionhead cichlid",
+    "synonyms": [
+      "lionhead cichlid",
+      "lionhead cichlids"
+    ]
+  },
+  {
+    "value": "mbu puffer",
+    "synonyms": [
+      "mbu puffer",
+      "mbu puffers",
+      "mbu pufferfish",
+      "mbu puffer fish"
+    ]
+  },
+  {
+    "value": "ocellatus gold",
+    "synonyms": [
+      "ocellatus gold",
+      "ocellatus gold cichlid",
+      "ocellatus gold cichlids",
+      "ocellatus cichlid",
+      "ocellatus cichlids"
+    ]
+  },
+  {
+    "value": "orangespotted sunfish",
+    "synonyms": [
+      "orangespotted sunfish",
+      "orange spotted sunfish"
+    ]
+  },
+  {
+    "value": "peacock bass temensis",
+    "synonyms": [
+      "peacock bass temensis"
+    ]
+  },
+  {
+    "value": "pitbull pleco",
+    "synonyms": [
+      "pitbull pleco",
+      "pitbull plecos"
+    ]
+  },
+  {
+    "value": "ramu rainbowfish",
+    "synonyms": [
+      "ramu rainbowfish"
+    ]
+  },
+  {
+    "value": "red tail redeye puffer",
+    "synonyms": [
+      "red tail redeye puffer",
+      "red tail redeye puffers",
+      "red tailed redeye puffer",
+      "red tailed redeye puffers",
+      "red tailed redeye pufferfish",
+      "red tail redeye pufferfish",
+      "red tail redeye puffer fish",
+      "red tailed redeye puffer fish"
+    ]
+  },
+  {
+    "value": "red top cobalt cichlid",
+    "synonyms": [
+      "red top cobalt cichlid",
+      "red top cobalt cichlids"
+    ]
+  },
+  {
+    "value": "reticulated stingray",
+    "synonyms": [
+      "reticulated stingray",
+      "reticulated stingrays"
+    ]
+  },
+  {
+    "value": "rhomb barb",
+    "synonyms": [
+      "rhomb barb",
+      "rhomb barbs"
+    ]
+  },
+  {
+    "value": "rosy finned tetra",
+    "synonyms": [
+      "rosy finned tetra",
+      "rosy finned tetras",
+      "rosy-finned tetra",
+      "rosy-finned tetras",
+      "rosy fin tetra",
+      "rosy fin tetras",
+      "rosy-fin tetra",
+      "rosy-fin tetras"
+    ]
+  },
+  {
+    "value": "goby pleco",
+    "synonyms": [
+      "goby pleco",
+      "goby plecos"
+    ]
+  },
+  {
+    "value": "green neon tetra",
+    "synonyms": [
+      "green neon tetra",
+      "green neon tetras"
+    ]
+  },
+  {
+    "value": "horned nerite snail",
+    "synonyms": [
+      "horned nerite snail",
+      "horned nerite snails"
+    ]
+  },
+  {
+    "value": "japanese algae shrimp",
+    "synonyms": [
+      "japanese algae shrimp"
+    ]
+  },
+  {
+    "value": "kuhli loach",
+    "synonyms": [
+      "kuhli loach",
+      "kuhli loaches"
+    ]
+  },
+  {
+    "value": "largemouth bass",
+    "synonyms": [
+      "largemouth bass"
+    ]
+  },
+  {
+    "value": "long nosed loach",
+    "synonyms": [
+      "long nosed loach",
+      "long nosed loaches"
+    ]
+  },
+  {
+    "value": "long-finned african tetra",
+    "synonyms": [
+      "long-finned african tetra",
+      "long finned african tetra",
+      "long finned tetra",
+      "long finned tetras",
+      "long-finned african tetras",
+      "long finned african tetras"
+    ]
+  },
+  {
+    "value": "motoro stingray",
+    "synonyms": [
+      "motoro stingray",
+      "motoro stingrays"
+    ]
+  },
+  {
+    "value": "mottled loach",
+    "synonyms": [
+      "mottled loach",
+      "mottled loaches"
+    ]
+  },
+  {
+    "value": "olive nerite snail",
+    "synonyms": [
+      "olive nerite snail",
+      "olive nerite snails"
+    ]
+  },
+  {
+    "value": "one-spot betta",
+    "synonyms": [
+      "one-spot betta",
+      "one spot betta",
+      "one-spot bettas",
+      "one spot bettas"
+    ]
+  },
+  {
+    "value": "orange peacock",
+    "synonyms": [
+      "orange peacock",
+      "orange peacock cichlid",
+      "orange peacocks",
+      "orange peacock cichlids"
+    ]
+  },
+  {
+    "value": "parkinson rainbowfish",
+    "synonyms": [
+      "parkinson rainbowfish"
+    ]
+  },
+  {
+    "value": "polka dot loach",
+    "synonyms": [
+      "polka dot loach",
+      "polka dot loaches"
+    ]
+  },
+  {
+    "value": "pond snail",
+    "synonyms": [
+      "pond snail",
+      "pond snails"
+    ]
+  },
+  {
+    "value": "red devil cichlid",
+    "synonyms": [
+      "red devil cichlid",
+      "red devil cichlids"
+    ]
+  },
+  {
+    "value": "red terror",
+    "synonyms": [
+      "red terror",
+      "red terrors",
+      "red terror cichlid",
+      "red terror cichlids"
+    ]
+  },
+  {
+    "value": "redear sunfish",
+    "synonyms": [
+      "redear sunfish"
+    ]
+  },
+  {
+    "value": "half banded spiny eel",
+    "synonyms": [
+      "half banded spiny eel",
+      "half banded spiny eels",
+      "banded spiny eel",
+      "banded spiny eels",
+      "half banded eel",
+      "half banded eels",
+      "banded eel",
+      "banded eels"
+    ]
+  },
+  {
+    "value": "lesser spiny eel",
+    "synonyms": [
+      "lesser spiny eel",
+      "lesser spiny eels",
+      "lesser eel",
+      "lesser eels"
+    ]
+  },
+  {
+    "value": "madagascar rainbowfish",
+    "synonyms": [
+      "madagascar rainbowfish"
+    ]
+  },
+  {
+    "value": "malaya shrimp",
+    "synonyms": [
+      "malaya shrimp"
+    ]
+  },
+  {
+    "value": "molly",
+    "synonyms": [
+      "molly",
+      "mollies"
+    ]
+  },
+  {
+    "value": "nana rasbora",
+    "synonyms": [
+      "nana rasbora",
+      "nana rasboras"
+    ]
+  },
+  {
+    "value": "neon dwarf rainbowfish",
+    "synonyms": [
+      "neon dwarf rainbowfish"
+    ]
+  },
+  {
+    "value": "opaline gourami",
+    "synonyms": [
+      "opaline gourami",
+      "opaline gouramis"
+    ]
+  },
+  {
+    "value": "oscar",
+    "synonyms": [
+      "oscar",
+      "oscars"
+    ]
+  },
+  {
+    "value": "peacock bass orinocensis",
+    "synonyms": [
+      "peacock bass orinocensis"
+    ]
+  },
+  {
+    "value": "peacock gudgeons",
+    "synonyms": [
+      "peacock gudgeons",
+      "peacock gudgeon"
+    ]
+  },
+  {
+    "value": "prehistoric monster fish",
+    "synonyms": [
+      "prehistoric monster fish",
+      "prehistoric monsterfish"
+    ]
+  },
+  {
+    "value": "red tailed black shark",
+    "synonyms": [
+      "red tailed black shark",
+      "red tailed black sharks",
+      "red tail black shark",
+      "red tail black sharks"
+    ]
+  },
+  {
+    "value": "red-finned rainbowfish",
+    "synonyms": [
+      "red-finned rainbowfish",
+      "red finned rainbowfish",
+      "red fin rainbowfish",
+      "red-fin rainbowfish"
+    ]
+  },
+  {
+    "value": "redline rasbora",
+    "synonyms": [
+      "redline rasbora",
+      "redline rasboras"
+    ]
+  },
+  {
+    "value": "glowlight tetra",
+    "synonyms": [
+      "glowlight tetra",
+      "glowlight tetras",
+      "glo tetra",
+      "glo tetras",
+      "glow tetra",
+      "glow tetras"
+    ]
+  },
+  {
+    "value": "harlequin shark",
+    "synonyms": [
+      "harlequin shark",
+      "harlequin sharks"
+    ]
+  },
+  {
+    "value": "harlequin shrimp",
+    "synonyms": [
+      "harlequin shrimp"
+    ]
+  },
+  {
+    "value": "lima shovelnose catfish",
+    "synonyms": [
+      "lima shovelnose catfish"
+    ]
+  },
+  {
+    "value": "long-tailed river stingray",
+    "synonyms": [
+      "long-tailed river stingray",
+      "long-tailed river stingrays",
+      "long tailed river stingrays",
+      "long tailed stingrays",
+      "long tailed stingray"
+    ]
+  },
+  {
+    "value": "lyretail killifish",
+    "synonyms": [
+      "lyretail killifish"
+    ]
+  },
+  {
+    "value": "macaw cichlid",
+    "synonyms": [
+      "macaw cichlid",
+      "macaw cichlids"
+    ]
+  },
+  {
+    "value": "mayan cichlid",
+    "synonyms": [
+      "mayan cichlid",
+      "mayan cichlids"
+    ]
+  },
+  {
+    "value": "queen loach",
+    "synonyms": [
+      "queen loach",
+      "queen loaches"
+    ]
+  },
+  {
+    "value": "red dwarf rasbora",
+    "synonyms": [
+      "red dwarf rasbora",
+      "red dwarf rasboras"
+    ]
+  },
+  {
+    "value": "rosy red minnow",
+    "synonyms": [
+      "rosy red minnow",
+      "rosy red minnows"
+    ]
+  },
+  {
+    "value": "giant gourami",
+    "synonyms": [
+      "giant gourami",
+      "giant gouramis"
+    ]
+  },
+  {
+    "value": "gold tetra",
+    "synonyms": [
+      "gold tetra",
+      "gold tetras"
+    ]
+  },
+  {
+    "value": "golden gourami",
+    "synonyms": [
+      "golden gourami",
+      "golden gouramis"
+    ]
+  },
+  {
+    "value": "hogchoker",
+    "synonyms": [
+      "hogchoker",
+      "hogchokers"
+    ]
+  },
+  {
+    "value": "jack dempsey",
+    "synonyms": [
+      "jack dempsey",
+      "jack dempsey cichlid",
+      "jack dempsey cichlids",
+      "jack dempseys"
+    ]
+  },
+  {
+    "value": "maingano mbuna",
+    "synonyms": [
+      "maingano mbuna",
+      "maingano mbunas"
+    ]
+  },
+  {
+    "value": "marble goby",
+    "synonyms": [
+      "marble goby",
+      "marble gobies"
+    ]
+  },
+  {
+    "value": "mubi rainbowfish",
+    "synonyms": [
+      "mubi rainbowfish"
+    ]
+  },
+  {
+    "value": "odessa barb",
+    "synonyms": [
+      "odessa barb",
+      "odessa barbs"
+    ]
+  },
+  {
+    "value": "peacock bass ocellaris",
+    "synonyms": [
+      "peacock bass ocellaris"
+    ]
+  },
+  {
+    "value": "red bellied pacu",
+    "synonyms": [
+      "red bellied pacu",
+      "red bellied pacus"
+    ]
+  },
+  {
+    "value": "red zebra",
+    "synonyms": [
+      "red zebra",
+      "red zebras",
+      "red zebra danio",
+      "red zebra danios"
+    ]
+  },
+  {
+    "value": "rummynose rasbora",
+    "synonyms": [
+      "rummynose rasbora",
+      "rummynose rasboras"
+    ]
+  },
+  {
+    "value": "sepil rainbowfish",
+    "synonyms": [
+      "sepil rainbowfish"
+    ]
+  },
+  {
+    "value": "rusty cichlid",
+    "synonyms": [
+      "rusty cichlid",
+      "rusty cichlids"
+    ]
+  },
+  {
+    "value": "sajica cichlid",
+    "synonyms": [
+      "sajica cichlid",
+      "sajica cichlids"
+    ]
+  },
+  {
+    "value": "ryukin goldfish",
+    "synonyms": [
+      "ryukin goldfish"
+    ]
+  },
+  {
+    "value": "sailfin molly",
+    "synonyms": [
+      "sailfin molly",
+      "sailfin mollies"
+    ]
+  },
+  {
+    "value": "schawrtz cory",
+    "synonyms": [
+      "schawrtz cory",
+      "schawrtz cories"
+    ]
+  },
+  {
+    "value": "serpae tetra",
+    "synonyms": [
+      "serpae tetra",
+      "serpae tetras"
+    ]
+  },
+  {
+    "value": "snakehead fighter",
+    "synonyms": [
+      "snakehead fighter",
+      "snakehead fighters"
+    ]
+  },
+  {
+    "value": "sorong rainbowfish",
+    "synonyms": [
+      "sorong rainbowfish"
+    ]
+  },
+  {
+    "value": "southern checkmark cichlid",
+    "synonyms": [
+      "southern checkmark cichlid",
+      "southern checkmark cichlids"
+    ]
+  },
+  {
+    "value": "spotted rubberlip pleco L187a",
+    "synonyms": [
+      "spotted rubberlip pleco L187a",
+      "spotted rubberlip plecos l187a",
+      "spotted rubberlip pleco",
+      "spotted rubberlip plecos",
+      "l187a",
+      "l187as",
+      "l187a\u0027s"
+    ]
+  },
+  {
+    "value": "sumo loach",
+    "synonyms": [
+      "sumo loach",
+      "sumo loaches"
+    ]
+  },
+  {
+    "value": "swordtail",
+    "synonyms": [
+      "swordtail",
+      "swordtails"
+    ]
+  },
+  {
+    "value": "tandanus catfish",
+    "synonyms": [
+      "tandanus catfish"
+    ]
+  },
+  {
+    "value": "tinfoil barb",
+    "synonyms": [
+      "tinfoil barb",
+      "tinfoil barbs"
+    ]
+  },
+  {
+    "value": "trapdoor snail",
+    "synonyms": [
+      "trapdoor snail",
+      "trapdoor snails"
+    ]
+  },
+  {
+    "value": "waigeo rainbowfish",
+    "synonyms": [
+      "waigeo rainbowfish"
+    ]
+  },
+  {
+    "value": "shortnose gar",
+    "synonyms": [
+      "shortnose gar"
+    ]
+  },
+  {
+    "value": "sawbwa barb",
+    "synonyms": [
+      "sawbwa barb",
+      "swabwa barbs"
+    ]
+  },
+  {
+    "value": "scat",
+    "synonyms": [
+      "scat",
+      "scats"
+    ]
+  },
+  {
+    "value": "silvertip tetra",
+    "synonyms": [
+      "silvertip tetra",
+      "silvertip tetras"
+    ]
+  },
+  {
+    "value": "spotted port hoplo",
+    "synonyms": [
+      "spotted port hoplo",
+      "spotted port hoplos"
+    ]
+  },
+  {
+    "value": "tailbar cichlid",
+    "synonyms": [
+      "tailbar cichlid",
+      "tailbar cichlids"
+    ]
+  },
+  {
+    "value": "threadfin acara",
+    "synonyms": [
+      "threadfin acara",
+      "threadfin acaras"
+    ]
+  },
+  {
+    "value": "tiger shovelnose catfish",
+    "synonyms": [
+      "tiger shovelnose catfish"
+    ]
+  },
+  {
+    "value": "tricolor cichlid",
+    "synonyms": [
+      "tricolor cichlid",
+      "tricolor cichlids"
+    ]
+  },
+  {
+    "value": "tropical gar",
+    "synonyms": [
+      "tropical gar"
+    ]
+  },
+  {
+    "value": "vieja fenestrata",
+    "synonyms": [
+      "vieja fenestrata",
+      "vieja fenestratas"
+    ]
+  },
+  {
+    "value": "west african bichir",
+    "synonyms": [
+      "west african bichir",
+      "west african bichirs"
+    ]
+  },
+  {
+    "value": "salmon-red rainbowfish",
+    "synonyms": [
+      "salmon-red rainbowfish",
+      "salmon red rainbowfish"
+    ]
+  },
+  {
+    "value": "smallmouth bass",
+    "synonyms": [
+      "smallmouth bass"
+    ]
+  },
+  {
+    "value": "spotted rainbowfish",
+    "synonyms": [
+      "spotted rainbowfish"
+    ]
+  },
+  {
+    "value": "striped panchax killifish",
+    "synonyms": [
+      "striped panchax killifish"
+    ]
+  },
+  {
+    "value": "threadfin rainbowfish",
+    "synonyms": [
+      "threadfin rainbowfish"
+    ]
+  },
+  {
+    "value": "uruguayan eartheater",
+    "synonyms": [
+      "uruguayan eartheater",
+      "uruguayan earth eater",
+      "uruguayan eartheaters",
+      "uruguayan earth eaters",
+      "uruguayan geophagus",
+      "uruguayan geo",
+      "uruguayan geos"
+    ]
+  },
+  {
+    "value": "walking catfish",
+    "synonyms": [
+      "walking catfish"
+    ]
+  },
+  {
+    "value": "sand loach",
+    "synonyms": [
+      "sand loach",
+      "sand loaches"
+    ]
+  },
+  {
+    "value": "spotted climbing perch",
+    "synonyms": [
+      "spotted climbing perch",
+      "spotted climbing perches"
+    ]
+  },
+  {
+    "value": "spotted gar",
+    "synonyms": [
+      "spotted gar"
+    ]
+  },
+  {
+    "value": "steindachner dwarf cichlid",
+    "synonyms": [
+      "steindachner dwarf cichlid",
+      "steindachner dwarf cichlids"
+    ]
+  },
+  {
+    "value": "tire track eel",
+    "synonyms": [
+      "tire track eel",
+      "tire track eels"
+    ]
+  },
+  {
+    "value": "trimac",
+    "synonyms": [
+      "trimac",
+      "trimacs"
+    ]
+  },
+  {
+    "value": "spotfin goby cichlid",
+    "synonyms": [
+      "spotfin goby cichlid",
+      "spotfin goby cichlids"
+    ]
+  },
+  {
+    "value": "stripped raphael catfish",
+    "synonyms": [
+      "stripped raphael catfish",
+      "striped raphael catfish"
+    ]
+  },
+  {
+    "value": "tiger barb",
+    "synonyms": [
+      "tiger barb",
+      "tiger barbs"
+    ]
+  },
+  {
+    "value": "upside down catfish",
+    "synonyms": [
+      "upside down catfish"
+    ]
+  },
+  {
+    "value": "south american leaf fish",
+    "synonyms": [
+      "south american leaf fish"
+    ]
+  },
+  {
+    "value": "sparkling gourami",
+    "synonyms": [
+      "sparkling gourami",
+      "sparkling gouramis"
+    ]
+  },
+  {
+    "value": "spiny eel",
+    "synonyms": [
+      "spiny eel",
+      "spiny eels"
+    ]
+  },
+  {
+    "value": "spot loach",
+    "synonyms": [
+      "spot loach",
+      "spot loaches"
+    ]
+  },
+  {
+    "value": "sunset coral dwarf platy",
+    "synonyms": [
+      "sunset coral dwarf platy",
+      "sunset coral dwarf platies"
+    ]
+  },
+  {
+    "value": "tail spot pygmy cory",
+    "synonyms": [
+      "tail spot pygmy cory",
+      "tail spot pygmy cories"
+    ]
+  },
+  {
+    "value": "the pearl eartheater",
+    "synonyms": [
+      "the pearl eartheater",
+      "pearl eartheaters",
+      "pearl eartheater",
+      "pearl earth eater",
+      "pearl earth eaters",
+      "pearl geophagus",
+      "pearl geo",
+      "pearl geos"
+    ]
+  },
+  {
+    "value": "twig catfish",
+    "synonyms": [
+      "twig catfish"
+    ]
+  },
+  {
+    "value": "two spot gourami",
+    "synonyms": [
+      "two spot gourami",
+      "two spot gouramis",
+      "2 spot gourami",
+      "2 spot gouramis"
+    ]
+  },
+  {
+    "value": "salvini cichlid",
+    "synonyms": [
+      "salvini cichlid",
+      "salvini cichlids"
+    ]
+  },
+  {
+    "value": "shark catfish",
+    "synonyms": [
+      "shark catfish"
+    ]
+  },
+  {
+    "value": "snowball shrimp",
+    "synonyms": [
+      "snowball shrimp",
+      "solar catfish"
+    ]
+  },
+  {
+    "value": "tequila splitfin",
+    "synonyms": [
+      "tequila splitfin",
+      "tequila splitfins"
+    ]
+  },
+  {
+    "value": "rummynose tetra",
+    "synonyms": [
+      "rummynose tetra",
+      "rummynose tetras"
+    ]
+  },
+  {
+    "value": "sterbai cory",
+    "synonyms": [
+      "sterbai cory",
+      "sterbai cories"
+    ]
+  },
+  {
+    "value": "sunburst platy",
+    "synonyms": [
+      "sunburst platy",
+      "sunburst platies"
+    ]
+  },
+  {
+    "value": "swordtail [female]",
+    "synonyms": [
+      "swordtail [female]",
+      "girl swordtail",
+      "girl swordtails",
+      "female swordtails",
+      "female swordtail"
+    ]
+  },
+  {
+    "value": "three lined cory",
+    "synonyms": [
+      "three lined cory",
+      "three lined cories",
+      "3 lined cory",
+      "3 lined cories"
+    ]
+  },
+  {
+    "value": "three lined rasbora",
+    "synonyms": [
+      "three lined rasbora",
+      "three lined rasboras",
+      "3 lined rasbora",
+      "3 lined rasboras"
+    ]
+  },
+  {
+    "value": "three spot gourami",
+    "synonyms": [
+      "three spot gourami",
+      "three spot gouramis",
+      "3 spot gouramis",
+      "3 spot gourami"
+    ]
+  },
+  {
+    "value": "san juan cory",
+    "synonyms": [
+      "san juan cory",
+      "san juan cories"
+    ]
+  },
+  {
+    "value": "scissortail rasbora",
+    "synonyms": [
+      "scissortail rasbora",
+      "scissortail rasboras"
+    ]
+  },
+  {
+    "value": "sentani rainbowfish",
+    "synonyms": [
+      "sentani rainbowfish"
+    ]
+  },
+  {
+    "value": "silver hatchet",
+    "synonyms": [
+      "silver hatchet",
+      "silver hatchets",
+      "silver hatchet fish",
+      "silver hatchetfish"
+    ]
+  },
+  {
+    "value": "sunset platy",
+    "synonyms": [
+      "sunset platy",
+      "sunset platies"
+    ]
+  },
+  {
+    "value": "tucano cory",
+    "synonyms": [
+      "tucano cory",
+      "tucano cories"
+    ]
+  },
+  {
+    "value": "turquoise rainbowfish",
+    "synonyms": [
+      "turquoise rainbowfish"
+    ]
+  },
+  {
+    "value": "twinbar platy",
+    "synonyms": [
+      "twinbar platy",
+      "twinbar platies"
+    ]
+  },
+  {
+    "value": "weeksi bichir",
+    "synonyms": [
+      "weeksi bichir",
+      "weeksi bichirs"
+    ]
+  },
+  {
+    "value": "western rainbowfish",
+    "synonyms": [
+      "western rainbowfish"
+    ]
+  },
+  {
+    "value": "white skirt tetra",
+    "synonyms": [
+      "white skirt tetra",
+      "white skirt tetras"
+    ]
+  },
+  {
+    "value": "spotted raphael catfish",
+    "synonyms": [
+      "spotted raphael catfish"
+    ]
+  },
+  {
+    "value": "starlight bristlenose pleco L183",
+    "synonyms": [
+      "starlight bristlenose pleco L183",
+      "starlight bristlenose plecos L183",
+      "starlight bristlenose plecos",
+      "starlight bristlenose pleco"
+    ]
+  },
+  {
+    "value": "teacup stingray",
+    "synonyms": [
+      "teacup stingray",
+      "teacup stingrays"
+    ]
+  },
+  {
+    "value": "tiger shrimp",
+    "synonyms": [
+      "tiger shrimp"
+    ]
+  },
+  {
+    "value": "venezuelan pygmy cory",
+    "synonyms": [
+      "venezuelan pygmy cory",
+      "venezuelan pygmy cories"
+    ]
+  },
+  {
+    "value": "von rio tetra",
+    "synonyms": [
+      "von rio tetra",
+      "von rio tetras"
+    ]
+  },
+  {
+    "value": "white cloud mountain minnow",
+    "synonyms": [
+      "white cloud mountain minnow",
+      "white cloud mountain minnors"
+    ]
+  },
+  {
+    "value": "silver rainbowfish",
+    "synonyms": [
+      "silver rainbowfish"
+    ]
+  },
+  {
+    "value": "tiger oscar",
+    "synonyms": [
+      "tiger oscar",
+      "tiger oscars"
+    ]
+  },
+  {
+    "value": "turquoise cichlid",
+    "synonyms": [
+      "turquoise cichlids",
+      "turquoise cichlids"
+    ]
+  },
+  {
+    "value": "weather loach",
+    "synonyms": [
+      "weather loach",
+      "weather loaches"
+    ]
+  },
+  {
+    "value": "white cichlid",
+    "synonyms": [
+      "white cichlid",
+      "white cichlids"
+    ]
+  },
+  {
+    "value": "senegal bichir",
+    "synonyms": [
+      "senegal bichir",
+      "senegal bichirs"
+    ]
+  },
+  {
+    "value": "sabretooth tetra",
+    "synonyms": [
+      "sabretooth tetra",
+      "sabertooth tetras"
+    ]
+  },
+  {
+    "value": "saddled bichir",
+    "synonyms": [
+      "saddled bichir",
+      "saddled bichirs"
+    ]
+  },
+  {
+    "value": "shovelnose sturgeon",
+    "synonyms": [
+      "shovelnose sturgeon"
+    ]
+  },
+  {
+    "value": "spotted headstander",
+    "synonyms": [
+      "spotted headstander",
+      "spotted headstanders"
+    ]
+  },
+  {
+    "value": "stonelapping minnow",
+    "synonyms": [
+      "stonelapping minnow",
+      "stonelapping minnows",
+      "striped glass catfish"
+    ]
+  },
+  {
+    "value": "stripped loach",
+    "synonyms": [
+      "stripped loach",
+      "striped loach",
+      "stripped loaches",
+      "stripped loaches"
+    ]
+  },
+  {
+    "value": "texas cichlid",
+    "synonyms": [
+      "texas cichlid",
+      "texas cichlids"
+    ]
+  },
+  {
+    "value": "scarlet badis",
+    "synonyms": [
+      "scarlet badis"
+    ]
+  },
+  {
+    "value": "skunk loach",
+    "synonyms": [
+      "skunk loach",
+      "skunk loaches"
+    ]
+  },
+  {
+    "value": "south american puffer",
+    "synonyms": [
+      "south american puffer",
+      "south american puffers",
+      "south american pufferfish",
+      "south american puffer fish"
+    ]
+  },
+  {
+    "value": "talking catfish",
+    "synonyms": [
+      "talking catfish"
+    ]
+  },
+  {
+    "value": "tami river rainbowfish",
+    "synonyms": [
+      "tami river rainbowfish"
+    ]
+  },
+  {
+    "value": "vampire shrimp",
+    "synonyms": [
+      "vampire shrimp"
+    ]
+  },
+  {
+    "value": "warmouth",
+    "synonyms": [
+      "warmouth",
+      "warmouths"
+    ]
+  },
+  {
+    "value": "silver dollar",
+    "synonyms": [
+      "silver dollar",
+      "silver dollars"
+    ]
+  },
+  {
+    "value": "stripefin eartheater",
+    "synonyms": [
+      "stripefin eartheater",
+      "stripefin eartheaters",
+      "stripefin earth eater",
+      "stripefin earth eaters",
+      "stripefin geophagus",
+      "stripefin geo",
+      "stripefin geos"
+    ]
+  },
+  {
+    "value": "tiger loach",
+    "synonyms": [
+      "tiger loach",
+      "tiger loaches"
+    ]
+  },
+  {
+    "value": "siamese tigerfish",
+    "synonyms": [
+      "siamese tigerfish"
+    ]
+  },
+  {
+    "value": "slant nose gar",
+    "synonyms": [
+      "slant nose gar",
+      "slender rainbowfish"
+    ]
+  },
+  {
+    "value": "swordtail [male]",
+    "synonyms": [
+      "swordtail [male]",
+      "male swordtail",
+      "male swordtails",
+      "boy swordtail",
+      "boy swordtails"
+    ]
+  },
+  {
+    "value": "tigrinus catfish",
+    "synonyms": [
+      "tigrinus catfish"
+    ]
+  },
+  {
+    "value": "wallago leeri",
+    "synonyms": [
+      "wallago leeri"
+    ]
+  },
+  {
+    "value": "white cheeked goby",
+    "synonyms": [
+      "white cheeked goby",
+      "white cheeked bogies"
+    ]
+  },
+  {
+    "value": "siamese aldae eater",
+    "synonyms": [
+      "siamese aldae eater",
+      "siamese algae eaters"
+    ]
+  },
+  {
+    "value": "siamese tiger",
+    "synonyms": [
+      "siamese tiger",
+      "siamese tigers"
+    ]
+  },
+  {
+    "value": "skunk cory",
+    "synonyms": [
+      "skunk cory",
+      "skunk cories"
+    ]
+  },
+  {
+    "value": "swift rasbora",
+    "synonyms": [
+      "swift rasbora",
+      "swift rasboras"
+    ]
+  },
+  {
+    "value": "thinbar datnoid",
+    "synonyms": [
+      "thinbar datnoid",
+      "thinbar datnoids",
+      "datnoid",
+      "datnoids"
+    ]
+  },
+  {
+    "value": "tiger muskie",
+    "synonyms": [
+      "tiger muskie",
+      "tiger muskies"
+    ]
+  },
+  {
+    "value": "tiger pleco L002",
+    "synonyms": [
+      "tiger pleco L002",
+      "tiger plecos L002",
+      "tiger pleco",
+      "tiger plecos",
+      "L002",
+      "L002s"
+    ]
+  },
+  {
+    "value": "whisker shrimp",
+    "synonyms": [
+      "whisker shrimp"
+    ]
+  },
+  {
+    "value": "severum",
+    "synonyms": [
+      "severum",
+      "severums"
+    ]
+  },
+  {
+    "value": "silver flying fox",
+    "synonyms": [
+      "silver flying fox",
+      "silver flying foxes"
+    ]
+  },
+  {
+    "value": "skunk botia",
+    "synonyms": [
+      "skunk botia",
+      "skunk botias"
+    ]
+  },
+  {
+    "value": "tiger danio",
+    "synonyms": [
+      "tiger danio",
+      "tiger danios"
+    ]
+  },
+  {
+    "value": "two line cory",
+    "synonyms": [
+      "two line cory",
+      "two line cories",
+      "2 line cory",
+      "2 line cories"
+    ]
+  },
+  {
+    "value": "uaru cichlid",
+    "synonyms": [
+      "uaru cichlid",
+      "uaru cichlids"
+    ]
+  },
+  {
+    "value": "zamora woodcat",
+    "synonyms": [
+      "zamora woodcat"
+    ]
+  },
+  {
+    "value": "zebra oto",
+    "synonyms": [
+      "zebra oto",
+      "zebra otos"
+    ]
+  },
+  {
+    "value": "yellow perch",
+    "synonyms": [
+      "yellow perch",
+      "yellow perches"
+    ]
+  },
+  {
+    "value": "whiteseam fighter",
+    "synonyms": [
+      "whiteseam fighter"
+    ]
+  },
+  {
+    "value": "yellow acara",
+    "synonyms": [
+      "yellow acara",
+      "yellow acaras"
+    ]
+  },
+  {
+    "value": "yellow bullhead catfish",
+    "synonyms": [
+      "yellow bullhead catfish"
+    ]
+  },
+  {
+    "value": "wolf cichlid",
+    "synonyms": [
+      "wolf cichlid",
+      "wolf cichlids"
+    ]
+  },
+  {
+    "value": "yellow convict",
+    "synonyms": [
+      "yellow convict",
+      "yellow convicts",
+      "yellow convict cichlids"
+    ]
+  },
+  {
+    "value": "zig zag spiny eel",
+    "synonyms": [
+      "zig zag spiny eel",
+      "zig zag spiny eels",
+      "zig zag eel",
+      "zig zag eels"
+    ]
+  },
+  {
+    "value": "yellow shrimp",
+    "synonyms": [
+      "yellow shrimp"
+    ]
+  },
+  {
+    "value": "yellow lab",
+    "synonyms": [
+      "yellow lab",
+      "yellow labs",
+      "yellow lab fish",
+      "yellow lab cichlid",
+      "yellow lab cichlids",
+      "electric yellow cichlid",
+      "electric yellow cichlids"
+    ]
+  },
+  {
+    "value": "white sturgeon",
+    "synonyms": [
+      "white sturgeon"
+    ]
+  },
+  {
+    "value": "wood shrimp",
+    "synonyms": [
+      "wood shrimp"
+    ]
+  },
+  {
+    "value": "widebar datnoid",
+    "synonyms": [
+      "widebar datnoid"
+    ]
+  },
+  {
+    "value": "zebra nerite snail",
+    "synonyms": [
+      "zebra nerite snail",
+      "zebra nerite snails"
+    ]
+  },
+  {
+    "value": "yoyo loach",
+    "synonyms": [
+      "yoyo loach",
+      "yoyo loaches"
+    ]
+  },
+  {
+    "value": "zipper loach",
+    "synonyms": [
+      "zipper loach",
+      "zipper loaches"
+    ]
+  },
+  {
+    "value": "yellow peacock",
+    "synonyms": [
+      "yellow peacock",
+      "yellow peacocks",
+      "yellow peacock cichlid",
+      "yellow peacock cichlids"
+    ]
+  },
+  {
+    "value": "yellow belly cichlid",
+    "synonyms": [
+      "yellow belly cichlid",
+      "yellow belly cichlids"
+    ]
+  },
+  {
+    "value": "zebra apple snail",
+    "synonyms": [
+      "zebra apple snail",
+      "zebra apple snails"
+    ]
+  },
+  {
+    "value": "x-ray tetra",
+    "synonyms": [
+      "x-ray tetra",
+      "x-ray tetras",
+      "xray tetra",
+      "xray tetras",
+      "x ray tetra",
+      "x ray tetras"
+    ]
+  },
+  {
+    "value": "zebra pleco",
+    "synonyms": [
+      "zebra pleco",
+      "zebra plecos"
+    ]
+  },
+  {
+    "value": "zebra spiny eel",
+    "synonyms": [
+      "zebra spiny eel",
+      "zebra spiny eels"
+    ]
+  },
+  {
+    "value": "wolf fish",
+    "synonyms": [
+      "wolf fish"
+    ]
+  },
+  {
+    "value": "zebra loach",
+    "synonyms": [
+      "zebra loach",
+      "zebra loaches"
+    ]
+  },
+  {
+    "value": "zebra tilapia",
+    "synonyms": [
+      "zebra tilapia",
+      "zebra tilapia"
     ]
   }
 ]

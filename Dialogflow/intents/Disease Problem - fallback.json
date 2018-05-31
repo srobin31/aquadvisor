@@ -1,0 +1,45 @@
+{
+  "id": "6ff38740-b5e4-4e77-bba2-ab179a01ae68",
+  "parentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "rootParentId": "1c7ac978-6f81-4164-ad4a-e81386a5e168",
+  "name": "Disease Problem - fallback",
+  "auto": false,
+  "contexts": [
+    "DiseaseProblem-followup",
+    "disease_description"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DiseaseProblem.DiseaseProblem-fallback",
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What your fish has can be a variety of diseases."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I recommend that you read through the following links and see which disease or infection applies to your fish.\nhttp://www.tropicalfishsite.com/common-tropical-fish-diseases/\nhttps://www.petcha.com/common-tropical-fish-diseases/\nhttp://www.fishnet.org/sick-fish-chart.htm"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527119558,
+  "fallbackIntent": true,
+  "events": []
+}

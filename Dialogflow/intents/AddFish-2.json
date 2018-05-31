@@ -1,0 +1,51 @@
+{
+  "id": "56f95ecc-2ff3-42be-b643-7cf09224eb5b",
+  "name": "AddFish-2",
+  "auto": true,
+  "contexts": [
+    "moreFish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "addFish",
+      "affectedContexts": [
+        {
+          "name": "moreFish",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3bdb8324-9580-4ee1-ac73-c5c7d5fb280d",
+          "required": false,
+          "dataType": "@fishnum",
+          "name": "fishnum",
+          "value": "$fishnum",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "you\u0027re adding $fishnum"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1526646575,
+  "fallbackIntent": false,
+  "events": []
+}

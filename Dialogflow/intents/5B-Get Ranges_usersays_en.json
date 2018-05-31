@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cbec3f40-86ee-4452-a04c-1703d9f10e7b",
+    "data": [
+      {
+        "text": "ranges",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526040723
+  },
+  {
+    "id": "f5c93ca4-2c4d-4ea9-93ca-624bbefedf23",
+    "data": [
+      {
+        "text": "range",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1526041057
+  }
+]

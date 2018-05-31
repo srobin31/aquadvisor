@@ -1,0 +1,50 @@
+{
+  "id": "08220e26-a0b0-4530-a063-12a5864aa80d",
+  "name": "feeding-frequency",
+  "auto": true,
+  "contexts": [
+    "wantToKnow"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "continue",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "wantToKnow",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a0c44be3-7a9a-497a-a50f-63ec1fd0deff",
+          "required": false,
+          "dataType": "@feeding",
+          "name": "feeding",
+          "value": "$feeding",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It is best to give your fish two or three small feedings per day. Only give an amount of food that the fish can eat in 2 minutes or less."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1527126219,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "value": "u suck",
+    "synonyms": [
+      "u suck"
+    ]
+  },
+  {
+    "value": "fuck you",
+    "synonyms": [
+      "fuck you",
+      "fu",
+      "f u",
+      "fuck"
+    ]
+  },
+  {
+    "value": "garbage",
+    "synonyms": [
+      "garbage",
+      "shit",
+      "terrible",
+      "trash"
+    ]
+  },
+  {
+    "value": "do you know anything",
+    "synonyms": [
+      "do you know anything",
+      "uselss",
+      "useless",
+      "you know nothing",
+      "you know nothin",
+      "why don\u0027t you know anything"
+    ]
+  }
+]

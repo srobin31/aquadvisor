@@ -1,20 +1,62 @@
 [
   {
-    "value": "Aqua El Fan Filter Plus Mikro",
+    "value": "Aquaclear 500",
     "synonyms": [
-      "Aqua El Fan Filter Plus Mikro"
+      "Aquaclear 500"
     ]
   },
   {
-    "value": "All Pond Solutions 1000EF+",
+    "value": "Aqua El Fan Filter Plus Mini",
     "synonyms": [
-      "All Pond Solutions 1000EF+"
+      "Aqua El Fan Filter Plus Mini"
     ]
   },
   {
-    "value": "Aquaclear 20",
+    "value": "Aquaclear Mini",
     "synonyms": [
-      "Aquaclear 20"
+      "Aquaclear Mini"
+    ]
+  },
+  {
+    "value": "All Pond Solutions 1000EF",
+    "synonyms": [
+      "All Pond Solutions 1000EF"
+    ]
+  },
+  {
+    "value": "Azoo Oxygen 4 Plus",
+    "synonyms": [
+      "Azoo Oxygen 4 Plus"
+    ]
+  },
+  {
+    "value": "Aquaclear 30",
+    "synonyms": [
+      "Aquaclear 30"
+    ]
+  },
+  {
+    "value": "Aqueon QuietFlow 20",
+    "synonyms": [
+      "Aqueon QuietFlow 20"
+    ]
+  },
+  {
+    "value": "Azoo Oxygen 7 Plus",
+    "synonyms": [
+      "Azoo Oxygen 7 Plus"
+    ]
+  },
+  {
+    "value": "Aqua FX SPR-2200",
+    "synonyms": [
+      "Aqua FX SPR-2200"
+    ]
+  },
+  {
+    "value": "Aqua One Aquis 500",
+    "synonyms": [
+      "Aqua One Aquis 500"
     ]
   },
   {
@@ -24,21 +66,45 @@
     ]
   },
   {
-    "value": "Aqua One Aquis 1050",
+    "value": "Aqua One Aquis 1250",
     "synonyms": [
-      "Aqua One Aquis 1050"
+      "Aqua One Aquis 1250"
     ]
   },
   {
-    "value": "Aqueon ProFlex 1",
+    "value": "Aqua One Aquis 2250",
     "synonyms": [
-      "Aqueon ProFlex 1"
+      "Aqua One Aquis 2250"
     ]
   },
   {
-    "value": "Azoo Oxygen 1 Plus",
+    "value": "Aquaclear 110",
     "synonyms": [
-      "Azoo Oxygen 1 Plus"
+      "Aquaclear 110"
+    ]
+  },
+  {
+    "value": "Aquarium Systems Millenium 3000",
+    "synonyms": [
+      "Aquarium Systems Millenium 3000"
+    ]
+  },
+  {
+    "value": "Aqua Nova 2000",
+    "synonyms": [
+      "Aqua Nova 2000"
+    ]
+  },
+  {
+    "value": "Aqueon QuietFlow 30",
+    "synonyms": [
+      "Aqueon QuietFlow 30"
+    ]
+  },
+  {
+    "value": "Aqua FX SPR-800",
+    "synonyms": [
+      "Aqua FX SPR-800"
     ]
   },
   {
@@ -48,27 +114,9 @@
     ]
   },
   {
-    "value": "Aqua Nova 1500",
+    "value": "Aquaclear 20",
     "synonyms": [
-      "Aqua Nova 1500"
-    ]
-  },
-  {
-    "value": "Aqueon QuietFlow 10",
-    "synonyms": [
-      "Aqueon QuietFlow 10"
-    ]
-  },
-  {
-    "value": "Aqua FX SPR-500",
-    "synonyms": [
-      "Aqua FX SPR-500"
-    ]
-  },
-  {
-    "value": "Azoo Oxygen 5 Plus",
-    "synonyms": [
-      "Azoo Oxygen 5 Plus"
+      "Aquaclear 20"
     ]
   },
   {
@@ -78,15 +126,147 @@
     ]
   },
   {
+    "value": "Aqua Nova 1000",
+    "synonyms": [
+      "Aqua Nova 1000"
+    ]
+  },
+  {
+    "value": "Aqua One Aquis 1050",
+    "synonyms": [
+      "Aqua One Aquis 1050"
+    ]
+  },
+  {
+    "value": "Aqueon QuietFlow 10",
+    "synonyms": [
+      "Aqueon QuietFlow 10"
+    ]
+  },
+  {
+    "value": "Aqueon ProFlex 3",
+    "synonyms": [
+      "Aqueon ProFlex 3"
+    ]
+  },
+  {
+    "value": "Aqua FX SPR-1100",
+    "synonyms": [
+      "Aqua FX SPR-1100"
+    ]
+  },
+  {
+    "value": "Aquaclear 50",
+    "synonyms": [
+      "Aquaclear 50"
+    ]
+  },
+  {
+    "value": "Aqua One Aquis 1000",
+    "synonyms": [
+      "Aqua One Aquis 1000"
+    ]
+  },
+  {
+    "value": "Aquaclear 150",
+    "synonyms": [
+      "Aquaclear 150"
+    ]
+  },
+  {
+    "value": "Aquaclear 300",
+    "synonyms": [
+      "Aquaclear 300"
+    ]
+  },
+  {
+    "value": "Aqua-Tech 30-60",
+    "synonyms": [
+      "Aqua-Tech 30-60"
+    ]
+  },
+  {
     "value": "Aqua-Tech 10-20",
     "synonyms": [
       "Aqua-Tech 10-20"
     ]
   },
   {
-    "value": "Azoo Oxygen 4 Plus",
+    "value": "Aquarium Systems Millenium 2000",
     "synonyms": [
-      "Azoo Oxygen 4 Plus"
+      "Aquarium Systems Millenium 2000"
+    ]
+  },
+  {
+    "value": "Azoo Oxygen 5 Plus",
+    "synonyms": [
+      "Azoo Oxygen 5 Plus"
+    ]
+  },
+  {
+    "value": "All Pond Solutions 2000EF",
+    "synonyms": [
+      "All Pond Solutions 2000EF"
+    ]
+  },
+  {
+    "value": "Aqua El Fan Filter Plus Fan-3",
+    "synonyms": [
+      "Aqua El Fan Filter Plus Fan-3"
+    ]
+  },
+  {
+    "value": "Aqueon ProFlex 2",
+    "synonyms": [
+      "Aqueon ProFlex 2"
+    ]
+  },
+  {
+    "value": "Aqua El Fan Filter Plus Fan-2",
+    "synonyms": [
+      "Aqua El Fan Filter Plus Fan-2"
+    ]
+  },
+  {
+    "value": "Aqua One Aquis 2450",
+    "synonyms": [
+      "Aqua One Aquis 2450"
+    ]
+  },
+  {
+    "value": "Aqueon ProFlex 4",
+    "synonyms": [
+      "Aqueon ProFlex 4"
+    ]
+  },
+  {
+    "value": "Aqua Nova 1200",
+    "synonyms": [
+      "Aqua Nova 1200"
+    ]
+  },
+  {
+    "value": "Aqua El Fan Filter Plus Mikro",
+    "synonyms": [
+      "Aqua El Fan Filter Plus Mikro"
+    ]
+  },
+  {
+    "value": "Azoo Oxygen 1 Plus",
+    "synonyms": [
+      "Azoo Oxygen 1 Plus"
+    ]
+  },
+  {
+    "value": "Aqua One Aquis 750",
+    "synonyms": [
+      "Aqua One Aquis 750"
+    ]
+  },
+  {
+    "value": "Aqueon QuietFlow 55",
+    "synonyms": [
+      "Aqueon QuietFlow 55"
     ]
   },
   {
@@ -103,117 +283,9 @@
     ]
   },
   {
-    "value": "Aquaclear 110",
+    "value": "Aquaclear 200",
     "synonyms": [
-      "Aquaclear 110"
-    ]
-  },
-  {
-    "value": "Aqua-Tech 30-60",
-    "synonyms": [
-      "Aqua-Tech 30-60"
-    ]
-  },
-  {
-    "value": "Aqueon QuietFlow 55",
-    "synonyms": [
-      "Aqueon QuietFlow 55"
-    ]
-  },
-  {
-    "value": "Aquarium Systems Millenium 2000",
-    "synonyms": [
-      "Aquarium Systems Millenium 2000"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 750",
-    "synonyms": [
-      "Aqua One Aquis 750"
-    ]
-  },
-  {
-    "value": "All Pond Solutions 2000EF",
-    "synonyms": [
-      "All Pond Solutions 2000EF"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 1200",
-    "synonyms": [
-      "Aqua One Aquis 1200"
-    ]
-  },
-  {
-    "value": "Aqua World 500",
-    "synonyms": [
-      "Aqua World 500"
-    ]
-  },
-  {
-    "value": "Aqua El Fan Filter Plus Fan-3",
-    "synonyms": [
-      "Aqua El Fan Filter Plus Fan-3"
-    ]
-  },
-  {
-    "value": "Aqua FX SPR-1800",
-    "synonyms": [
-      "Aqua FX SPR-1800"
-    ]
-  },
-  {
-    "value": "Aqua FX SPR-2200",
-    "synonyms": [
-      "Aqua FX SPR-2200"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 2250",
-    "synonyms": [
-      "Aqua One Aquis 2250"
-    ]
-  },
-  {
-    "value": "Aquaclear Mini",
-    "synonyms": [
-      "Aquaclear Mini"
-    ]
-  },
-  {
-    "value": "Aquaclear 30",
-    "synonyms": [
-      "Aquaclear 30"
-    ]
-  },
-  {
-    "value": "Aqueon ProFlex 2",
-    "synonyms": [
-      "Aqueon ProFlex 2"
-    ]
-  },
-  {
-    "value": "Aqua FX SPR-200",
-    "synonyms": [
-      "Aqua FX SPR-200"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 500",
-    "synonyms": [
-      "Aqua One Aquis 500"
-    ]
-  },
-  {
-    "value": "All Pond Solutions 1000EF",
-    "synonyms": [
-      "All Pond Solutions 1000EF"
-    ]
-  },
-  {
-    "value": "Aqua El Fan Filter Plus Mini",
-    "synonyms": [
-      "Aqua El Fan Filter Plus Mini"
+      "Aquaclear 200"
     ]
   },
   {
@@ -223,81 +295,27 @@
     ]
   },
   {
-    "value": "Aqua El Fan Filter Plus Fan-2",
+    "value": "Azoo Oxygen 3 Plus",
     "synonyms": [
-      "Aqua El Fan Filter Plus Fan-2"
+      "Azoo Oxygen 3 Plus"
     ]
   },
   {
-    "value": "Aqueon QuietFlow 30",
+    "value": "All Pond Solutions 1000EF+",
     "synonyms": [
-      "Aqueon QuietFlow 30"
+      "All Pond Solutions 1000EF+"
     ]
   },
   {
-    "value": "Aqua FX SPR-1100",
+    "value": "Aqua Nova 1500",
     "synonyms": [
-      "Aqua FX SPR-1100"
+      "Aqua Nova 1500"
     ]
   },
   {
-    "value": "Aquaclear 70",
+    "value": "Aqueon ProFlex 1",
     "synonyms": [
-      "Aquaclear 70"
-    ]
-  },
-  {
-    "value": "Aquaclear 150",
-    "synonyms": [
-      "Aquaclear 150"
-    ]
-  },
-  {
-    "value": "Aqueon ProFlex 4",
-    "synonyms": [
-      "Aqueon ProFlex 4"
-    ]
-  },
-  {
-    "value": "Aquarium Systems Millenium 1000",
-    "synonyms": [
-      "Aquarium Systems Millenium 1000"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 1000",
-    "synonyms": [
-      "Aqua One Aquis 1000"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 1250",
-    "synonyms": [
-      "Aqua One Aquis 1250"
-    ]
-  },
-  {
-    "value": "Aqua One Aquis 2450",
-    "synonyms": [
-      "Aqua One Aquis 2450"
-    ]
-  },
-  {
-    "value": "Aqua Nova 1000",
-    "synonyms": [
-      "Aqua Nova 1000"
-    ]
-  },
-  {
-    "value": "Aqua Nova 2000",
-    "synonyms": [
-      "Aqua Nova 2000"
-    ]
-  },
-  {
-    "value": "Aqueon QuietFlow 20",
-    "synonyms": [
-      "Aqueon QuietFlow 20"
+      "Aqueon ProFlex 1"
     ]
   },
   {
@@ -307,51 +325,21 @@
     ]
   },
   {
+    "value": "Aqua One Aquis 1200",
+    "synonyms": [
+      "Aqua One Aquis 1200"
+    ]
+  },
+  {
+    "value": "Aquaclear 70",
+    "synonyms": [
+      "Aquaclear 70"
+    ]
+  },
+  {
     "value": "Aqua One CF1000",
     "synonyms": [
       "Aqua One CF1000"
-    ]
-  },
-  {
-    "value": "Aquaclear 300",
-    "synonyms": [
-      "Aquaclear 300"
-    ]
-  },
-  {
-    "value": "Azoo Oxygen 3 Plus",
-    "synonyms": [
-      "Azoo Oxygen 3 Plus"
-    ]
-  },
-  {
-    "value": "Aqua FX SPR-800",
-    "synonyms": [
-      "Aqua FX SPR-800"
-    ]
-  },
-  {
-    "value": "Aqua Nova 1200",
-    "synonyms": [
-      "Aqua Nova 1200"
-    ]
-  },
-  {
-    "value": "Aquaclear 50",
-    "synonyms": [
-      "Aquaclear 50"
-    ]
-  },
-  {
-    "value": "Aqueon ProFlex 3",
-    "synonyms": [
-      "Aqueon ProFlex 3"
-    ]
-  },
-  {
-    "value": "Aqua-Tech 5-15",
-    "synonyms": [
-      "Aqua-Tech 5-15"
     ]
   },
   {
@@ -361,189 +349,39 @@
     ]
   },
   {
-    "value": "Aquaclear 500",
+    "value": "Aquarium Systems Millenium 1000",
     "synonyms": [
-      "Aquaclear 500"
+      "Aquarium Systems Millenium 1000"
     ]
   },
   {
-    "value": "Aquaclear 200",
+    "value": "Aqua World 500",
     "synonyms": [
-      "Aquaclear 200"
+      "Aqua World 500"
     ]
   },
   {
-    "value": "Aquarium Systems Millenium 3000",
+    "value": "Aqua-Tech 5-15",
     "synonyms": [
-      "Aquarium Systems Millenium 3000"
+      "Aqua-Tech 5-15"
     ]
   },
   {
-    "value": "Azoo Oxygen 7 Plus",
+    "value": "Aqua FX SPR-1800",
     "synonyms": [
-      "Azoo Oxygen 7 Plus"
+      "Aqua FX SPR-1800"
     ]
   },
   {
-    "value": "Eheim 2211",
+    "value": "Aqua FX SPR-500",
     "synonyms": [
-      "Eheim 2211"
+      "Aqua FX SPR-500"
     ]
   },
   {
-    "value": "Azoo Oxygen 10 Plus",
+    "value": "Aqua FX SPR-200",
     "synonyms": [
-      "Azoo Oxygen 10 Plus"
-    ]
-  },
-  {
-    "value": "Eheim 2213",
-    "synonyms": [
-      "Eheim 2213"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 203",
-    "synonyms": [
-      "Hagan Fluval 203"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 403",
-    "synonyms": [
-      "Hagan Fluval 403"
-    ]
-  },
-  {
-    "value": "Hagan Fluval C4",
-    "synonyms": [
-      "Hagan Fluval C4"
-    ]
-  },
-  {
-    "value": "Clear Seal Magi 380",
-    "synonyms": [
-      "Clear Seal Magi 380"
-    ]
-  },
-  {
-    "value": "Azoo Oxygen 9 Plus",
-    "synonyms": [
-      "Azoo Oxygen 9 Plus"
-    ]
-  },
-  {
-    "value": "Boyu EF 45",
-    "synonyms": [
-      "Boyu EF 45"
-    ]
-  },
-  {
-    "value": "Boyu EF 20",
-    "synonyms": [
-      "Boyu EF 20"
-    ]
-  },
-  {
-    "value": "Boyu EF 25",
-    "synonyms": [
-      "Boyu EF 25"
-    ]
-  },
-  {
-    "value": "Cascade 700",
-    "synonyms": [
-      "Cascade 700"
-    ]
-  },
-  {
-    "value": "Cascade 1500",
-    "synonyms": [
-      "Cascade 1500"
-    ]
-  },
-  {
-    "value": "Eheim 2028",
-    "synonyms": [
-      "Eheim 2028"
-    ]
-  },
-  {
-    "value": "Eheim 2032 Ecco Pro 130",
-    "synonyms": [
-      "Eheim 2032 Ecco Pro 130"
-    ]
-  },
-  {
-    "value": "Eheim 2262",
-    "synonyms": [
-      "Eheim 2262"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 150",
-    "synonyms": [
-      "Hagen Aquaclear 150"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 105",
-    "synonyms": [
-      "Hagan Fluval 105"
-    ]
-  },
-  {
-    "value": "Hagan Fluval FX5",
-    "synonyms": [
-      "Hagan Fluval FX5"
-    ]
-  },
-  {
-    "value": "Hagen Fluval 1 Plus Internal",
-    "synonyms": [
-      "Hagen Fluval 1 Plus Internal"
-    ]
-  },
-  {
-    "value": "Hagen Fluval 3 Plus Internal",
-    "synonyms": [
-      "Hagen Fluval 3 Plus Internal"
-    ]
-  },
-  {
-    "value": "Clear Seal Magi 700",
-    "synonyms": [
-      "Clear Seal Magi 700"
-    ]
-  },
-  {
-    "value": "Boyu EF 15",
-    "synonyms": [
-      "Boyu EF 15"
-    ]
-  },
-  {
-    "value": "Hagen Fluval U2 Internal",
-    "synonyms": [
-      "Hagen Fluval U2 Internal"
-    ]
-  },
-  {
-    "value": "Cascade 500",
-    "synonyms": [
-      "Cascade 500"
-    ]
-  },
-  {
-    "value": "Eden 320",
-    "synonyms": [
-      "Eden 320"
-    ]
-  },
-  {
-    "value": "Eden 328",
-    "synonyms": [
-      "Eden 328"
+      "Aqua FX SPR-200"
     ]
   },
   {
@@ -553,51 +391,9 @@
     ]
   },
   {
-    "value": "Eheim Ecco 2236",
+    "value": "Eheim 2213",
     "synonyms": [
-      "Eheim Ecco 2236"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 206",
-    "synonyms": [
-      "Hagan Fluval 206"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 406",
-    "synonyms": [
-      "Hagan Fluval 406"
-    ]
-  },
-  {
-    "value": "Hagen Marina Slim S20",
-    "synonyms": [
-      "Hagen Marina Slim S20"
-    ]
-  },
-  {
-    "value": "Cascade 80",
-    "synonyms": [
-      "Cascade 80"
-    ]
-  },
-  {
-    "value": "Eheim Biopower 200",
-    "synonyms": [
-      "Eheim Biopower 200"
-    ]
-  },
-  {
-    "value": "Eheim Ecco 2234",
-    "synonyms": [
-      "Eheim Ecco 2234"
-    ]
-  },
-  {
-    "value": "Eheim Pickup 2006",
-    "synonyms": [
-      "Eheim Pickup 2006"
+      "Eheim 2213"
     ]
   },
   {
@@ -607,9 +403,21 @@
     ]
   },
   {
-    "value": "Hagan Fluval Mini",
+    "value": "Hagan Fluval C4",
     "synonyms": [
-      "Hagan Fluval Mini"
+      "Hagan Fluval C4"
+    ]
+  },
+  {
+    "value": "Cascade 100",
+    "synonyms": [
+      "Cascade 100"
+    ]
+  },
+  {
+    "value": "Eheim 2036 Ecco Pro 300",
+    "synonyms": [
+      "Eheim 2036 Ecco Pro 300"
     ]
   },
   {
@@ -619,75 +427,9 @@
     ]
   },
   {
-    "value": "Hagan Fluval C2",
+    "value": "Boyu EF 15",
     "synonyms": [
-      "Hagan Fluval C2"
-    ]
-  },
-  {
-    "value": "Hagen Marina Slim S15",
-    "synonyms": [
-      "Hagen Marina Slim S15"
-    ]
-  },
-  {
-    "value": "Cascade 600",
-    "synonyms": [
-      "Cascade 600"
-    ]
-  },
-  {
-    "value": "Eheim 2034 Ecco Pro 200",
-    "synonyms": [
-      "Eheim 2034 Ecco Pro 200"
-    ]
-  },
-  {
-    "value": "Eheim 2080",
-    "synonyms": [
-      "Eheim 2080"
-    ]
-  },
-  {
-    "value": "Eheim Liberty 2040",
-    "synonyms": [
-      "Eheim Liberty 2040"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 305",
-    "synonyms": [
-      "Hagan Fluval 305"
-    ]
-  },
-  {
-    "value": "Hagen Fluval 403",
-    "synonyms": [
-      "Hagen Fluval 403"
-    ]
-  },
-  {
-    "value": "Hagen Stingray 5",
-    "synonyms": [
-      "Hagen Stingray 5"
-    ]
-  },
-  {
-    "value": "Hydor Crystal K10",
-    "synonyms": [
-      "Hydor Crystal K10"
-    ]
-  },
-  {
-    "value": "Eheim 2071",
-    "synonyms": [
-      "Eheim 2071"
-    ]
-  },
-  {
-    "value": "Eden 316",
-    "synonyms": [
-      "Eden 316"
+      "Boyu EF 15"
     ]
   },
   {
@@ -697,39 +439,21 @@
     ]
   },
   {
-    "value": "Eheim 2224",
-    "synonyms": [
-      "Eheim 2224"
-    ]
-  },
-  {
-    "value": "Eheim Ecco 2232",
-    "synonyms": [
-      "Eheim Ecco 2232"
-    ]
-  },
-  {
-    "value": "Eheim Liberty 100",
-    "synonyms": [
-      "Eheim Liberty 100"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 30",
-    "synonyms": [
-      "Hagen Aquaclear 30"
-    ]
-  },
-  {
     "value": "Cascade 200",
     "synonyms": [
       "Cascade 200"
     ]
   },
   {
-    "value": "Cascade 300",
+    "value": "Hagan Elite Hush 20",
     "synonyms": [
-      "Cascade 300"
+      "Hagan Elite Hush 20"
+    ]
+  },
+  {
+    "value": "Hagen Stingray 15",
+    "synonyms": [
+      "Hagen Stingray 15"
     ]
   },
   {
@@ -739,51 +463,33 @@
     ]
   },
   {
-    "value": "Eheim 2227",
+    "value": "Cascade 1500",
     "synonyms": [
-      "Eheim 2227"
+      "Cascade 1500"
     ]
   },
   {
-    "value": "Eheim Liberty 2041",
+    "value": "Eheim Ecco 2234",
     "synonyms": [
-      "Eheim Liberty 2041"
+      "Eheim Ecco 2234"
     ]
   },
   {
-    "value": "Hagen Aquaclear 500",
+    "value": "Eden 320",
     "synonyms": [
-      "Hagen Aquaclear 500"
+      "Eden 320"
     ]
   },
   {
-    "value": "Hagan Fluval 303",
+    "value": "Boyu EF 25",
     "synonyms": [
-      "Hagan Fluval 303"
+      "Boyu EF 25"
     ]
   },
   {
-    "value": "Hagan Fluval 404",
+    "value": "Hagan Elite Hush 55",
     "synonyms": [
-      "Hagan Fluval 404"
-    ]
-  },
-  {
-    "value": "Hagen Fluval 4 Plus Internal",
-    "synonyms": [
-      "Hagen Fluval 4 Plus Internal"
-    ]
-  },
-  {
-    "value": "Eheim 2217",
-    "synonyms": [
-      "Eheim 2217"
-    ]
-  },
-  {
-    "value": "Eheim Liberty 150",
-    "synonyms": [
-      "Eheim Liberty 150"
+      "Hagan Elite Hush 55"
     ]
   },
   {
@@ -793,15 +499,351 @@
     ]
   },
   {
-    "value": "Eheim Pickup 2012",
+    "value": "Eheim Aquaball 2206",
     "synonyms": [
-      "Eheim Pickup 2012"
+      "Eheim Aquaball 2206"
     ]
   },
   {
-    "value": "Hagen Elite Underwater Mini",
+    "value": "Eheim 2224",
     "synonyms": [
-      "Hagen Elite Underwater Mini"
+      "Eheim 2224"
+    ]
+  },
+  {
+    "value": "Hagan Elite Hush 35",
+    "synonyms": [
+      "Hagan Elite Hush 35"
+    ]
+  },
+  {
+    "value": "Hagen Aquaclear Mini",
+    "synonyms": [
+      "Hagen Aquaclear Mini"
+    ]
+  },
+  {
+    "value": "Eheim 2073",
+    "synonyms": [
+      "Eheim 2073"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 106",
+    "synonyms": [
+      "Hagan Fluval 106"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 404",
+    "synonyms": [
+      "Hagan Fluval 404"
+    ]
+  },
+  {
+    "value": "Eheim 2032 Ecco Pro 130",
+    "synonyms": [
+      "Eheim 2032 Ecco Pro 130"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 403",
+    "synonyms": [
+      "Hagan Fluval 403"
+    ]
+  },
+  {
+    "value": "Hagan Fluval Mini",
+    "synonyms": [
+      "Hagan Fluval Mini"
+    ]
+  },
+  {
+    "value": "Eheim 2227",
+    "synonyms": [
+      "Eheim 2227"
+    ]
+  },
+  {
+    "value": "Cascade 500",
+    "synonyms": [
+      "Cascade 500"
+    ]
+  },
+  {
+    "value": "Eheim 2262",
+    "synonyms": [
+      "Eheim 2262"
+    ]
+  },
+  {
+    "value": "Eden 328",
+    "synonyms": [
+      "Eden 328"
+    ]
+  },
+  {
+    "value": "Hagen Stingray 10",
+    "synonyms": [
+      "Hagen Stingray 10"
+    ]
+  },
+  {
+    "value": "Eheim Ecco 2232",
+    "synonyms": [
+      "Eheim Ecco 2232"
+    ]
+  },
+  {
+    "value": "Hagen Marina Slim S15",
+    "synonyms": [
+      "Hagen Marina Slim S15"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 405",
+    "synonyms": [
+      "Hagan Fluval 405"
+    ]
+  },
+  {
+    "value": "Hagen Aquaclear 70",
+    "synonyms": [
+      "Hagen Aquaclear 70"
+    ]
+  },
+  {
+    "value": "Eheim 2229",
+    "synonyms": [
+      "Eheim 2229"
+    ]
+  },
+  {
+    "value": "Hagen Fluval G3",
+    "synonyms": [
+      "Hagen Fluval G3"
+    ]
+  },
+  {
+    "value": "Eheim 2071",
+    "synonyms": [
+      "Eheim 2071"
+    ]
+  },
+  {
+    "value": "Boyu EF 35",
+    "synonyms": [
+      "Boyu EF 35"
+    ]
+  },
+  {
+    "value": "Eheim Aquaball 2212",
+    "synonyms": [
+      "Eheim Aquaball 2212"
+    ]
+  },
+  {
+    "value": "Eheim 2028",
+    "synonyms": [
+      "Eheim 2028"
+    ]
+  },
+  {
+    "value": "Eheim Professional 3",
+    "synonyms": [
+      "Eheim Professional 3"
+    ]
+  },
+  {
+    "value": "Azoo Oxygen 8 Plus",
+    "synonyms": [
+      "Azoo Oxygen 8 Plus"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 103",
+    "synonyms": [
+      "Hagan Fluval 103"
+    ]
+  },
+  {
+    "value": "Eheim Liberty 100",
+    "synonyms": [
+      "Eheim Liberty 100"
+    ]
+  },
+  {
+    "value": "Hagen Marina Slim S20",
+    "synonyms": [
+      "Hagen Marina Slim S20"
+    ]
+  },
+  {
+    "value": "Eheim Liberty 2041",
+    "synonyms": [
+      "Eheim Liberty 2041"
+    ]
+  },
+  {
+    "value": "Eheim Aquaball 2208",
+    "synonyms": [
+      "Eheim Aquaball 2208"
+    ]
+  },
+  {
+    "value": "Danner Skilter 250",
+    "synonyms": [
+      "Danner Skilter 250"
+    ]
+  },
+  {
+    "value": "Eheim Biopower 200",
+    "synonyms": [
+      "Eheim Biopower 200"
+    ]
+  },
+  {
+    "value": "Hagen Fluval 4 Plus Internal",
+    "synonyms": [
+      "Hagen Fluval 4 Plus Internal"
+    ]
+  },
+  {
+    "value": "Eheim Professional 3 2180",
+    "synonyms": [
+      "Eheim Professional 3 2180"
+    ]
+  },
+  {
+    "value": "Boyu EF 20",
+    "synonyms": [
+      "Boyu EF 20"
+    ]
+  },
+  {
+    "value": "Danner Aquamaster 350",
+    "synonyms": [
+      "Danner Aquamaster 350"
+    ]
+  },
+  {
+    "value": "Hagen Aquaclear 150",
+    "synonyms": [
+      "Hagen Aquaclear 150"
+    ]
+  },
+  {
+    "value": "Hagen Fluval U2 Internal",
+    "synonyms": [
+      "Hagen Fluval U2 Internal"
+    ]
+  },
+  {
+    "value": "Eheim Liberty 2040",
+    "synonyms": [
+      "Eheim Liberty 2040"
+    ]
+  },
+  {
+    "value": "Hagan Fluval C2",
+    "synonyms": [
+      "Hagan Fluval C2"
+    ]
+  },
+  {
+    "value": "Eheim 2026",
+    "synonyms": [
+      "Eheim 2026"
+    ]
+  },
+  {
+    "value": "Hagen Stingray 5",
+    "synonyms": [
+      "Hagen Stingray 5"
+    ]
+  },
+  {
+    "value": "Hagen Aquaclear 50",
+    "synonyms": [
+      "Hagen Aquaclear 50"
+    ]
+  },
+  {
+    "value": "Hagan Elite Stingray 15",
+    "synonyms": [
+      "Hagan Elite Stingray 15"
+    ]
+  },
+  {
+    "value": "Hagen Fluval 403",
+    "synonyms": [
+      "Hagen Fluval 403"
+    ]
+  },
+  {
+    "value": "Eheim Ecco 2236",
+    "synonyms": [
+      "Eheim Ecco 2236"
+    ]
+  },
+  {
+    "value": "Cascade 1200",
+    "synonyms": [
+      "Cascade 1200"
+    ]
+  },
+  {
+    "value": "Hagen Fluval EDGE 6g",
+    "synonyms": [
+      "Hagen Fluval EDGE 6g"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 406",
+    "synonyms": [
+      "Hagan Fluval 406"
+    ]
+  },
+  {
+    "value": "Eheim Biopower 160",
+    "synonyms": [
+      "Eheim Biopower 160"
+    ]
+  },
+  {
+    "value": "Eheim Aquaball 2210",
+    "synonyms": [
+      "Eheim Aquaball 2210"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 203",
+    "synonyms": [
+      "Hagan Fluval 203"
+    ]
+  },
+  {
+    "value": "Cascade 1000",
+    "synonyms": [
+      "Cascade 1000"
+    ]
+  },
+  {
+    "value": "Clear Seal Magi 200",
+    "synonyms": [
+      "Clear Seal Magi 200"
+    ]
+  },
+  {
+    "value": "Eheim 2217",
+    "synonyms": [
+      "Eheim 2217"
+    ]
+  },
+  {
+    "value": "Eheim 2034 Ecco Pro 200",
+    "synonyms": [
+      "Eheim 2034 Ecco Pro 200"
     ]
   },
   {
@@ -817,171 +859,15 @@
     ]
   },
   {
-    "value": "Hagen Fluval U4 Internal",
+    "value": "Hagen Fluval 1 Plus Internal",
     "synonyms": [
-      "Hagen Fluval U4 Internal"
+      "Hagen Fluval 1 Plus Internal"
     ]
   },
   {
-    "value": "Boyu EF 35",
+    "value": "Hagen Fluval 3 Plus Internal",
     "synonyms": [
-      "Boyu EF 35"
-    ]
-  },
-  {
-    "value": "Cascade 1000",
-    "synonyms": [
-      "Cascade 1000"
-    ]
-  },
-  {
-    "value": "Azoo Oxygen 8 Plus",
-    "synonyms": [
-      "Azoo Oxygen 8 Plus"
-    ]
-  },
-  {
-    "value": "Azoo Oxygen 11 Plus",
-    "synonyms": [
-      "Azoo Oxygen 11 Plus"
-    ]
-  },
-  {
-    "value": "Boyu EF 10",
-    "synonyms": [
-      "Boyu EF 10"
-    ]
-  },
-  {
-    "value": "Clear Seal Magi 200",
-    "synonyms": [
-      "Clear Seal Magi 200"
-    ]
-  },
-  {
-    "value": "Danner Aquamaster 350",
-    "synonyms": [
-      "Danner Aquamaster 350"
-    ]
-  },
-  {
-    "value": "Eheim 2073",
-    "synonyms": [
-      "Eheim 2073"
-    ]
-  },
-  {
-    "value": "Eheim 2075",
-    "synonyms": [
-      "Eheim 2075"
-    ]
-  },
-  {
-    "value": "Eheim 2076",
-    "synonyms": [
-      "Eheim 2076"
-    ]
-  },
-  {
-    "value": "Eheim Aquaball 2208",
-    "synonyms": [
-      "Eheim Aquaball 2208"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 70",
-    "synonyms": [
-      "Hagen Aquaclear 70"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 300",
-    "synonyms": [
-      "Hagen Aquaclear 300"
-    ]
-  },
-  {
-    "value": "Hagan Elite Stingray 15",
-    "synonyms": [
-      "Hagan Elite Stingray 15"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 405",
-    "synonyms": [
-      "Hagan Fluval 405"
-    ]
-  },
-  {
-    "value": "Hagan Fluval C3",
-    "synonyms": [
-      "Hagan Fluval C3"
-    ]
-  },
-  {
-    "value": "Eheim Aquaball 2212",
-    "synonyms": [
-      "Eheim Aquaball 2212"
-    ]
-  },
-  {
-    "value": "Cascade 100",
-    "synonyms": [
-      "Cascade 100"
-    ]
-  },
-  {
-    "value": "Danner Skilter 250",
-    "synonyms": [
-      "Danner Skilter 250"
-    ]
-  },
-  {
-    "value": "Eheim 2026",
-    "synonyms": [
-      "Eheim 2026"
-    ]
-  },
-  {
-    "value": "Eheim 2215",
-    "synonyms": [
-      "Eheim 2215"
-    ]
-  },
-  {
-    "value": "Eheim Pickup 2010",
-    "synonyms": [
-      "Eheim Pickup 2010"
-    ]
-  },
-  {
-    "value": "Eheim Professional 3",
-    "synonyms": [
-      "Eheim Professional 3"
-    ]
-  },
-  {
-    "value": "Eheim 2126",
-    "synonyms": [
-      "Eheim 2126"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 50",
-    "synonyms": [
-      "Hagen Aquaclear 50"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 200",
-    "synonyms": [
-      "Hagen Aquaclear 200"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 103",
-    "synonyms": [
-      "Hagan Fluval 103"
+      "Hagen Fluval 3 Plus Internal"
     ]
   },
   {
@@ -991,93 +877,15 @@
     ]
   },
   {
-    "value": "Hagan Fluval 106",
+    "value": "Eheim Liberty 150",
     "synonyms": [
-      "Hagan Fluval 106"
+      "Eheim Liberty 150"
     ]
   },
   {
-    "value": "Hagen Marina Slim S10",
+    "value": "Hagan Fluval 105",
     "synonyms": [
-      "Hagen Marina Slim S10"
-    ]
-  },
-  {
-    "value": "Cascade 1200",
-    "synonyms": [
-      "Cascade 1200"
-    ]
-  },
-  {
-    "value": "Danner Skilter 400",
-    "synonyms": [
-      "Danner Skilter 400"
-    ]
-  },
-  {
-    "value": "Eheim 2036 Ecco Pro 300",
-    "synonyms": [
-      "Eheim 2036 Ecco Pro 300"
-    ]
-  },
-  {
-    "value": "Eheim 2229",
-    "synonyms": [
-      "Eheim 2229"
-    ]
-  },
-  {
-    "value": "Eheim Aquaball 2210",
-    "synonyms": [
-      "Eheim Aquaball 2210"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear Mini",
-    "synonyms": [
-      "Hagen Aquaclear Mini"
-    ]
-  },
-  {
-    "value": "Hagen Aquaclear 110",
-    "synonyms": [
-      "Hagen Aquaclear 110"
-    ]
-  },
-  {
-    "value": "Hagan Elite Hush 55",
-    "synonyms": [
-      "Hagan Elite Hush 55"
-    ]
-  },
-  {
-    "value": "Hagen Stingray 15",
-    "synonyms": [
-      "Hagen Stingray 15"
-    ]
-  },
-  {
-    "value": "Eheim Biopower 160",
-    "synonyms": [
-      "Eheim Biopower 160"
-    ]
-  },
-  {
-    "value": "Eheim Professional 3 2180",
-    "synonyms": [
-      "Eheim Professional 3 2180"
-    ]
-  },
-  {
-    "value": "Hagan Elite Hush 35",
-    "synonyms": [
-      "Hagan Elite Hush 35"
-    ]
-  },
-  {
-    "value": "Hagan Fluval 306",
-    "synonyms": [
-      "Hagan Fluval 306"
+      "Hagan Fluval 105"
     ]
   },
   {
@@ -1087,21 +895,21 @@
     ]
   },
   {
-    "value": "Hagen Stingray 10",
+    "value": "Azoo Oxygen 9 Plus",
     "synonyms": [
-      "Hagen Stingray 10"
+      "Azoo Oxygen 9 Plus"
     ]
   },
   {
-    "value": "Eden 501",
+    "value": "Hagan Fluval 305",
     "synonyms": [
-      "Eden 501"
+      "Hagan Fluval 305"
     ]
   },
   {
-    "value": "Eheim Aquaball 2206",
+    "value": "Hagen Aquaclear 30",
     "synonyms": [
-      "Eheim Aquaball 2206"
+      "Hagen Aquaclear 30"
     ]
   },
   {
@@ -1111,39 +919,105 @@
     ]
   },
   {
-    "value": "Eheim Liberty 2042",
-    "synonyms": [
-      "Eheim Liberty 2042"
-    ]
-  },
-  {
-    "value": "Hagen Fluval EDGE 6g",
-    "synonyms": [
-      "Hagen Fluval EDGE 6g"
-    ]
-  },
-  {
-    "value": "Hagen Fluval G3",
-    "synonyms": [
-      "Hagen Fluval G3"
-    ]
-  },
-  {
-    "value": "Hagen Fluval U1 Internal",
-    "synonyms": [
-      "Hagen Fluval U1 Internal"
-    ]
-  },
-  {
     "value": "Hagen Fluval U3 Internal",
     "synonyms": [
       "Hagen Fluval U3 Internal"
     ]
   },
   {
-    "value": "Hagan Elite Hush 20",
+    "value": "Eheim Liberty 2042",
     "synonyms": [
-      "Hagan Elite Hush 20"
+      "Eheim Liberty 2042"
+    ]
+  },
+  {
+    "value": "Clear Seal Magi 380",
+    "synonyms": [
+      "Clear Seal Magi 380"
+    ]
+  },
+  {
+    "value": "Eden 501",
+    "synonyms": [
+      "Eden 501"
+    ]
+  },
+  {
+    "value": "Eheim 2076",
+    "synonyms": [
+      "Eheim 2076"
+    ]
+  },
+  {
+    "value": "Eheim 2075",
+    "synonyms": [
+      "Eheim 2075"
+    ]
+  },
+  {
+    "value": "Boyu EF 10",
+    "synonyms": [
+      "Boyu EF 10"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 206",
+    "synonyms": [
+      "Hagan Fluval 206"
+    ]
+  },
+  {
+    "value": "Hagen Elite Underwater Mini",
+    "synonyms": [
+      "Hagen Elite Underwater Mini"
+    ]
+  },
+  {
+    "value": "Eheim 2126",
+    "synonyms": [
+      "Eheim 2126"
+    ]
+  },
+  {
+    "value": "Cascade 700",
+    "synonyms": [
+      "Cascade 700"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 303",
+    "synonyms": [
+      "Hagan Fluval 303"
+    ]
+  },
+  {
+    "value": "Clear Seal Magi 700",
+    "synonyms": [
+      "Clear Seal Magi 700"
+    ]
+  },
+  {
+    "value": "Eheim Pickup 2006",
+    "synonyms": [
+      "Eheim Pickup 2006"
+    ]
+  },
+  {
+    "value": "Hagan Fluval C3",
+    "synonyms": [
+      "Hagan Fluval C3"
+    ]
+  },
+  {
+    "value": "Eheim Pickup 2010",
+    "synonyms": [
+      "Eheim Pickup 2010"
+    ]
+  },
+  {
+    "value": "Cascade 300",
+    "synonyms": [
+      "Cascade 300"
     ]
   },
   {
@@ -1153,111 +1027,129 @@
     ]
   },
   {
-    "value": "Interpet PF1",
+    "value": "Eheim 2215",
     "synonyms": [
-      "Interpet PF1"
+      "Eheim 2215"
     ]
   },
   {
-    "value": "Jad SP-604E",
+    "value": "Eheim 2211",
     "synonyms": [
-      "Jad SP-604E"
+      "Eheim 2211"
     ]
   },
   {
-    "value": "Juwel Compact/Bioflow 3.0 + Pump 400",
+    "value": "Eheim 2080",
     "synonyms": [
-      "Juwel Compact/Bioflow 3.0 + Pump 400"
+      "Eheim 2080"
     ]
   },
   {
-    "value": "Interpet EPF350",
+    "value": "Boyu EF 45",
     "synonyms": [
-      "Interpet EPF350"
+      "Boyu EF 45"
     ]
   },
   {
-    "value": "Hydor Prime 10",
+    "value": "Eden 316",
     "synonyms": [
-      "Hydor Prime 10"
+      "Eden 316"
     ]
   },
   {
-    "value": "Interpet EPF250",
+    "value": "Cascade 80",
     "synonyms": [
-      "Interpet EPF250"
+      "Cascade 80"
     ]
   },
   {
-    "value": "Hydor Crystal K20",
+    "value": "Eheim Pickup 2012",
     "synonyms": [
-      "Hydor Crystal K20"
+      "Eheim Pickup 2012"
     ]
   },
   {
-    "value": "Jebo 819",
+    "value": "Hagen Aquaclear 110",
     "synonyms": [
-      "Jebo 819"
+      "Hagen Aquaclear 110"
     ]
   },
   {
-    "value": "JBL CristalProfi i100",
+    "value": "Hagen Aquaclear 500",
     "synonyms": [
-      "JBL CristalProfi i100"
+      "Hagen Aquaclear 500"
     ]
   },
   {
-    "value": "Hydor Crystal R10",
+    "value": "Danner Skilter 400",
     "synonyms": [
-      "Hydor Crystal R10"
+      "Danner Skilter 400"
     ]
   },
   {
-    "value": "Interpet PF Mini",
+    "value": "Hagen Fluval U1 Internal",
     "synonyms": [
-      "Interpet PF Mini"
+      "Hagen Fluval U1 Internal"
     ]
   },
   {
-    "value": "Interpet PF4",
+    "value": "Hagen Aquaclear 200",
     "synonyms": [
-      "Interpet PF4"
+      "Hagen Aquaclear 200"
     ]
   },
   {
-    "value": "Jebo 835",
+    "value": "Hagan Fluval FX5",
     "synonyms": [
-      "Jebo 835"
+      "Hagan Fluval FX5"
     ]
   },
   {
-    "value": "Jungle Junior Dirt Magnet",
+    "value": "Cascade 600",
     "synonyms": [
-      "Jungle Junior Dirt Magnet"
+      "Cascade 600"
     ]
   },
   {
-    "value": "Jungle Senior Dirt Magnet",
+    "value": "Hagen Aquaclear 300",
     "synonyms": [
-      "Jungle Senior Dirt Magnet"
+      "Hagen Aquaclear 300"
     ]
   },
   {
-    "value": "Jebo 829",
+    "value": "Azoo Oxygen 11 Plus",
     "synonyms": [
-      "Jebo 829"
+      "Azoo Oxygen 11 Plus"
     ]
   },
   {
-    "value": "Interpet PF3",
+    "value": "Hagen Fluval U4 Internal",
     "synonyms": [
-      "Interpet PF3"
+      "Hagen Fluval U4 Internal"
     ]
   },
   {
-    "value": "Jad SP-603E",
+    "value": "Azoo Oxygen 10 Plus",
     "synonyms": [
-      "Jad SP-603E"
+      "Azoo Oxygen 10 Plus"
+    ]
+  },
+  {
+    "value": "Hydor Crystal K10",
+    "synonyms": [
+      "Hydor Crystal K10"
+    ]
+  },
+  {
+    "value": "Hagan Fluval 306",
+    "synonyms": [
+      "Hagan Fluval 306"
+    ]
+  },
+  {
+    "value": "Hagen Marina Slim S10",
+    "synonyms": [
+      "Hagen Marina Slim S10"
     ]
   },
   {
@@ -1267,63 +1159,85 @@
     ]
   },
   {
-    "value": "Juwel Compact H/Bioflow 6.0 + Pump 400",
+    "value": "Jebo 480 FC",
     "synonyms": [
-      "Juwel Compact H/Bioflow 6.0 + Pump 400"
+      "Jebo 480 FC"
     ]
   },
   {
-    "value": "Jad SP-602E",
+    "value": "Marineland Emperor 400",
     "synonyms": [
-      "Jad SP-602E"
+      "Marineland Emperor 400"
     ]
   },
   {
-    "value": "Jebo 810",
+    "value": "Penn Plax Cascade 1500",
     "synonyms": [
-      "Jebo 810"
+      "Penn Plax Cascade 1500",
+      "Cascade 1500"
     ]
   },
   {
-    "value": "Hydor Prime 30",
+    "value": "Superfish Aqua-Flow 200",
     "synonyms": [
-      "Hydor Prime 30"
+      "Superfish Aqua-Flow 200",
+      "aquaflow 200",
+      "aqua-flow 200",
+      "aqua flow 200"
     ]
   },
   {
-    "value": "Juwel Compact/Bioflow 3.0 + Pump 280",
+    "value": "Jebo 819",
     "synonyms": [
-      "Juwel Compact/Bioflow 3.0 + Pump 280"
+      "Jebo 819"
     ]
   },
   {
-    "value": "Interpet EPF150",
+    "value": "JBL CristalProfi i80",
     "synonyms": [
-      "Interpet EPF150"
+      "JBL CristalProfi i80"
     ]
   },
   {
-    "value": "Hydor Crystal R05",
+    "value": "Hydor Crystal R10",
     "synonyms": [
-      "Hydor Crystal R05"
+      "Hydor Crystal R10"
     ]
   },
   {
-    "value": "Jebo 828",
+    "value": "Jebo 829",
     "synonyms": [
-      "Jebo 828"
+      "Jebo 829"
     ]
   },
   {
-    "value": "Hydor Crystal R20",
+    "value": "Hydor Crystal K20",
     "synonyms": [
-      "Hydor Crystal R20"
+      "Hydor Crystal K20"
     ]
   },
   {
-    "value": "JBL CristalProfi i40",
+    "value": "Marineland Eclipse 3",
     "synonyms": [
-      "JBL CristalProfi i40"
+      "Marineland Eclipse 3"
+    ]
+  },
+  {
+    "value": "Marineland Eclipse System 3",
+    "synonyms": [
+      "Marineland Eclipse System 3"
+    ]
+  },
+  {
+    "value": "Interpet EPF250",
+    "synonyms": [
+      "Interpet EPF250"
+    ]
+  },
+  {
+    "value": "Juwel Jumbo/Bioflow Super + Pump 400",
+    "synonyms": [
+      "Juwel Jumbo/Bioflow Super + Pump 400"
     ]
   },
   {
@@ -1333,9 +1247,35 @@
     ]
   },
   {
-    "value": "JBL CristalProfi i80",
+    "value": "Interpet PF4",
     "synonyms": [
-      "JBL CristalProfi i80"
+      "Interpet PF4"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 5",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 5"
+    ]
+  },
+  {
+    "value": "Marineland C-530",
+    "synonyms": [
+      "Marineland C-530"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 700",
+    "synonyms": [
+      "Penn Plax Cascade 700",
+      "Cascade 700"
+    ]
+  },
+  {
+    "value": "Tetra Whisper 10i",
+    "synonyms": [
+      "Tetra Whisper 10i",
+      "Whisper 10i"
     ]
   },
   {
@@ -1351,33 +1291,15 @@
     ]
   },
   {
-    "value": "Interpet PF2",
+    "value": "JBL CristalProfi i100",
     "synonyms": [
-      "Interpet PF2"
+      "JBL CristalProfi i100"
     ]
   },
   {
-    "value": "Jad SP-601E",
+    "value": "Interpet PF Mini",
     "synonyms": [
-      "Jad SP-601E"
-    ]
-  },
-  {
-    "value": "Jebo 480 FC",
-    "synonyms": [
-      "Jebo 480 FC"
-    ]
-  },
-  {
-    "value": "JBL CristalProfi e700",
-    "synonyms": [
-      "JBL CristalProfi e700"
-    ]
-  },
-  {
-    "value": "JBL CristalProfi i60",
-    "synonyms": [
-      "JBL CristalProfi i60"
+      "Interpet PF Mini"
     ]
   },
   {
@@ -1387,21 +1309,224 @@
     ]
   },
   {
-    "value": "JBJ Reaction 4-Stage",
+    "value": "Hydor Prime 10",
     "synonyms": [
-      "JBJ Reaction 4-Stage"
+      "Hydor Prime 10"
     ]
   },
   {
-    "value": "Juwel Jumbo/Bioflow Super + Pump 1000",
+    "value": "Marineland C-360",
     "synonyms": [
-      "Juwel Jumbo/Bioflow Super + Pump 1000"
+      "Marineland C-360"
     ]
   },
   {
-    "value": "Jebo 178",
+    "value": "Marineland Eclipse System 6",
     "synonyms": [
-      "Jebo 178"
+      "Marineland Eclipse System 6"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 200",
+    "synonyms": [
+      "Penn Plax Cascade 200",
+      "Cascade 200"
+    ]
+  },
+  {
+    "value": "Sunsun HW303-A",
+    "synonyms": [
+      "Sunsun HW303-A"
+    ]
+  },
+  {
+    "value": "Jad SP-603E",
+    "synonyms": [
+      "Jad SP-603E"
+    ]
+  },
+  {
+    "value": "Hagen Fluval 304",
+    "synonyms": [
+      "Hagen Fluval 304"
+    ]
+  },
+  {
+    "value": "Interpet PF3",
+    "synonyms": [
+      "Interpet PF3"
+    ]
+  },
+  {
+    "value": "Jungle Junior Dirt Magnet",
+    "synonyms": [
+      "Jungle Junior Dirt Magnet"
+    ]
+  },
+  {
+    "value": "Jad SP-601E",
+    "synonyms": [
+      "Jad SP-601E"
+    ]
+  },
+  {
+    "value": "JBL CristalProfi e700",
+    "synonyms": [
+      "JBL CristalProfi e700"
+    ]
+  },
+  {
+    "value": "Interpet PF2",
+    "synonyms": [
+      "Interpet PF2"
+    ]
+  },
+  {
+    "value": "Laguna Pressure-Flo 700",
+    "synonyms": [
+      "Laguna Pressure-Flo 700"
+    ]
+  },
+  {
+    "value": "Red Sea Deco Art nano",
+    "synonyms": [
+      "Red Sea Deco Art nano"
+    ]
+  },
+  {
+    "value": "Rena Filstar XP2",
+    "synonyms": [
+      "Rena Filstar XP2"
+    ]
+  },
+  {
+    "value": "Interpet EPF150",
+    "synonyms": [
+      "Interpet EPF150"
+    ]
+  },
+  {
+    "value": "Hydor Crystal R05",
+    "synonyms": [
+      "Hydor Crystal R05"
+    ]
+  },
+  {
+    "value": "Jungle Senior Dirt Magnet",
+    "synonyms": [
+      "Jungle Senior Dirt Magnet"
+    ]
+  },
+  {
+    "value": "JBL CristalProfi i60",
+    "synonyms": [
+      "JBL CristalProfi i60"
+    ]
+  },
+  {
+    "value": "Marineland Eclipse 2",
+    "synonyms": [
+      "Marineland Eclipse 2"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 80",
+    "synonyms": [
+      "Penn Plax Cascade 80",
+      "Cascade 80"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 1200",
+    "synonyms": [
+      "Penn Plax Cascade 1200",
+      "Cascade 1200"
+    ]
+  },
+  {
+    "value": "Sacem Marathon 1500",
+    "synonyms": [
+      "Sacem Marathon 1500"
+    ]
+  },
+  {
+    "value": "Juwel Compact H/Bioflow 6.0 + Pump 400",
+    "synonyms": [
+      "Juwel Compact H/Bioflow 6.0 + Pump 400"
+    ]
+  },
+  {
+    "value": "Juwel Compact/Bioflow 3.0 + Pump 280",
+    "synonyms": [
+      "Juwel Compact/Bioflow 3.0 + Pump 280"
+    ]
+  },
+  {
+    "value": "Lifeguard Aquatics FB 600",
+    "synonyms": [
+      "Lifeguard Aquatics FB 600"
+    ]
+  },
+  {
+    "value": "Marineland Eclipse 1",
+    "synonyms": [
+      "Marineland Eclipse 1"
+    ]
+  },
+  {
+    "value": "Rena Filstar XP1",
+    "synonyms": [
+      "Rena Filstar XP1"
+    ]
+  },
+  {
+    "value": "Sunsun HW302",
+    "synonyms": [
+      "Sunsun HW302"
+    ]
+  },
+  {
+    "value": "Jebo 810",
+    "synonyms": [
+      "Jebo 810"
+    ]
+  },
+  {
+    "value": "Juwel Compact/Bioflow 3.0 + Pump 400",
+    "synonyms": [
+      "Juwel Compact/Bioflow 3.0 + Pump 400"
+    ]
+  },
+  {
+    "value": "Jad SP-604E",
+    "synonyms": [
+      "Jad SP-604E"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 300",
+    "synonyms": [
+      "Penn Plax Cascade 300",
+      "Cascade 300"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 1000",
+    "synonyms": [
+      "Penn Plax Cascade 1000",
+      "Cascade 1000"
+    ]
+  },
+  {
+    "value": "Rapids Mini Canister",
+    "synonyms": [
+      "Rapids Mini Canister"
+    ]
+  },
+  {
+    "value": "Sacem Marathon 1000",
+    "synonyms": [
+      "Sacem Marathon 1000"
     ]
   },
   {
@@ -1411,15 +1536,358 @@
     ]
   },
   {
-    "value": "Juwel Jumbo/Bioflow Super + Pump 400",
+    "value": "Marineland Duetto 50",
     "synonyms": [
-      "Juwel Jumbo/Bioflow Super + Pump 400"
+      "Marineland Duetto 50"
     ]
   },
   {
-    "value": "Hagen Fluval 304",
+    "value": "Marineland Penguin 100B",
     "synonyms": [
-      "Hagen Fluval 304"
+      "Marineland Penguin 100B"
+    ]
+  },
+  {
+    "value": "Rena Filstar iV1",
+    "synonyms": [
+      "Rena Filstar iV1"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 0",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 0"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 4",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 4"
+    ]
+  },
+  {
+    "value": "Marineland HOT Magnum 250",
+    "synonyms": [
+      "Marineland HOT Magnum 250"
+    ]
+  },
+  {
+    "value": "Otto PF300G",
+    "synonyms": [
+      "Otto PF300G"
+    ]
+  },
+  {
+    "value": "Otto PF450G",
+    "synonyms": [
+      "Otto PF450G"
+    ]
+  },
+  {
+    "value": "Penn Plax Cascade 150",
+    "synonyms": [
+      "Penn Plax Cascade 150",
+      "Cascade 150"
+    ]
+  },
+  {
+    "value": "Rena Filstar XP4",
+    "synonyms": [
+      "Rena Filstar XP4"
+    ]
+  },
+  {
+    "value": "Jebo 835",
+    "synonyms": [
+      "Jebo 835"
+    ]
+  },
+  {
+    "value": "Hydor Crystal R20",
+    "synonyms": [
+      "Hydor Crystal R20"
+    ]
+  },
+  {
+    "value": "Jad SP-602E",
+    "synonyms": [
+      "Jad SP-602E"
+    ]
+  },
+  {
+    "value": "Jebo 828",
+    "synonyms": [
+      "Jebo 828"
+    ]
+  },
+  {
+    "value": "JBJ Reaction 4-Stage",
+    "synonyms": [
+      "JBJ Reaction 4-Stage"
+    ]
+  },
+  {
+    "value": "Marineland C-220",
+    "synonyms": [
+      "Marineland C-220"
+    ]
+  },
+  {
+    "value": "Marineland Magnum 350",
+    "synonyms": [
+      "Marineland Magnum 350"
+    ]
+  },
+  {
+    "value": "Marineland Penguin 150B",
+    "synonyms": [
+      "Marineland Penguin 150B"
+    ]
+  },
+  {
+    "value": "Marineland Penguin 350B",
+    "synonyms": [
+      "Marineland Penguin 350B"
+    ]
+  },
+  {
+    "value": "Otto PF150G",
+    "synonyms": [
+      "Otto PF150G"
+    ]
+  },
+  {
+    "value": "Rena Filstar XP3",
+    "synonyms": [
+      "Rena Filstar XP3"
+    ]
+  },
+  {
+    "value": "Sunsun HW303-B",
+    "synonyms": [
+      "Sunsun HW303-B"
+    ]
+  },
+  {
+    "value": "Rena Filstar iV4",
+    "synonyms": [
+      "Rena Filstar iV4"
+    ]
+  },
+  {
+    "value": "Skilter 250",
+    "synonyms": [
+      "Skilter 250"
+    ]
+  },
+  {
+    "value": "Sunsun HW304-B",
+    "synonyms": [
+      "Sunsun HW304-B"
+    ]
+  },
+  {
+    "value": "Interpet PF1",
+    "synonyms": [
+      "Interpet PF1"
+    ]
+  },
+  {
+    "value": "Interpet EPF350",
+    "synonyms": [
+      "Interpet EPF350"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 3",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 3"
+    ]
+  },
+  {
+    "value": "Marineland Multi-Stage 160",
+    "synonyms": [
+      "Marineland Multi-Stage 160"
+    ]
+  },
+  {
+    "value": "Rena Filstar iV2",
+    "synonyms": [
+      "Rena Filstar iV2"
+    ]
+  },
+  {
+    "value": "Rena Filstar iV3",
+    "synonyms": [
+      "Rena Filstar iV3"
+    ]
+  },
+  {
+    "value": "Sacem Marathon 500",
+    "synonyms": [
+      "Sacem Marathon 500"
+    ]
+  },
+  {
+    "value": "Sacem Marathon 2000",
+    "synonyms": [
+      "Sacem Marathon 2000"
+    ]
+  },
+  {
+    "value": "Sunsun HW304-A",
+    "synonyms": [
+      "Sunsun HW304-A"
+    ]
+  },
+  {
+    "value": "Juwel Jumbo/Bioflow Super + Pump 1000",
+    "synonyms": [
+      "Juwel Jumbo/Bioflow Super + Pump 1000"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 2",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 2"
+    ]
+  },
+  {
+    "value": "Marineland C-160",
+    "synonyms": [
+      "Marineland C-160"
+    ]
+  },
+  {
+    "value": "Marineland Duetto 100",
+    "synonyms": [
+      "Marineland Duetto 100"
+    ]
+  },
+  {
+    "value": "Marineland Emperor 280",
+    "synonyms": [
+      "Marineland Emperor 280"
+    ]
+  },
+  {
+    "value": "Marineland HOT Magnum 250 Pro",
+    "synonyms": [
+      "Marineland HOT Magnum 250 Pro"
+    ]
+  },
+  {
+    "value": "Superfish Aqua-Flow 50",
+    "synonyms": [
+      "Superfish Aqua-Flow 50",
+      "Aqua-Flow 50",
+      "aquaflow 50",
+      "aqua flow 50"
+    ]
+  },
+  {
+    "value": "JBL CristalProfi i40",
+    "synonyms": [
+      "JBL CristalProfi i40"
+    ]
+  },
+  {
+    "value": "Lifeguard Aquatics FB 900",
+    "synonyms": [
+      "Lifeguard Aquatics FB 900"
+    ]
+  },
+  {
+    "value": "Marineland Eclipse System 12",
+    "synonyms": [
+      "Marineland Eclipse System 12"
+    ]
+  },
+  {
+    "value": "Marineland Multi-Stage 360",
+    "synonyms": [
+      "Marineland Multi-Stage 360"
+    ]
+  },
+  {
+    "value": "Sera Fil 60",
+    "synonyms": [
+      "Sera Fil 60"
+    ]
+  },
+  {
+    "value": "Sera Fil 120",
+    "synonyms": [
+      "Sera Fil 120"
+    ]
+  },
+  {
+    "value": "Sacem Marathon 300",
+    "synonyms": [
+      "Sacem Marathon 300"
+    ]
+  },
+  {
+    "value": "Superfish Aqua-Flow 100",
+    "synonyms": [
+      "Superfish Aqua-Flow 100",
+      "aqua-flow 100",
+      "aquaflow 100",
+      "aqua flow 100"
+    ]
+  },
+  {
+    "value": "Hydor Prime 30",
+    "synonyms": [
+      "Hydor Prime 30"
+    ]
+  },
+  {
+    "value": "Jebo 178",
+    "synonyms": [
+      "Jebo 178"
+    ]
+  },
+  {
+    "value": "Lifeguard Aquatics FB 300",
+    "synonyms": [
+      "Lifeguard Aquatics FB 300"
+    ]
+  },
+  {
+    "value": "Lustar Hydro-Sponge Filter 1",
+    "synonyms": [
+      "Lustar Hydro-Sponge Filter 1"
+    ]
+  },
+  {
+    "value": "Marineland Duetto Mini",
+    "synonyms": [
+      "Marineland Duetto Mini"
+    ]
+  },
+  {
+    "value": "Marineland Magnum 350 Pro",
+    "synonyms": [
+      "Marineland Magnum 350 Pro"
+    ]
+  },
+  {
+    "value": "Marineland Multi-Stage 220",
+    "synonyms": [
+      "Marineland Multi-Stage 220"
+    ]
+  },
+  {
+    "value": "Marineland Penguin 200B",
+    "synonyms": [
+      "Marineland Penguin 200B"
+    ]
+  },
+  {
+    "value": "Skilter 400",
+    "synonyms": [
+      "Skilter 400"
     ]
   }
 ]

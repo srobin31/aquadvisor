@@ -1,27 +1,34 @@
 {
   "id": "f888f82f-97cd-4689-be2a-02205c029ad5",
-  "name": "4b-getting-filled-tank-size",
+  "name": "4b-get-filled-tank-size-filter",
   "auto": true,
   "contexts": [
     "yes-tank-size",
-    "yes-filter-used"
+    "yes-filter-used",
+    "yes-fish"
   ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "callApi",
       "affectedContexts": [
         {
           "name": "yes-tank-size",
           "parameters": {},
-          "lifespan": 0
+          "lifespan": 50
         },
         {
           "name": "yes-filter-used",
           "parameters": {},
-          "lifespan": 0
+          "lifespan": 50
         },
         {
           "name": "fish-type-1",
+          "parameters": {},
+          "lifespan": 50
+        },
+        {
+          "name": "continue",
           "parameters": {},
           "lifespan": 5
         }
@@ -58,6 +65,20 @@
             }
           ],
           "isList": false
+        },
+        {
+          "id": "fc75fe7b-c88a-4fd7-af3d-16a162221443",
+          "required": true,
+          "dataType": "@fishnum",
+          "name": "fishnum",
+          "value": "$fishnum",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please list the fish you have with the quantity"
+            }
+          ],
+          "isList": true
         }
       ],
       "messages": [
@@ -69,7 +90,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Please tell me what kind of fish you have and how many. If you have more than one type of fish just list the first type and the amount of them in your aquarium."
+          "speech": "You also have $fishnum"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -77,13 +98,13 @@
     }
   ],
   "priority": 500000,
-  "webhookUsed": false,
+  "webhookUsed": true,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1520614332,
+  "lastUpdate": 1527168827,
   "fallbackIntent": false,
   "events": [
     {
-      "name": "get-filter"
+      "name": "getSpecs"
     }
   ]
 }

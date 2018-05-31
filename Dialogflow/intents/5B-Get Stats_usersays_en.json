@@ -1,0 +1,26 @@
+[
+  {
+    "id": "14355356-bca8-4faa-a23c-c73a528069fd",
+    "data": [
+      {
+        "text": "statistics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526041032
+  },
+  {
+    "id": "2e90f2d0-00a9-493a-b082-bbd48fbe1e0e",
+    "data": [
+      {
+        "text": "stats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1526041032
+  }
+]

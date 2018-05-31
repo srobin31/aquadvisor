@@ -1,28 +1,23 @@
 {
-  "id": "cba6e865-40eb-487e-a38e-fce46b2103e2",
-  "name": "3a-tank-not-filled",
+  "id": "d269fa0a-69c0-446e-bf49-848abf484ec7",
+  "name": "5B-Anything else",
   "auto": true,
   "contexts": [
-    "filled"
+    "continue"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "tank-size",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
-          "name": "filter-used",
-          "parameters": {},
-          "lifespan": 5
-        },
-        {
-          "name": "filled",
+          "name": "continue",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "anythingElse",
+          "parameters": {},
+          "lifespan": 5
         }
       ],
       "parameters": [],
@@ -30,12 +25,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Ok, that\u0027s fine so I\u0027m going to need you to give me some details about your fish tank."
-        },
-        {
-          "type": 0,
-          "lang": "en",
-          "speech": "How many gallons does it hold?"
+          "speech": "Great. Do you want to know anything else?"
         }
       ],
       "defaultResponsePlatforms": {},
@@ -45,7 +35,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1526561084,
+  "lastUpdate": 1527168151,
   "fallbackIntent": false,
   "events": []
 }
