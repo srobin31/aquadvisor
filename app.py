@@ -9,7 +9,7 @@ app = Flask(__name__, static_url_path = "")
 def webhook():
     req = request.get_json(silent=True, force=True)
 
-    if req.get("result").get("action") == "getSpecs":
+    if req.get("result").get("action") == "callApi":
         res = getSpecs(req)
     else:
         res = {}
