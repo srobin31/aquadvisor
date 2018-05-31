@@ -102,7 +102,14 @@ def callApi(req):
     tankFilter = req.get("result").get("parameters").get("filter")
     t = Tank(tankSize).add_filter(tankFilter).add_stocking(stocking)
     api_response = t.get_stocking_level()
-    return parse(api_response)
+    return {
+        "speech": "speech",
+        "displayText": "speech",
+        "data": "data",
+        "contextOut": [],
+        "source": "rocky-lowlands-15066"
+    }
+    #return parse(api_response)
 
 # def addFish(req):
 #     fishList = req.get("result").get("parameters").get("fishnum")
